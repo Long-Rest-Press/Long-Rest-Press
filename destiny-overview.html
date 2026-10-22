@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Destiny Overview &amp; Chassis · Long Rest Press</title>
+<meta name="description" content="Shared rules for the Destiny subclasses for D&amp;D 2024: grenades, charged melee, class abilities, Supers, and element keywords.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Spectral:ital,wght@0,300;0,400;1,300&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<header class="masthead">
+  <nav><a href="browse.html">Browse</a><a href="about.html">About</a></nav>
+  <a class="brand" href="index.html" aria-label="Long Rest Press home">
+    <svg class="moon" viewBox="0 0 40 40" width="30" height="30" aria-hidden="true"><path d="M24 9a11 11 0 1 0 6 18 9 9 0 0 1-6-18z" fill="#d8b25a"/></svg>
+    <span>LONG REST PRESS</span>
+  </a>
+  <div class="end"><a class="btn-ghost" href="index.html#support">Support</a></div>
+</header>
+
+<main>
+<section class="hero small">
+  <a class="label sm backlink" href="browse.html?fandom=Destiny">← Destiny</a>
+  <span class="label gold" style="letter-spacing:.24em">Destiny subclasses · D&amp;D 2024</span>
+  <h1>Overview &amp; Chassis</h1>
+  <p class="lede">The basic rules every Destiny subclass shares: grenades, charged melee, class abilities, Supers, and element keywords.</p>
+  <div class="label sm credits"><span>v0.1 Playtest</span><span>15 subclasses</span><span>Inspired by Destiny 2</span></div>
+</section>
+
+<div class="doc">
+  <article class="article">
+    <section class="feature" id="overview">
+      <h2>Overview</h2>
+      <p>These rules convert Destiny 2's fifteen Guardian subclasses (three Guardian classes across five elements) into D&amp;D 2024 subclasses. Each one is built on an existing D&amp;D class instead of a new gun-wielding class, and all fifteen share the chassis below.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Subclass</th><th>Guardian</th><th>Element</th><th>D&amp;D Class</th></tr></thead>
+          <tbody>
+            <tr><td>Voidwalker</td><td>Destiny warlock</td><td>Void</td><td>Wizard</td></tr>
+            <tr><td>Stormcaller</td><td>Destiny warlock</td><td>Arc</td><td>Sorcerer</td></tr>
+            <tr><td>Dawnblade</td><td>Destiny warlock</td><td>Solar</td><td>Warlock</td></tr>
+            <tr><td>Shadebinder</td><td>Destiny warlock</td><td>Stasis</td><td>Druid</td></tr>
+            <tr><td>Broodweaver</td><td>Destiny warlock</td><td>Strand</td><td>Bard</td></tr>
+            <tr><td>Striker</td><td>Titan</td><td>Arc</td><td>Barbarian</td></tr>
+            <tr><td>Sunbreaker</td><td>Titan</td><td>Solar</td><td>Cleric</td></tr>
+            <tr><td>Sentinel</td><td>Titan</td><td>Void</td><td>Paladin</td></tr>
+            <tr><td>Behemoth</td><td>Titan</td><td>Stasis</td><td>Artificer</td></tr>
+            <tr><td>Berserker</td><td>Titan</td><td>Strand</td><td>Fighter</td></tr>
+            <tr><td>Arcstrider</td><td>Hunter</td><td>Arc</td><td>Monk</td></tr>
+            <tr><td>Gunslinger</td><td>Hunter</td><td>Solar</td><td>Rogue</td></tr>
+            <tr><td>Nightstalker</td><td>Hunter</td><td>Void</td><td>Ranger</td></tr>
+            <tr><td>Revenant</td><td>Hunter</td><td>Stasis</td><td>Rogue</td></tr>
+            <tr><td>Threadrunner</td><td>Hunter</td><td>Strand</td><td>Ranger</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><strong>Damage types.</strong> Void is Force, Arc is Lightning, Solar is Fire (Radiant for healing and holy effects), Stasis is Cold, and Strand is Psychic.</p>
+      <p><strong>Table fit.</strong> These subclasses deliver their power fantasy best against lots of weaker, minion-type enemies. Their kill triggers (Devour, Amplified), lingering area grenades, and chain effects (Volatile, Jolt, Shatter) all pay off when many foes drop each round. Against a lone boss, much of the kit goes quiet. When building encounters, mix waves of low-CR creatures or minion rules in with the big threats.</p>
+    </section>
+
+    <section class="feature" id="chassis">
+      <h2>Shared Chassis: Light Abilities</h2>
+      <p>Every Destiny subclass gets a Grenade, a Charged Melee, a Class Ability, and a Super, whatever its base class. This shared kit makes the set feel like one family.</p>
+    </section>
+
+    <section class="feature" id="grenade">
+      <span class="lvl">Level 3</span>
+      <h3>Grenade</h3>
+      <p>You can throw your grenade as a Bonus Action. You can do this a number of times equal to your key ability modifier (minimum of once). You regain one expended use when you finish a Short Rest and all expended uses when you finish a Long Rest. The save DC is your spell save DC; for subclasses without spellcasting, it is 8 + your Proficiency Bonus + your key ability modifier. Grenade damage scales with your class level:</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Class Level</th><th>Grenade Damage</th></tr></thead>
+          <tbody>
+            <tr><td>3</td><td>2d6</td></tr>
+            <tr><td>6</td><td>3d6</td></tr>
+            <tr><td>10</td><td>4d6</td></tr>
+            <tr><td>14</td><td>5d6</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="feature" id="melee">
+      <span class="lvl">Level 3</span>
+      <h3>Charged Melee</h3>
+      <p>Each subclass defines its own. Spellcasting subclasses gain a custom cantrip; martial subclasses gain a once-per-turn rider on a melee weapon hit.</p>
+    </section>
+
+    <section class="feature" id="super">
+      <span class="lvl">Level 10</span>
+      <h3>Super</h3>
+      <p>You can use your Super once, and you regain this use when you finish a Long Rest. Each subclass names a significant class resource you can expend to regain the use early. At level 14, the subclass upgrades its Super. Classes whose subclass features arrive at other levels (such as the Artificer at 3, 5, 9, and 15) gain the Super and its upgrade at their nearest subclass levels instead (9 and 15 for the Artificer). Grenade damage always follows the table by class level.</p>
+      <p><strong>Super Timing Tiebreaker.</strong> If a class's subclass levels sit equally far from level 10, round up. A class that gains its Super after level 10 gets a stronger Super to make up for the wait. When the nearest subclass level is too far from 10 (such as the Cleric's 3, 6, and 17) or too crowded (such as the Paladin's level 7, which already carries the Oath's aura and the Class Ability), the subclass instead adds a level 10 feature for its Super.</p>
+    </section>
+
+    <section class="feature" id="class-ability">
+      <span class="lvl">Second subclass level</span>
+      <h3>Class Ability</h3>
+      <p>Each subclass gains its guardian class's ability at its second subclass feature level: level 6 for the Wizard, Barbarian, and Sorcerer; level 5 for the Artificer; and level 7 for the Ranger. You can use it a number of times equal to your Proficiency Bonus. You regain one expended use when you finish a Short Rest and all expended uses when you finish a Long Rest. Each subclass adds its own twist to the ability: one small hook into its existing mechanics.</p>
+
+      <p><strong>Rift (Destiny Warlocks).</strong> As a Bonus Action, you create a 10-foot-radius circle of Light centered on you. It lasts for 1 minute or until you create another Rift. When you create it, choose one type:</p>
+      <ul>
+        <li><strong>Healing Rift:</strong> When a creature of your choice enters the Rift or starts its turn there, it gains Temporary Hit Points equal to your Proficiency Bonus plus your key ability modifier.</li>
+        <li><strong>Empowering Rift:</strong> Creatures of your choice in the Rift deal an extra 1d4 damage the first time they hit with an attack or spell each turn.</li>
+      </ul>
+
+      <p><strong>Barricade (Titans).</strong> As a Bonus Action, you raise a 10-foot-long wall of Light in unoccupied spaces within 5 feet of you. It has AC 15 and Hit Points equal to 5 times your Proficiency Bonus, and it lasts for 1 minute. When you raise it, choose one type:</p>
+      <ul>
+        <li><strong>Towering Barricade:</strong> The wall is 8 feet tall, blocks movement, and grants Three-Quarters Cover.</li>
+        <li><strong>Rally Barricade:</strong> The wall is waist-high and grants Half Cover. A creature of your choice that starts its turn within 5 feet of it adds 1d4 to its first attack roll that turn.</li>
+      </ul>
+
+      <p><strong>Dodge (Hunters).</strong> When a creature you can see hits you with an attack, you can take a Reaction to halve the damage, then move up to half your Speed without provoking Opportunity Attacks. Choose a style when you dodge:</p>
+      <ul>
+        <li><strong>Marksman's Dodge:</strong> Your next ranged attack before the end of your next turn has Advantage.</li>
+        <li><strong>Gambler's Dodge:</strong> Your next melee attack before the end of your next turn has Advantage.</li>
+      </ul>
+
+      <p><strong>Rogue Dodge.</strong> Rogues already have Uncanny Dodge, which halves damage as a Reaction. Instead of a second Reaction, a Rogue's Dodge upgrades Uncanny Dodge: when you use Uncanny Dodge, you can expend a use of Dodge to also move up to half your Speed without provoking Opportunity Attacks, gain your chosen style's benefit, and trigger your subclass twist.</p>
+    </section>
+
+    <section class="feature" id="keywords">
+      <h2>Element Keywords</h2>
+      <p>Conditions shared by several subclasses are defined once here.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Keyword</th><th>Element</th><th>Effect</th></tr></thead>
+          <tbody>
+            <tr><td>Volatile</td><td>Void</td><td>A Volatile creature stays Volatile until the end of the next turn of the creature that made it Volatile. The next time it takes Force damage from that creature, it explodes: each creature of the attacker's choice within 5 feet of it takes 2d6 Force damage, and it stops being Volatile. Explosion damage doesn't make creatures Volatile, but it can detonate creatures that already are.</td></tr>
+            <tr><td>Suppressed</td><td>Void</td><td>A Suppressed creature can't take Reactions and has Disadvantage on saving throws to maintain Concentration. Unless a feature says otherwise, this lasts until the start of the next turn of the creature that Suppressed it.</td></tr>
+            <tr><td>Weakened</td><td>Void</td><td>Attacks against a Weakened creature deal an extra 1d6 damage. Unless a feature says otherwise, this lasts until the end of the next turn of the creature that Weakened it.</td></tr>
+            <tr><td>Jolted</td><td>Arc</td><td>A Jolted creature stays Jolted until the end of the next turn of the creature that Jolted it. The next time it takes damage from that creature, lightning arcs from it: up to two creatures of the attacker's choice within 10 feet of it each take 2d6 Lightning damage, and it stops being Jolted.</td></tr>
+            <tr><td>Amplified</td><td>Arc</td><td>An Amplified creature's Speed increases by 10 feet, and Opportunity Attacks against it have Disadvantage. Each feature that grants Amplified says how long it lasts and may add its own benefits.</td></tr>
+            <tr><td>Burning</td><td>Solar</td><td>A Burning creature takes 1d4 Fire damage at the start of each of its turns until it or another creature takes an action to put out the flames.</td></tr>
+            <tr><td>Ignite</td><td>Solar</td><td>When a creature Ignites, it and each creature of the igniter's choice within 10 feet of it take 3d6 Fire damage, and it stops Burning.</td></tr>
+            <tr><td>Slowed</td><td>Stasis</td><td>A Slowed creature's Speed is reduced by 10 feet until the start of the next turn of the creature that Slowed it.</td></tr>
+            <tr><td>Frozen</td><td>Stasis</td><td>A Frozen creature has the Restrained condition until the start of the next turn of the creature that Froze it. It stops being Frozen early if it's Shattered.</td></tr>
+            <tr><td>Shattered</td><td>Stasis</td><td>A Frozen creature is Shattered when the creature that Froze it hits it with a melee attack, or when a feature says it Shatters. A Shattered creature takes an extra 2d8 Cold damage and stops being Frozen. Features that trigger "when a creature is Shattered" (such as Iceflare Bolts and Glacial Harvest) trigger on any Shatter. A Behemoth's Stasis Crystals also Shatter, but their effect is described in the Behemoth subclass.</td></tr>
+            <tr><td>Suspended</td><td>Strand</td><td>A Suspended creature is lifted 5 feet off the ground by threads of Strand; it has the Restrained condition and can't take Reactions. Unless a feature says otherwise, only Large or smaller creatures can be Suspended, and the effect lasts until the start of the next turn of the creature that Suspended it. When it ends, the creature drops without taking falling damage.</td></tr>
+            <tr><td>Severed</td><td>Strand</td><td>A Severed creature subtracts 1d4 from its attack rolls until the start of the next turn of the creature that Severed it.</td></tr>
+            <tr><td>Unraveled</td><td>Strand</td><td>An Unraveled creature stays Unraveled until the end of the next turn of the creature that Unraveled it. The next time it takes damage from that creature, threads lash out from it: up to two creatures of the attacker's choice within 10 feet of it each take 2d6 Psychic damage, and it stops being Unraveled.</td></tr>
+            <tr><td>Woven Mail</td><td>Strand</td><td>A creature with Woven Mail has Resistance to Bludgeoning, Piercing, and Slashing damage. Unless a feature says otherwise, this lasts until the start of its next turn.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </article>
+
+  <nav class="toc" aria-label="On this page">
+    <span class="label sm">On this page</span>
+    <ol>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#chassis">Shared Chassis</a></li>
+      <li><a href="#grenade">Grenade</a></li>
+      <li><a href="#melee">Charged Melee</a></li>
+      <li><a href="#super">Super</a></li>
+      <li><a href="#class-ability">Class Ability</a></li>
+      <li><a href="#keywords">Element Keywords</a></li>
+    </ol>
+  </nav>
+</div>
+</main>
+
+<footer>
+  <p class="first">Long Rest Press · a Clark Consolidated label · New releases every week</p>
+  <p>Inspired by <em>Destiny</em> and <em>Destiny 2</em> by Bungie. This is unofficial fan work, not affiliated with or endorsed by Bungie.</p>
+  <p>Long Rest Press content is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</p>
+</footer>
+</div>
+</body>
+</html>

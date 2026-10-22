@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Striker · Barbarian Subclass · Long Rest Press</title>
+<meta name="description" content="Striker: a free D&amp;D 2024 Barbarian subclass inspired by Destiny's Arc Titan. Storm Fists, Flashbang, Shoulder Charge, and Fists of Havoc or Thundercrash.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Spectral:ital,wght@0,300;0,400;1,300&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<header class="masthead">
+  <nav><a href="browse.html">Browse</a><a href="about.html">About</a></nav>
+  <a class="brand" href="index.html" aria-label="Long Rest Press home">
+    <svg class="moon" viewBox="0 0 40 40" width="30" height="30" aria-hidden="true"><path d="M24 9a11 11 0 1 0 6 18 9 9 0 0 1-6-18z" fill="#d8b25a"/></svg>
+    <span>LONG REST PRESS</span>
+  </a>
+  <div class="end"><a class="btn-ghost" href="index.html#support">Support</a></div>
+</header>
+
+<main>
+<section class="hero small">
+  <a class="label sm backlink" href="browse.html?fandom=Destiny">← Destiny</a>
+  <span class="label gold" style="letter-spacing:.24em">Barbarian subclass · D&amp;D 2024</span>
+  <h1>Striker</h1>
+  <p class="lede">Strikers are the storm given fists. They close the distance, hit like a thunderclap, and get faster with every enemy that drops.</p>
+  <div class="label sm credits"><span>v0.1 Playtest</span><span>Titan · Arc</span><span>Inspired by Destiny 2</span></div>
+</section>
+
+<div class="doc">
+  <article class="article">
+    <a class="callout" href="destiny-overview.html"><span class="label sm gold">Shared Destiny rules →</span>This subclass uses the Grenade, Charged Melee, Class Ability, Super, and element keyword rules from the Destiny Overview &amp; Chassis.</a>
+
+    <p>The Striker is the Arc Titan as a Barbarian subclass. Lightning is the Arc damage type. The key ability is Strength, so the save DC is 8 + your Proficiency Bonus + your Strength modifier.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Barbarian Level</th><th>Features</th></tr></thead>
+        <tbody>
+          <tr><td>3</td><td>Storm Fists, Flashbang, Shoulder Charge</td></tr>
+          <tr><td>6</td><td>Amplified, Barricade</td></tr>
+          <tr><td>10</td><td>Super: Fists of Havoc or Thundercrash</td></tr>
+          <tr><td>14</td><td>Lightning Unbound</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <section class="feature" id="fists">
+      <span class="lvl">Level 3</span>
+      <h2>Storm Fists</h2>
+      <p>Your Unarmed Strikes deal 1d8 damage plus your Strength modifier. Each time you hit, you choose whether the damage is Bludgeoning or Lightning. Your Unarmed Strikes also have the Push weapon mastery property.</p>
+      <p>In the 2024 rules, Rage damage and Brutal Strike already work with Strength-based Unarmed Strikes. Weapons are rewarded but not required.</p>
+    </section>
+
+    <section class="feature" id="flashbang">
+      <span class="lvl">Level 3</span>
+      <h2>Flashbang</h2>
+      <p>This is your Grenade. As a Bonus Action, you throw a crackling charge at a point you can see within 60 feet. Each creature in a 10-foot-radius sphere centered on that point makes a Constitution saving throw.</p>
+      <ul>
+        <li><strong>Failed save:</strong> The creature takes your grenade damage as Lightning damage and has the Blinded condition until the start of your next turn.</li>
+        <li><strong>Successful save:</strong> The creature takes half as much damage and isn't Blinded.</li>
+      </ul>
+      <p>You can throw a Flashbang while Raging.</p>
+    </section>
+
+    <section class="feature" id="charge">
+      <span class="lvl">Level 3</span>
+      <h2>Shoulder Charge</h2>
+      <p>This is your Charged Melee. Once per turn, when you hit a creature with an Unarmed Strike after moving at least 20 feet in a straight line toward it this turn, the target takes extra Lightning damage equal to your grenade damage. If the target is Large or smaller, it must also succeed on a Strength saving throw or have the Prone condition.</p>
+    </section>
+
+    <section class="feature" id="amplified">
+      <span class="lvl">Level 6</span>
+      <h2>Amplified</h2>
+      <p>While Raging, when you reduce a creature to 0 Hit Points or score a Critical Hit with a melee attack, you become Amplified until your Rage ends. While Amplified, you gain these benefits:</p>
+      <ul>
+        <li>Your Speed increases by 10 feet.</li>
+        <li>Shoulder Charge requires only 10 feet of movement.</li>
+        <li>Opportunity Attacks against you have Disadvantage.</li>
+      </ul>
+    </section>
+
+    <section class="feature" id="barricade">
+      <span class="lvl">Level 6</span>
+      <h2>Barricade</h2>
+      <p>You gain the <a href="destiny-overview.html#class-ability">Barricade Class Ability</a> from the Shared Chassis. Striker twist: when you raise a Barricade while Raging, you become Amplified.</p>
+    </section>
+
+    <section class="feature" id="super">
+      <span class="lvl">Level 10</span>
+      <h2>Super</h2>
+      <p>When you finish a Long Rest, choose Fists of Havoc or Thundercrash as your Super. You can regain its use by expending two uses of your Rage (no action required).</p>
+      <h3>Fists of Havoc</h3>
+      <p>As a Bonus Action, you become a living storm for 3 rounds. The effect ends at the start of your turn 3 rounds later. If you aren't Raging, you enter your Rage without expending a use. While Fists of Havoc lasts, you gain these benefits:</p>
+      <ul>
+        <li><strong>Storm Body.</strong> Your Speed increases by 10 feet, and your Unarmed Strikes deal an extra 1d8 Lightning damage.</li>
+        <li><strong>Unstoppable.</strong> Shoulder Charge has no movement requirement.</li>
+        <li><strong>Seismic Slam.</strong> When you take the Attack action, you can replace one attack with a slam. Each creature of your choice within 10 feet of you makes a Dexterity saving throw. On a failed save, it takes 4d8 Lightning damage and has the Prone condition. On a successful save, it takes half as much damage only.</li>
+      </ul>
+      <h3>Thundercrash</h3>
+      <p>As an action, you launch yourself up to 60 feet in a straight line, flying without provoking Opportunity Attacks, and land in an unoccupied space. Each creature of your choice within 10 feet of where you land makes a Dexterity saving throw.</p>
+      <ul>
+        <li><strong>Failed save:</strong> The creature takes 10d10 Lightning damage, and if it's Large or smaller, it has the Prone condition.</li>
+        <li><strong>Successful save:</strong> The creature takes half as much damage only.</li>
+      </ul>
+    </section>
+
+    <section class="feature" id="unbound">
+      <span class="lvl">Level 14</span>
+      <h2>Lightning Unbound</h2>
+      <p><strong>Both Supers.</strong> You no longer choose a Super when you finish a Long Rest. Each time you use your Super, choose Fists of Havoc or Thundercrash.</p>
+      <p><strong>Jolt.</strong> When a creature takes damage from your Flashbang, Shoulder Charge, or Super, it becomes Jolted until the end of your next turn. Jolted and Amplified are defined under <a href="destiny-overview.html#keywords">Element Keywords</a> in the Shared Chassis. Jolt is the Arc counterpart to the Voidwalker's Volatile.</p>
+    </section>
+
+    <aside class="playtest">
+      <span class="label sm gold">Playtest watch list</span>
+      <p>Five things to watch at the table, along with the lever to pull if one runs hot.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Watch item</th><th>Concern</th><th>Lever if too strong</th></tr></thead>
+          <tbody>
+            <tr><td>Flashbang's Blinded condition</td><td>It's an area Blind as a Bonus Action with no Concentration, though it competes with entering Rage on round 1</td><td>Shrink the radius to 5 feet</td></tr>
+            <tr><td>Shoulder Charge at level 14</td><td>It adds 5d6 once per turn on top of Rage and Brutal Strike</td><td>Cap the extra damage at 3d6</td></tr>
+            <tr><td>Push plus Prone</td><td>Push mastery can shove a target away before Shoulder Charge's Prone matters</td><td>Rule on the order at the table</td></tr>
+            <tr><td>Fists of Havoc's defense</td><td>It grants no Resistance beyond Rage's, which is deliberate</td><td>Add Resistance to Lightning and Thunder if it feels fragile</td></tr>
+            <tr><td>Fists of Havoc's length</td><td>It runs 3 rounds, matching Nova Warp</td><td>Adjust after play</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <span class="label sm">v0.1 Playtest: first public release</span>
+    </aside>
+  </article>
+
+  <nav class="toc" aria-label="On this page">
+    <span class="label sm">On this page</span>
+    <ol>
+      <li><a href="#fists">Storm Fists</a></li>
+      <li><a href="#flashbang">Flashbang</a></li>
+      <li><a href="#charge">Shoulder Charge</a></li>
+      <li><a href="#amplified">Amplified</a></li>
+      <li><a href="#barricade">Barricade</a></li>
+      <li><a href="#super">Super</a></li>
+      <li><a href="#unbound">Lightning Unbound</a></li>
+      <li><a href="destiny-overview.html">Shared Destiny rules</a></li>
+    </ol>
+  </nav>
+</div>
+</main>
+
+<footer>
+  <p class="first">Long Rest Press · a Clark Consolidated label · New releases every week</p>
+  <p>Inspired by <em>Destiny</em> and <em>Destiny 2</em> by Bungie. This is unofficial fan work, not affiliated with or endorsed by Bungie.</p>
+  <p>Long Rest Press content is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</p>
+</footer>
+</div>
+</body>
+</html>

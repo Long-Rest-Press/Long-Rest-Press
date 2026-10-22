@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Browse — Long Rest Press</title>
+<meta name="description" content="Search Long Rest Press homebrew by type, fandom and class.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Spectral:ital,wght@0,300;0,400;1,300&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<header class="masthead">
+  <nav><a href="browse.html" aria-current="page">Browse</a><a href="about.html">About</a></nav>
+  <a class="brand" href="index.html" aria-label="Long Rest Press home">
+    <svg class="moon" viewBox="0 0 40 40" width="30" height="30" aria-hidden="true"><path d="M24 9a11 11 0 1 0 6 18 9 9 0 0 1-6-18z" fill="#d8b25a"/></svg>
+    <span>LONG REST PRESS</span>
+  </a>
+  <div class="end"><a class="btn-ghost" href="index.html#support">Support</a></div>
+</header>
+
+<main>
+<section class="hero small">
+  <span class="label gold" style="letter-spacing:.24em">The archive</span>
+  <h1>Find your next <em>character</em>.</h1>
+</section>
+
+<section class="section" id="browse">
+  <form class="search browse-search" id="browse-form" role="search">
+    <input type="search" id="q" placeholder="Search by name, class, fandom or keyword…" aria-label="Search the press">
+  </form>
+  <div class="filters" id="filters"></div>
+  <div class="resultbar">
+    <span class="label" id="count" aria-live="polite"></span>
+    <button type="button" class="label linkbtn" id="clear" hidden>Clear all ×</button>
+  </div>
+  <div class="grid" id="results"></div>
+</section>
+</main>
+
+<footer style="margin-top:96px">
+  <p class="first">Long Rest Press · a Clark Consolidated label · New releases every week</p>
+  <p>Long Rest Press content is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC. Inspired-by works are credited on each page and belong to their respective owners.</p>
+</footer>
+</div>
+<script src="posts.js"></script>
+<script src="site.js"></script>
+</body>
+</html>

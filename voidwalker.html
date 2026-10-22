@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Voidwalker · Wizard Subclass · Long Rest Press</title>
+<meta name="description" content="Voidwalker: a free D&amp;D 2024 Wizard subclass inspired by Destiny's Void Warlock. Vortex Grenade, Energy Drain, Devour, and Nova Bomb or Nova Warp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Spectral:ital,wght@0,300;0,400;1,300&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<header class="masthead">
+  <nav><a href="browse.html">Browse</a><a href="about.html">About</a></nav>
+  <a class="brand" href="index.html" aria-label="Long Rest Press home">
+    <svg class="moon" viewBox="0 0 40 40" width="30" height="30" aria-hidden="true"><path d="M24 9a11 11 0 1 0 6 18 9 9 0 0 1-6-18z" fill="#d8b25a"/></svg>
+    <span>LONG REST PRESS</span>
+  </a>
+  <div class="end"><a class="btn-ghost" href="index.html#support">Support</a></div>
+</header>
+
+<main>
+<section class="hero small">
+  <a class="label sm backlink" href="browse.html?fandom=Destiny">← Destiny</a>
+  <span class="label gold" style="letter-spacing:.24em">Wizard subclass · D&amp;D 2024</span>
+  <h1>Voidwalker</h1>
+  <p class="lede">Wizards of the Void see the universe as something to be unmade, and they feed on the collapse.</p>
+  <div class="label sm credits"><span>v0.1 Playtest</span><span>Destiny Warlock · Void</span><span>Inspired by Destiny 2</span></div>
+</section>
+
+<div class="doc">
+  <article class="article">
+    <a class="callout" href="destiny-overview.html"><span class="label sm gold">Shared Destiny rules →</span>This subclass uses the Grenade, Charged Melee, Class Ability, Super, and element keyword rules from the Destiny Overview &amp; Chassis.</a>
+
+    <p>The Voidwalker is the Void Destiny warlock as a Wizard subclass. The fantasy is a glass cannon who survives by consuming enemies. Its signature tools are a lingering grenade, a life-draining melee cantrip, and a choice of Super: Nova Bomb for artillery or Nova Warp for blinking through enemy lines. Void uses Force damage, and the key ability is Intelligence.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Wizard Level</th><th>Features</th></tr></thead>
+        <tbody>
+          <tr><td>3</td><td>Void Savant, Vortex Grenade, Energy Drain</td></tr>
+          <tr><td>6</td><td>Devour, Rift</td></tr>
+          <tr><td>10</td><td>Super: Nova Bomb or Nova Warp</td></tr>
+          <tr><td>14</td><td>Chaos Accelerant</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <section class="feature" id="savant">
+      <span class="lvl">Level 3</span>
+      <h2>Void Savant</h2>
+      <p>Choose two Wizard spells that deal Force damage or teleport you, and add them to your spellbook for free. Whenever you gain access to a new level of spell slots in this class, you can add one more such spell to your spellbook for free.</p>
+    </section>
+
+    <section class="feature" id="grenade">
+      <span class="lvl">Level 3</span>
+      <h2>Vortex Grenade</h2>
+      <p>This is your Grenade. As a Bonus Action, you create a 10-foot-radius sphere of swirling void centered on a point you can see within 60 feet. Each creature in the sphere makes a Dexterity saving throw, taking your grenade damage as Force damage on a failed save or half as much on a successful one.</p>
+      <p>The sphere lingers until the start of your next turn. A creature makes the same save when it enters the sphere for the first time on a turn or ends its turn there. A creature can take damage from the sphere only once per turn.</p>
+    </section>
+
+    <section class="feature" id="drain">
+      <span class="lvl">Level 3</span>
+      <h2>Energy Drain</h2>
+      <p>This is your Charged Melee. You learn the Energy Drain cantrip, which doesn't count against the number of cantrips you know.</p>
+      <h3><a href="energy-drain.html">Energy Drain</a></h3>
+      <p><em>Evocation Cantrip (Voidwalker)</em></p>
+      <ul>
+        <li><strong>Casting Time:</strong> Action</li>
+        <li><strong>Range:</strong> Touch</li>
+        <li><strong>Components:</strong> V, S</li>
+        <li><strong>Duration:</strong> Instantaneous</li>
+      </ul>
+      <p>Make a melee spell attack against a creature. On a hit, the target takes 1d8 Force damage, and you gain Temporary Hit Points equal to the damage dealt.</p>
+      <p><em>Cantrip Upgrade.</em> The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).</p>
+    </section>
+
+    <section class="feature" id="devour">
+      <span class="lvl">Level 6</span>
+      <h2>Devour</h2>
+      <p>When you reduce a creature to 0 Hit Points with a Wizard spell, Energy Drain, or your Vortex Grenade, you can enter Devour for 1 minute. While Devour is active, whenever you reduce a creature to 0 Hit Points, you regain Hit Points equal to your Wizard level plus your Intelligence modifier.</p>
+      <p>Once you enter Devour, you can't do so again until you finish a Short or Long Rest unless you expend a level 1+ spell slot to do so.</p>
+    </section>
+
+    <section class="feature" id="rift">
+      <span class="lvl">Level 6</span>
+      <h2>Rift</h2>
+      <p>You gain the <a href="destiny-overview.html#class-ability">Rift Class Ability</a> from the Shared Chassis. Voidwalker twist: when you create a Rift, you can enter Devour without expending its use or a spell slot.</p>
+    </section>
+
+    <section class="feature" id="super">
+      <span class="lvl">Level 10</span>
+      <h2>Super</h2>
+      <p>When you finish a Long Rest, choose Nova Bomb or Nova Warp as your Super. You can regain its use by expending a level 5+ spell slot (no action required).</p>
+      <p><strong>Nova Bomb.</strong> As a Magic action, you hurl a sphere of void at a point you can see within 120 feet. Each creature in a 20-foot-radius sphere centered on that point makes a Dexterity saving throw, taking 10d10 Force damage on a failed save or half as much on a successful one. The area then becomes a Vortex Grenade sphere until the start of your next turn.</p>
+      <p><strong>Nova Warp.</strong> As a Bonus Action, you become unstable void for 3 rounds. The effect ends at the start of your turn 3 rounds later. While it lasts, you gain these benefits:</p>
+      <ul>
+        <li><strong>Void Form.</strong> You have Resistance to Bludgeoning, Piercing, and Slashing damage, and you can't cast spells using spell slots.</li>
+        <li><strong>Warp.</strong> Once on each of your turns, including the turn you activate Nova Warp, you can teleport up to 30 feet to an unoccupied space you can see (no action required). Each creature of your choice within 5 feet of where you appear takes 2d6 Force damage.</li>
+        <li><strong>Charged Burst.</strong> As a Magic action, you detonate. Each creature of your choice within 15 feet of you makes a Constitution saving throw, taking 6d8 Force damage on a failed save or half as much on a successful one.</li>
+      </ul>
+    </section>
+
+    <section class="feature" id="accelerant">
+      <span class="lvl">Level 14</span>
+      <h2>Chaos Accelerant</h2>
+      <p><strong>Both Supers.</strong> You no longer choose a Super when you finish a Long Rest. Each time you use your Super, choose Nova Bomb or Nova Warp.</p>
+      <p><strong>Volatile.</strong> When a creature takes damage from your Vortex Grenade or your Super, it becomes Volatile until the end of your next turn. The next time a Volatile creature takes Force damage from you, it explodes, and each creature of your choice within 5 feet of it takes 2d6 Force damage. The creature then stops being Volatile. Creatures damaged by an explosion don't become Volatile from it, but an explosion can detonate other creatures that are already Volatile.</p>
+    </section>
+
+    <aside class="playtest">
+      <span class="label sm gold">Playtest watch list</span>
+      <p>Six things to watch at the table, along with the lever to pull if one runs hot.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Watch item</th><th>Concern</th><th>Lever if too strong</th></tr></thead>
+          <tbody>
+            <tr><td>Grenade plus a leveled spell on the same turn</td><td>The grenade isn't a spell, so it bypasses the 2024 rule that limits casting a Bonus Action spell and another leveled spell on the same turn</td><td>Treat the grenade as a level 1+ spell for that rule</td></tr>
+            <tr><td>Energy Drain's Temporary Hit Points</td><td>They're gained every turn, though they don't stack</td><td>Grant half the damage dealt instead</td></tr>
+            <tr><td>Nova Bomb at 10d10</td><td>It's roughly 6th-level spell power, which is intended for a Super</td><td>Drop it to 8d10</td></tr>
+            <tr><td>Nova Warp's sustained damage</td><td>It can deal about 95 damage per target over 3 turns if enemies stay close</td><td>Lower Charged Burst to 5d8</td></tr>
+            <tr><td>Nova Warp's length</td><td>It runs 3 rounds as a starting point, meant to feel like a short Destiny Super</td><td>Adjust after play</td></tr>
+            <tr><td>Volatile chains</td><td>Chains can cascade across tightly packed groups</td><td>Limit to one explosion per turn</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <span class="label sm">v0.1 Playtest: first public release</span>
+    </aside>
+  </article>
+
+  <nav class="toc" aria-label="On this page">
+    <span class="label sm">On this page</span>
+    <ol>
+      <li><a href="#savant">Void Savant</a></li>
+      <li><a href="#grenade">Vortex Grenade</a></li>
+      <li><a href="#drain">Energy Drain</a></li>
+      <li><a href="#devour">Devour</a></li>
+      <li><a href="#rift">Rift</a></li>
+      <li><a href="#super">Super</a></li>
+      <li><a href="#accelerant">Chaos Accelerant</a></li>
+      <li><a href="destiny-overview.html">Shared Destiny rules</a></li>
+    </ol>
+  </nav>
+</div>
+</main>
+
+<footer>
+  <p class="first">Long Rest Press · a Clark Consolidated label · New releases every week</p>
+  <p>Inspired by <em>Destiny</em> and <em>Destiny 2</em> by Bungie. This is unofficial fan work, not affiliated with or endorsed by Bungie.</p>
+  <p>Long Rest Press content is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</p>
+</footer>
+</div>
+</body>
+</html>

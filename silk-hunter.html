@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Silk Hunter · Ranger Subclass · Long Rest Press</title>
+<meta name="description" content="Silk Hunter: a free D&amp;D 2024 Ranger subclass inspired by Hollow Knight: Silksong. Weave Silk, Bind your wounds, wear crests, and craft tools.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Spectral:ital,wght@0,300;0,400;1,300&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<header class="masthead">
+  <nav><a href="browse.html">Browse</a><a href="about.html">About</a></nav>
+  <a class="brand" href="index.html" aria-label="Long Rest Press home">
+    <svg class="moon" viewBox="0 0 40 40" width="30" height="30" aria-hidden="true"><path d="M24 9a11 11 0 1 0 6 18 9 9 0 0 1-6-18z" fill="#d8b25a"/></svg>
+    <span>LONG REST PRESS</span>
+  </a>
+  <div class="end"><a class="btn-ghost" href="index.html#support">Support</a></div>
+</header>
+
+<main>
+<section class="hero small">
+  <a class="label sm backlink" href="browse.html?fandom=Hollow%20Knight%20%26%20Silksong">← Hollow Knight &amp; Silksong</a>
+  <span class="label gold" style="letter-spacing:.24em">Ranger subclass · D&amp;D 2024</span>
+  <h1>Silk Hunter</h1>
+  <p class="lede">A swift hunter who fights with a thread-bound needle, weaves Silk from every strike, crafts deadly tools, and changes her whole fighting style by the crest she wears.</p>
+  <div class="label sm credits"><span>v0.1 Playtest</span><span>Ranger levels 3–15</span><span>Inspired by Hollow Knight: Silksong</span></div>
+</section>
+
+<div class="doc">
+  <article class="article">
+    <blockquote>The Weavers are gone, but their silk still runs in a few bloodlines. Silk Hunters spin it from the rhythm of battle: every strike draws a strand, and enough strands bind wounds closed or lash out as spears and storms of thread. They carry crests, ancient emblems that reshape how a hunter moves and kills, and a satchel of tools built from scavenged shell and wire.</blockquote>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Ranger Level</th><th>Features</th></tr></thead>
+        <tbody>
+          <tr><td>3rd</td><td>Silk Hunter Spells, Needle and Thread, Silk, Bind, Silk Skills (2 equipped), Crests (Hunter + 1)</td></tr>
+          <tr><td>7th</td><td>Tools, Crests (+1)</td></tr>
+          <tr><td>11th</td><td>Needolin, Faydown Step, Silk Skills (3 equipped), Crests (+1)</td></tr>
+          <tr><td>15th</td><td>Weaver's Legacy, Crests (all)</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <section class="feature" id="spells">
+      <span class="lvl">Level 3</span>
+      <h2>Silk Hunter Spells</h2>
+      <p>When you reach a Ranger level specified in the Silk Hunter Spells table, you thereafter always have the listed spell prepared.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Ranger Level</th><th>Spell</th></tr></thead>
+          <tbody>
+            <tr><td>3rd</td><td><em>Feather Fall</em></td></tr>
+            <tr><td>5th</td><td><em>Spider Climb</em></td></tr>
+            <tr><td>9th</td><td><em>Haste</em></td></tr>
+            <tr><td>13th</td><td><em>Freedom of Movement</em></td></tr>
+            <tr><td>17th</td><td><em>Steel Wind Strike</em></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="feature" id="needle">
+      <span class="lvl">Level 3</span>
+      <h2>Needle and Thread</h2>
+      <p>Choose a Finesse melee weapon to be your needle. It gains the Thrown property (range 20/60) and returns to your hand on a silk thread after a thrown attack. When you hit a creature with a thrown needle, you can pull yourself up to 20 feet toward it, or pull a Medium or smaller target up to 10 feet toward you. The target can resist the pull with a Strength saving throw against your spell save DC.</p>
+    </section>
+
+    <section class="feature" id="silk">
+      <span class="lvl">Level 3</span>
+      <h2>Silk</h2>
+      <p>You weave power from the fight. Your Silk maximum is twice your Proficiency Bonus. Once per turn, when you hit a creature with your needle, you gain 1 Silk. You lose all Silk when you finish a Long Rest.</p>
+    </section>
+
+    <section class="feature" id="bind">
+      <span class="lvl">Level 3</span>
+      <h2>Bind</h2>
+      <p>As a Bonus Action, you can spend all your Silk (minimum 3) to bind your wounds. You regain 1d6 Hit Points per Silk spent, plus your Wisdom modifier. Your active crest can change how Bind works.</p>
+    </section>
+
+    <section class="feature" id="skills">
+      <span class="lvl">Level 3</span>
+      <h2>Silk Skills</h2>
+      <p>You know every Silk Skill below. At the end of each Long Rest, equip two of them; you equip three at Ranger level 11. Using an equipped Silk Skill costs the Silk shown and takes a Bonus Action unless noted. Silk Skills aren't spells, but they use your spell save DC.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Silk Skill</th><th>Silk</th><th>Effect</th></tr></thead>
+          <tbody>
+            <tr><td>Silkspear</td><td class="td-num">2</td><td>You hurl a spear of silk in a 30-foot line. Each creature in the line makes a Dexterity saving throw, taking 2d8 Piercing damage on a failed save or half as much on a success.</td></tr>
+            <tr><td>Threadstorm</td><td class="td-num">2</td><td>Threads lash out around you. Each creature of your choice within 10 feet of you makes a Dexterity saving throw, taking 2d8 Slashing damage on a failed save or half as much on a success.</td></tr>
+            <tr><td>Sharpdart</td><td class="td-num">2</td><td>You dash up to 15 feet in a straight line without provoking Opportunity Attacks, then make one needle attack.</td></tr>
+            <tr><td>Cross Stitch</td><td class="td-num">2</td><td>Reaction, when a creature hits you with a melee attack. Reduce the damage by 1d10 + your Wisdom modifier. If that reduces it to 0, make one needle attack against the attacker.</td></tr>
+            <tr><td>Rune Rage</td><td class="td-num">2</td><td>Glowing runes mark a 10-foot-radius sphere centered on a point you can see within 60 feet. At the start of your next turn, they detonate: each creature in the area makes a Dexterity saving throw, taking 3d8 Force damage on a failed save or half as much on a success. Creatures can see the runes and may flee.</td></tr>
+            <tr><td>Pale Nails</td><td class="td-num">3</td><td>Three pale nails summon around you. At the start of your next turn, each one seeks a creature of your choice that you can see within 60 feet and hits it automatically for 1d8 Force damage. You can aim several nails at the same creature.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="feature" id="crests">
+      <span class="lvl">Level 3</span>
+      <h2>Crests</h2>
+      <p>You learn the Hunter Crest and one other crest of your choice. You learn one more at Ranger levels 7 and 11, and all of them at level 15. At the end of a Long Rest, choose one crest you know to wear; you can switch crests at the end of a Short Rest.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Crest</th><th>Passive</th><th>Bind</th></tr></thead>
+          <tbody>
+            <tr><td>Hunter</td><td>When you hit a creature marked by your <em>Hunter's Mark</em>, you gain 2 Silk instead of 1.</td><td>Normal.</td></tr>
+            <tr><td>Reaper</td><td>When you hit with your needle, a second creature within 5 feet of the target takes Slashing damage equal to your Wisdom modifier.</td><td><strong>Harvest.</strong> After you Bind, your next two needle hits before the end of your next turn each give 1 extra Silk.</td></tr>
+            <tr><td>Wanderer</td><td>Your Speed increases by 10 feet, and your needle scores a Critical Hit on a roll of 19 or 20.</td><td><strong>Quick Bind.</strong> Bind costs as few as 2 Silk, and you can move 10 feet afterward without provoking Opportunity Attacks.</td></tr>
+            <tr><td>Beast</td><td>Your needle deals 2 extra damage, but you can't use Silk Skills.</td><td><strong>Fury.</strong> You don't heal at once. For 1 minute, each needle hit restores 1d6 + your Wisdom modifier Hit Points, up to a number of times equal to the Silk spent.</td></tr>
+            <tr><td>Witch</td><td>Your needle gains the Reach property.</td><td><strong>Hex Bind.</strong> Each creature of your choice within 10 feet makes a Dexterity saving throw, taking 1d6 Necrotic damage per Silk spent on a failed save or half as much on a success. You heal half the normal amount.</td></tr>
+            <tr><td>Architect</td><td>You can carry one extra tool.</td><td><strong>Rebuild.</strong> You also regain one expended use of each tool, but heal half the normal amount.</td></tr>
+            <tr><td>Shaman</td><td>You can equip one extra Silk Skill, and Silk Skills cost 1 fewer Silk (minimum 1).</td><td><strong>Channel.</strong> Your next Silk Skill within 1 minute costs 0 Silk.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="feature" id="tools">
+      <span class="lvl">Level 7</span>
+      <h2>Tools</h2>
+      <p>At the end of each Long Rest, you craft a number of tools from the list below equal to your Wisdom modifier (minimum of 1). An attack tool has a number of uses equal to your Proficiency Bonus; when you take the Attack action, you can replace one attack with a use of it. A passive tool has no uses and works while you carry it. Tools use your spell save DC.</p>
+      <p>You also carry one utility tool, or two at Ranger level 11, chosen at the end of each Long Rest. Utility tools help with exploration and don't count against the tools you craft.</p>
+
+      <h3>Attack Tools</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Tool</th><th>Effect</th></tr></thead>
+          <tbody>
+            <tr><td>Straight Pins</td><td>Make three ranged attacks (range 30 feet). Each deals 1d4 Piercing damage on a hit.</td></tr>
+            <tr><td>Tacks</td><td>Scatter tacks in a 10-foot square within 30 feet. A creature that enters the area takes 1d6 Piercing damage, and its Speed becomes 0 until the end of its turn. The tacks last for 1 minute.</td></tr>
+            <tr><td>Sawtooth Circlet</td><td>The circlet spins around you until the start of your next turn. Each creature within 5 feet of you when you throw it, and each creature that first moves within 5 feet of you before then, makes a Dexterity saving throw, taking 2d6 Slashing damage on a failed save. A creature is affected only once per turn.</td></tr>
+            <tr><td>Snare Setter</td><td>Set a hidden snare in a space within 5 feet of you. The first creature to enter it makes a Dexterity saving throw or has the Restrained condition (escape DC equals your spell save DC).</td></tr>
+            <tr><td>Volt Filament</td><td>Ranged 30 feet. The target takes 2d8 Lightning damage, and one creature within 5 feet of it takes half as much.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Passive Tools</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Tool</th><th>Effect</th></tr></thead>
+          <tbody>
+            <tr><td>Druid's Eye</td><td>Bind restores extra Hit Points equal to your Wisdom modifier.</td></tr>
+            <tr><td>Weighted Belt</td><td>You can't be pushed or pulled against your will.</td></tr>
+            <tr><td>Spool Extender</td><td>Your Silk maximum increases by 2.</td></tr>
+            <tr><td>Multibinder</td><td>Bind's minimum cost decreases by 1.</td></tr>
+            <tr><td>Warding Bell</td><td>After you Bind, you gain a +2 bonus to AC until the start of your next turn.</td></tr>
+            <tr><td>Magma Bell</td><td>You have Resistance to Fire damage.</td></tr>
+            <tr><td>Barbed Bracelet</td><td>Your needle deals an extra 1d6 Piercing damage, but each attack that hits you deals an extra 1d6 damage to you.</td></tr>
+            <tr><td>Fractured Mask</td><td>Once per Long Rest, when you would drop to 0 Hit Points, you drop to 1 instead. The mask cracks and stops working until you finish a Long Rest.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Utility Tools</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Tool</th><th>Effect</th></tr></thead>
+          <tbody>
+            <tr><td>Compass</td><td>You always know which way is north and the direction to where you last finished a Long Rest.</td></tr>
+            <tr><td>Cartographer's Quill</td><td>You automatically map the areas you travel through and can't become lost by nonmagical means.</td></tr>
+            <tr><td>Wisp Lantern</td><td>Sheds Bright Light in a 20-foot radius that wind and water can't put out. You have Advantage on Wisdom (Perception) checks to find hidden doors and passages within its light.</td></tr>
+            <tr><td>Lucky Dice</td><td>Once per Long Rest, you can reroll an ability check and use either result.</td></tr>
+            <tr><td>Sprinter's Anklet</td><td>While traveling, you can move at a Fast pace without the usual penalty.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="feature" id="needolin">
+      <span class="lvl">Level 11</span>
+      <h2>Needolin</h2>
+      <p>You play your needle like a stringed instrument. As a Magic action, each creature of your choice within 30 feet of you makes a Wisdom saving throw. On a failed save, it has the Charmed condition until the end of its next turn. Once you use this feature, you can't do so again until you finish a Short or Long Rest.</p>
+      <p>Outside combat, playing for 1 minute in a place reveals one memory tied to it: the DM describes a scene from that place's past.</p>
+    </section>
+
+    <section class="feature" id="faydown">
+      <span class="lvl">Level 11</span>
+      <h2>Faydown Step</h2>
+      <p>Once per turn, while you're in the air, you can jump again.</p>
+    </section>
+
+    <section class="feature" id="legacy">
+      <span class="lvl">Level 15</span>
+      <h2>Weaver's Legacy</h2>
+      <p>The blood of the Weavers wakes in you.</p>
+      <p><strong>Twin Crests.</strong> You can wear two crests at once, gaining both passives. When you Bind, choose which crest's Bind applies.</p>
+      <p><strong>Silk Heart.</strong> When you roll Initiative, you gain Silk equal to your Proficiency Bonus.</p>
+    </section>
+
+    <aside class="playtest">
+      <span class="label sm gold">Designer notes</span>
+      <ul>
+        <li><strong>Three action lanes.</strong> Silk Skills use the Bonus Action, tools replace an attack, and Bind is shaped by the crest. Silk Skills and Bind compete with <em>Hunter's Mark</em> for the Bonus Action.</li>
+        <li><strong>Crests are the identity.</strong> Beast is the only crest with a real drawback, trading Silk Skills for damage and lifesteal. Twin Crests at level 15 opens combinations like Witch + Beast.</li>
+        <li><strong>Silk carries between fights</strong> until a Long Rest, rewarding a hunter who ends a fight with Silk saved.</li>
+        <li><strong>Concentration:</strong> <em>Haste</em> and <em>Hunter's Mark</em> both need it, so players choose between them.</li>
+      </ul>
+      <span class="label sm gold">Playtest questions</span>
+      <ul>
+        <li>Is a Silk maximum of twice your Proficiency Bonus right for Bind's healing?</li>
+        <li>Is Pale Nails' 3 Silk cost right for 3d8 guaranteed damage?</li>
+        <li>More crests and tools, and possibly crest resonances like the Warrior of the Void's charms?</li>
+      </ul>
+      <span class="label sm">v0.1 Playtest: first public release</span>
+    </aside>
+  </article>
+
+  <nav class="toc" aria-label="On this page">
+    <span class="label sm">On this page</span>
+    <ol>
+      <li><a href="#spells">Silk Hunter Spells</a></li>
+      <li><a href="#needle">Needle and Thread</a></li>
+      <li><a href="#silk">Silk</a></li>
+      <li><a href="#bind">Bind</a></li>
+      <li><a href="#skills">Silk Skills</a></li>
+      <li><a href="#crests">Crests</a></li>
+      <li><a href="#tools">Tools</a></li>
+      <li><a href="#needolin">Needolin</a></li>
+      <li><a href="#faydown">Faydown Step</a></li>
+      <li><a href="#legacy">Weaver's Legacy</a></li>
+    </ol>
+  </nav>
+</div>
+</main>
+
+<footer>
+  <p class="first">Long Rest Press · a Clark Consolidated label · New releases every week</p>
+  <p>Inspired by <em>Hollow Knight: Silksong</em> by Team Cherry. This is unofficial fan work, not affiliated with or endorsed by Team Cherry.</p>
+  <p>Long Rest Press content is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</p>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Warrior of the Void · Monk Subclass · Long Rest Press</title>
+<meta name="description" content="Warrior of the Void: a free D&amp;D 2024 Monk subclass inspired by Hollow Knight. Gather Soul, use Soul Arts, and equip charms with hidden resonances.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Spectral:ital,wght@0,300;0,400;1,300&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<header class="masthead">
+  <nav><a href="browse.html">Browse</a><a href="about.html">About</a></nav>
+  <a class="brand" href="index.html" aria-label="Long Rest Press home">
+    <svg class="moon" viewBox="0 0 40 40" width="30" height="30" aria-hidden="true"><path d="M24 9a11 11 0 1 0 6 18 9 9 0 0 1-6-18z" fill="#d8b25a"/></svg>
+    <span>LONG REST PRESS</span>
+  </a>
+  <div class="end"><a class="btn-ghost" href="index.html#support">Support</a></div>
+</header>
+
+<main>
+<section class="hero small">
+  <a class="label sm backlink" href="browse.html?fandom=Hollow%20Knight%20%26%20Silksong">← Hollow Knight &amp; Silksong</a>
+  <span class="label gold" style="letter-spacing:.24em">Monk subclass · D&amp;D 2024</span>
+  <h1>Warrior of the Void</h1>
+  <p class="lede">A silent warrior with a nail who tears Soul from enemies and spends it to heal or to unleash it in bursts of spirit.</p>
+  <div class="label sm credits"><span>v0.1 Playtest</span><span>Monk levels 3–17</span><span>Inspired by Hollow Knight</span></div>
+</section>
+
+<div class="doc">
+  <article class="article">
+    <blockquote>Some are born with nothing inside them, no voice and no will, only the Void. Warriors of the Void turn that emptiness into strength. Each strike draws Soul from the foe, and the warrior spends it to mend their shell or hurl it back as screaming spirits. They carry charms scavenged from fallen kingdoms, and at the height of their power, the darkness inside them answers.</blockquote>
+
+    <p>For this subclass, your Focus Points are called <strong>Soul</strong>. Soul Arts aren't spells; they use your Focus save DC (8 + Wisdom modifier + Proficiency Bonus).</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Monk Level</th><th>Features</th></tr></thead>
+        <tbody>
+          <tr><td>3rd</td><td>The Nail, Gather Soul, Focus, Soul Arts</td></tr>
+          <tr><td>6th</td><td>Charms</td></tr>
+          <tr><td>11th</td><td>Shade Cloak, Dream Nail</td></tr>
+          <tr><td>17th</td><td>Void Heart</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <section class="feature" id="nail">
+      <span class="lvl">Level 3</span>
+      <h2>The Nail</h2>
+      <p>Choose one Monk weapon to be your nail. When you attack with it, you can use your Martial Arts die in place of the weapon's damage die. If you lose it, you can bond with a new one during a Short Rest.</p>
+    </section>
+
+    <section class="feature" id="gather">
+      <span class="lvl">Level 3</span>
+      <h2>Gather Soul</h2>
+      <p>Once per turn, when you hit a creature with your nail, you regain 1 Soul. Soul regained this way, or from charms, can't exceed your Focus Point maximum. You can do this a number of times equal to your Wisdom modifier (minimum of once), and you regain all uses when you finish a Short or Long Rest.</p>
+    </section>
+
+    <section class="feature" id="focus">
+      <span class="lvl">Level 3</span>
+      <h2>Focus</h2>
+      <p>As a Bonus Action, you can spend up to 3 Soul to mend your shell. You regain Hit Points equal to one roll of your Martial Arts die plus your Wisdom modifier for each Soul spent.</p>
+    </section>
+
+    <section class="feature" id="arts">
+      <span class="lvl">Level 3</span>
+      <h2>Soul Arts</h2>
+      <p>When you take the Attack action, you can replace one of the attacks with a Soul Art.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Soul Art</th><th>Soul</th><th>Effect</th></tr></thead>
+          <tbody>
+            <tr><td>Vengeful Spirit</td><td class="td-num">1</td><td>A spirit tears forward in a 30-foot line, 5 feet wide. Each creature in the line makes a Dexterity saving throw, taking Force damage equal to two rolls of your Martial Arts die on a failed save or half as much on a success.</td></tr>
+            <tr><td>Desolate Dive</td><td class="td-num">2</td><td>You slam into the ground. Each creature within 5 feet of you makes a Dexterity saving throw. On a failed save, it takes Force damage equal to two rolls of your Martial Arts die and has the Prone condition. If you fell or jumped at least 10 feet this turn, the radius is 10 feet.</td></tr>
+            <tr><td>Howling Wraiths</td><td class="td-num">2</td><td>Each creature of your choice within 10 feet of you, including above you, makes a Dexterity saving throw, taking Force damage equal to three rolls of your Martial Arts die on a failed save or half as much on a success. Flying creatures have Disadvantage on the save.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="feature" id="charms">
+      <span class="lvl">Level 6</span>
+      <h2>Charms</h2>
+      <p>You have notches for charms: 3 at level 6, 4 at level 11, and 5 at level 17. At the end of each Long Rest, equip any charms from the list below whose total notch cost fits.</p>
+      <p><strong>Overcharmed.</strong> You can equip charms costing 1 notch more than you have. While overcharmed, whenever you take damage, you take extra damage equal to your Proficiency Bonus.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Charm</th><th>Notches</th><th>Effect</th></tr></thead>
+          <tbody>
+            <tr><td>Soul Catcher</td><td class="td-num">1</td><td>Gather Soul gains 2 extra uses.</td></tr>
+            <tr><td>Grubsong</td><td class="td-num">1</td><td>Once per turn, when you take damage, you regain 1 Soul. This counts as a use of Gather Soul.</td></tr>
+            <tr><td>Dashmaster</td><td class="td-num">1</td><td>Your Speed increases by 10 feet.</td></tr>
+            <tr><td>Thorns of Agony</td><td class="td-num">1</td><td>When a creature hits you with a melee attack, it takes Piercing damage equal to one roll of your Martial Arts die.</td></tr>
+            <tr><td>Defender's Crest</td><td class="td-num">1</td><td>You emit a Heroic Odor. Each creature that starts its turn within 5 feet of you takes 1d4 Poison damage.</td></tr>
+            <tr><td>Quick Focus</td><td class="td-num">2</td><td>Once per Short or Long Rest, you can use Focus as a Reaction when you take damage.</td></tr>
+            <tr><td>Baldur Shell</td><td class="td-num">2</td><td>When you use Focus, you gain a +2 bonus to AC until the start of your next turn.</td></tr>
+            <tr><td>Mark of Pride</td><td class="td-num">2</td><td>Your nail gains the Reach property.</td></tr>
+            <tr><td>Sharp Shadow</td><td class="td-num">2</td><td>When you use Step of the Wind, you can move through hostile creatures' spaces. Each one you pass through takes Force damage equal to one roll of your Martial Arts die, once per creature per turn.</td></tr>
+            <tr><td>Spell Twister</td><td class="td-num">2</td><td>Soul Arts cost 1 fewer Soul (minimum 1).</td></tr>
+            <tr><td>Unbreakable Strength</td><td class="td-num">3</td><td>Your nail deals extra damage equal to your Wisdom modifier.</td></tr>
+            <tr><td>Shaman Stone</td><td class="td-num">3</td><td>Soul Arts deal one extra roll of your Martial Arts die, and their areas increase by 5 feet.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 id="resonances" class="feature">Charm Resonances</h3>
+      <p>Some charms react to each other. While you have both charms of a pair equipped, you also gain its resonance at no extra notch cost. <em>Optional discovery rule:</em> the DM keeps this table secret and reveals a resonance the first time a player equips both charms.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Charms</th><th>Resonance</th></tr></thead>
+          <tbody>
+            <tr><td>Dashmaster + Sharp Shadow</td><td><strong>Shadow Lunge.</strong> Step of the Wind moves you 10 extra feet, and Sharp Shadow deals two rolls of your Martial Arts die.</td></tr>
+            <tr><td>Defender's Crest + Sharp Shadow</td><td><strong>Fumigate.</strong> Each space you pass through with Sharp Shadow fills with a stench until the start of your next turn. A creature that enters it or starts its turn there takes 1d4 Poison damage.</td></tr>
+            <tr><td>Defender's Crest + Thorns of Agony</td><td><strong>Noxious Barbs.</strong> Thorns of Agony deals Poison damage, and the attacker has the Poisoned condition until the end of its next turn.</td></tr>
+            <tr><td>Quick Focus + Baldur Shell</td><td><strong>Shell Snap.</strong> When you use Focus as a Reaction, Baldur Shell's AC bonus applies against the triggering attack, possibly causing it to miss.</td></tr>
+            <tr><td>Baldur Shell + Thorns of Agony</td><td><strong>Spiked Shell.</strong> When an attack misses you because of Baldur Shell, the attacker still takes Thorns of Agony's damage.</td></tr>
+            <tr><td>Grubsong + Soul Catcher</td><td><strong>Bottomless Vessel.</strong> Grubsong's Soul no longer counts against Gather Soul.</td></tr>
+            <tr><td>Shaman Stone + Spell Twister</td><td><strong>Grand Arts.</strong> Vengeful Spirit's line becomes 60 feet long, and Howling Wraiths' radius becomes 20 feet.</td></tr>
+            <tr><td>Mark of Pride + Unbreakable Strength</td><td><strong>Pride's Reach.</strong> When you hit a creature with your nail from 10 feet away, you can push it up to 5 feet away from you.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="feature" id="shade">
+      <span class="lvl">Level 11</span>
+      <h2>Shade Cloak</h2>
+      <p>When you use Step of the Wind, you can move through other creatures' spaces, and attack rolls against you have Disadvantage until the start of your next turn.</p>
+    </section>
+
+    <section class="feature" id="dream">
+      <span class="lvl">Level 11</span>
+      <h2>Dream Nail</h2>
+      <p>As a Magic action, you strike a creature within your reach with the dream edge of your nail. It takes no damage, but you learn its surface thoughts as if you had cast <em>Detect Thoughts</em> on it, and you regain 1 Soul. Once you use this feature on a creature, you can't use it on that creature again until you finish a Long Rest.</p>
+    </section>
+
+    <section class="feature" id="void">
+      <span class="lvl">Level 17</span>
+      <h2>Void Heart</h2>
+      <p>The Void within you awakens.</p>
+      <p><strong>Abyssal Arts.</strong> Your Soul Arts become their shadow forms: Shade Soul, Descending Dark, and Abyss Shriek. They deal Necrotic damage instead of Force, and each deals two extra rolls of your Martial Arts die.</p>
+      <p><strong>Hollow Mind.</strong> You have Immunity to the Charmed and Frightened conditions.</p>
+    </section>
+
+    <aside class="playtest">
+      <span class="label sm gold">Playtest notes</span>
+      <ul>
+        <li>Is the Gather Soul cap (Wisdom modifier per rest) too tight or too loose?</li>
+        <li>Are the Soul Arts' costs right against Flurry of Blows and Patient Defense?</li>
+        <li>Found a resonance combo that breaks something? Tell us.</li>
+      </ul>
+      <span class="label sm">v0.1 Playtest: first public release</span>
+    </aside>
+  </article>
+
+  <nav class="toc" aria-label="On this page">
+    <span class="label sm">On this page</span>
+    <ol>
+      <li><a href="#nail">The Nail</a></li>
+      <li><a href="#gather">Gather Soul</a></li>
+      <li><a href="#focus">Focus</a></li>
+      <li><a href="#arts">Soul Arts</a></li>
+      <li><a href="#charms">Charms</a></li>
+      <li><a href="#resonances">Resonances</a></li>
+      <li><a href="#shade">Shade Cloak</a></li>
+      <li><a href="#dream">Dream Nail</a></li>
+      <li><a href="#void">Void Heart</a></li>
+    </ol>
+  </nav>
+</div>
+</main>
+
+<footer>
+  <p class="first">Long Rest Press · a Clark Consolidated label · New releases every week</p>
+  <p>Inspired by <em>Hollow Knight</em> by Team Cherry. This is unofficial fan work, not affiliated with or endorsed by Team Cherry.</p>
+  <p>Long Rest Press content is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</p>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gearwright · Rogue Subclass · Long Rest Press</title>
+<meta name="description" content="Gearwright: a free D&amp;D 2024 Rogue subclass inspired by Dishonored. Gadget bolts, mines, grenades, blueprints, and masterwork weapons.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Spectral:ital,wght@0,300;0,400;1,300&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<header class="masthead">
+  <nav><a href="browse.html">Browse</a><a href="about.html">About</a></nav>
+  <a class="brand" href="index.html" aria-label="Long Rest Press home">
+    <svg class="moon" viewBox="0 0 40 40" width="30" height="30" aria-hidden="true"><path d="M24 9a11 11 0 1 0 6 18 9 9 0 0 1-6-18z" fill="#d8b25a"/></svg>
+    <span>LONG REST PRESS</span>
+  </a>
+  <div class="end"><a class="btn-ghost" href="index.html#support">Support</a></div>
+</header>
+
+<main>
+<section class="hero small">
+  <a class="label sm backlink" href="browse.html?fandom=Dishonored">← Dishonored</a>
+  <span class="label gold" style="letter-spacing:.24em">Rogue subclass · D&amp;D 2024</span>
+  <h1>Gearwright</h1>
+  <p class="lede">The inventors of the underworld: black-market artisans, disgraced natural philosophers, and assassins who trust a well-oiled mechanism more than any god.</p>
+  <div class="label sm credits"><span>v0.1 Playtest</span><span>Rogue levels 3–17</span><span>Inspired by Dishonored</span></div>
+</section>
+
+<div class="doc">
+  <article class="article">
+    <a class="callout" href="dishonored-style-game.html"><span class="label sm gold">Running a stealth mission? →</span>Playing a Dishonored-Style Game covers maps, guard facing, mission turns, and what to do when the alarm goes up.</a>
+
+    <blockquote>Every pocket holds a dart, a mine, or a grenade, and every safe they crack might hold a new blueprint.</blockquote>
+    <p>The Gearwright is a stealth-or-chaos gadget assassin. Intelligence powers its gadgets, while Dexterity still drives its attacks.</p>
+
+    <section class="feature" id="tools">
+      <span class="lvl">Level 3</span>
+      <h2>Gearwright's Tools</h2>
+      <p>You gain proficiency and Expertise with Tinker's Tools. If your campaign uses firearms, you also gain proficiency with the Pistol (1d10 Piercing, Ammunition with range 30/90, Loading).</p>
+      <p><strong>Gunfire Is Loud.</strong> Firing a pistol ends the benefits of the Hide action for you and is audible to every creature within 300 feet, unless a blueprint says otherwise.</p>
+    </section>
+
+    <section class="feature" id="kit">
+      <span class="lvl">Level 3</span>
+      <h2>Gadget Kit</h2>
+      <p>When you finish a Long Rest, you can use Tinker's Tools to craft a number of gadgets equal to your Intelligence modifier plus your Proficiency Bonus (minimum of 2). You choose each gadget's type when you craft it. Unused gadgets fall apart when you next finish a Long Rest.</p>
+      <p><strong>Gadget Save DC</strong> = 8 + your Intelligence modifier + your Proficiency Bonus.</p>
+      <p><strong>Maker's Touch.</strong> Your gadgets are hand-tuned and temperamental. Only you can use them. In anyone else's hands, a gadget is inert scrap.</p>
+      <p><strong>Scaling dice.</strong> Gadgets that list a damage die deal 2d6 at Rogue level 3, 3d6 at level 9, and 4d6 at level 13. The area gadgets (Springrazor and Frag Grenade) instead deal 3d6, 5d6, and 7d6.</p>
+
+      <h3>Bolts</h3>
+      <p>When you make an attack with a crossbow, you can load a gadget bolt as part of the attack. Its effect applies on a hit.</p>
+      <ul>
+        <li><strong>Sleep Dart.</strong> The bolt deals no damage. The target makes a Constitution saving throw. On a failed save, it has the Poisoned condition and its Speed is halved until the end of its next turn, when it repeats the save. On a second failure, it falls Unconscious for 10 minutes, or until it takes damage or a creature uses an action to shake it awake. Creatures that don't sleep are unaffected.</li>
+        <li><strong>Incendiary Bolt.</strong> The bolt deals extra Fire damage equal to the scaling dice, and the target starts burning. A burning creature takes 1d6 Fire damage at the start of each of its turns until it or a creature within 5 feet takes an action to douse the flames.</li>
+        <li><strong>Stinging Bolt.</strong> The target makes a Wisdom saving throw. On a failed save, it has the Frightened condition until the end of its next turn and must use its movement to move away from you.</li>
+      </ul>
+
+      <h3>Mines and Traps</h3>
+      <p>As a Bonus Action, you can place a mine or trap in an unoccupied space within 5 feet of you. It stays armed for 1 hour. Spotting it requires a Wisdom (Perception) check against your Gadget Save DC.</p>
+      <ul>
+        <li><strong>Stun Mine.</strong> The first creature that moves within 5 feet of the mine triggers it. That creature makes a Constitution saving throw or has the Stunned condition until the end of its next turn. A Construct also takes Lightning damage equal to the scaling dice, whether or not it succeeds.</li>
+        <li><strong>Springrazor.</strong> The first creature that moves within 5 feet of the trap triggers it. Each creature within 10 feet of it makes a Dexterity saving throw, taking Slashing damage equal to the area dice on a failed save, or half as much on a success.</li>
+      </ul>
+
+      <h3>Grenades</h3>
+      <p>You can throw a grenade at a point within 30 feet of you in place of one of the attacks of your Attack action. Sneak Attack doesn't apply to grenades.</p>
+      <ul>
+        <li><strong>Frag Grenade.</strong> Each creature in a 10-foot-radius sphere makes a Dexterity saving throw, taking Fire damage equal to the area dice on a failed save, or half as much on a success.</li>
+        <li><strong>Flash Grenade.</strong> Each creature in a 10-foot-radius sphere makes a Constitution saving throw or has the Blinded condition until the end of its next turn. It deals no damage.</li>
+        <li><strong>Howling Grenade.</strong> Each creature in a 10-foot-radius sphere makes a Wisdom saving throw or has the Frightened condition until the end of its next turn. The shriek is audible to every creature within 300 feet.</li>
+        <li><strong>Chokedust Grenade.</strong> A cloud of choking dust fills a 10-foot-radius sphere and lingers until the end of your next turn. Each creature in the cloud when it appears, or that enters it or starts its turn there, makes a Constitution saving throw. On a failed save, the creature can't speak or cast spells with a Verbal component until the end of its next turn. It deals no damage, and creatures that don't breathe are unaffected. <em>Daud's favorite answer to Overseers and witches.</em></li>
+      </ul>
+    </section>
+
+    <section class="feature" id="blueprints">
+      <span class="lvl">Level 3</span>
+      <h2>Blueprints</h2>
+      <p>Blueprints are permanent upgrades to your gadgets and gear. You know two blueprints of your choice from the <a href="#blueprint-list">Blueprint List</a>, and you learn one more at Rogue levels 5, 7, 11, and 15.</p>
+      <p><strong>Found Blueprints.</strong> Blueprints are also loot, hidden in safes, vaults, and workshops. When you find one, you can install it during a Long Rest. A DM can add a cost of 100 to 500 GP to send you to a black-market fence first.</p>
+      <p>Blueprints you install, including masterworks, work only for you. If anyone else uses a weapon or piece of gear you've modified, it functions as an ordinary item of its kind.</p>
+    </section>
+
+    <section class="feature" id="rewire">
+      <span class="lvl">Level 9</span>
+      <h2>Rewire Tool</h2>
+      <p>You can turn an enemy's defenses against them. As a Bonus Action, you can touch a trap, alarm, lock mechanism, or magical ward within 5 feet of you and make a Dexterity (Tinker's Tools) check. The DC equals the trap's DC or the ward's spell save DC. On a success, you choose one:</p>
+      <ul>
+        <li><strong>Disable.</strong> It stops working until you reactivate it.</li>
+        <li><strong>Reverse.</strong> It now triggers only on creatures you choose, and ignores you and your allies.</li>
+      </ul>
+      <p>This works on spells such as <em>Alarm</em>, <em>Arcane Lock</em>, and <em>Glyph of Warding</em>, and on Dishonored-style Walls of Light, arc pylons, and watchtower alarms.</p>
+      <p><strong>Reprogram.</strong> As a Magic action, you can touch a Construct that has the Incapacitated, Stunned, or Unconscious condition and make an Intelligence (Tinker's Tools) check (DC 10 + its CR). On a success, the Construct regards you as its master for 1 hour, then reverts to its original programming. Once you reprogram a Construct, you can't do so again until you finish a Long Rest.</p>
+      <p><strong>Long Arm.</strong> You can now throw mines and traps up to 30 feet instead of placing them within 5 feet.</p>
+    </section>
+
+    <section class="feature" id="masterwork">
+      <span class="lvl">Level 13</span>
+      <h2>Masterwork Blueprints</h2>
+      <p>You can install masterwork blueprints, the rarest and most dangerous designs in the black market. Choose one masterwork blueprint from the <a href="#masterwork-list">Masterwork Blueprints list</a> (or one you've found, at the DM's discretion) and install it during a Long Rest.</p>
+      <p>Each masterwork offers two upgrades. When you install it, you permanently choose one of the two. Masterworks follow these rules:</p>
+      <ul>
+        <li>A weapon can hold only one masterwork.</li>
+        <li>Extra attacks from different masterworks don't combine in the same turn.</li>
+      </ul>
+    </section>
+
+    <section class="feature" id="prepared">
+      <span class="lvl">Level 17</span>
+      <h2>Prepared Ground</h2>
+      <p>You win fights before they start. You gain the following benefits.</p>
+      <ul>
+        <li><strong>Second Masterwork.</strong> You install a second masterwork blueprint, for a different weapon or gear type than your first.</li>
+        <li><strong>Scouted Ambush.</strong> If you spend at least 10 minutes studying an area, you can prepare it. When combat begins within 300 feet of that area in the next 24 hours, you have Advantage on Initiative and can place up to three mines or traps anywhere in the area, as if you'd set them earlier. These don't expend gadgets. You can prepare one area at a time.</li>
+      </ul>
+    </section>
+
+    <section class="feature" id="blueprint-list">
+      <h2>Blueprint List</h2>
+      <p>The first eight blueprints use real Dishonored names; Folded Galvani Resin is from the first game. Spiked Grenade Housing's effect is invented, replacing the game's sticky grenades. Blueprints marked <em>original</em> are new.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Blueprint</th><th>Upgrades</th><th>Effect</th></tr></thead>
+          <tbody>
+            <tr><td>Fire Hardening Treatment</td><td>Crossbow</td><td>Normal bolts deal an extra 1d4 Piercing damage.</td></tr>
+            <tr><td>Dispersed Incendiary Release</td><td>Incendiary Bolt</td><td>On a hit, each creature within 5 feet of the target makes a Dexterity saving throw or starts burning.</td></tr>
+            <tr><td>Combat Sleep Dart Formula</td><td>Sleep Dart</td><td>A target that fails its first save falls Unconscious immediately.</td></tr>
+            <tr><td>Mercury Vapor Distillation</td><td>Stinging Bolt</td><td>When the Frightened condition ends, the target forgets it ever saw you.</td></tr>
+            <tr><td>Spiked Grenade Housing</td><td>Frag Grenade</td><td>The blast area is covered in shrapnel for 1 minute. It's Difficult Terrain, and a creature takes 1d4 Piercing damage for every 5 feet it moves through it.</td></tr>
+            <tr><td>Magnetized Bullets</td><td>Pistol</td><td>Your pistol attacks ignore a Construct's Resistances. Once per turn, when you hit a Construct with your pistol, it makes a Constitution saving throw against your Gadget Save DC. On a failed save, its gears seize: it has the Incapacitated condition until the end of its next turn, even if it's normally immune.</td></tr>
+            <tr><td>Folded Galvani Resin</td><td>Armor</td><td>You make no sound when you walk or fall up to 20 feet. You have Advantage on Dexterity (Stealth) checks to avoid being heard.</td></tr>
+            <tr><td>Baffle Dust</td><td>Chokedust Grenade</td><td>A creature that fails its save is also dazed. When the effect ends, it doesn't know what happened or where the dust came from, doesn't raise an alarm because of it, and isn't put on alert. If it was attacked while choking, it still knows it was attacked.</td></tr>
+            <tr><td>Twin Razor Coil <em>(original)</em></td><td>Springrazor</td><td>The trap triggers a second time at the start of the triggering creature's next turn.</td></tr>
+            <tr><td>Dampened Firing Pin <em>(original)</em></td><td>Pistol</td><td>Gunfire is audible only within 60 feet.</td></tr>
+            <tr><td>Deep Pockets <em>(original)</em></td><td>Gadget Kit</td><td>You craft two extra gadgets when you finish a Long Rest.</td></tr>
+            <tr><td>Pressure Plate Housing <em>(original)</em></td><td>Stun Mine</td><td>The mine triggers within 10 feet and can affect up to two creatures.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="feature" id="masterwork-list">
+      <h2>Masterwork Blueprints</h2>
+      <p>Most masterworks come from Dishonored 2; the armor and mine masterworks are original. Each offers two upgrades. Choose one permanently when you install it.</p>
+
+      <h3>Corvo's Crossbow Masterwork</h3>
+      <ul>
+        <li><strong>Coffin Nails.</strong> Your crossbow ignores the Loading property. When you take the Attack action with it, you make three crossbow attacks instead of one. Each attack uses its own bolt, and you can load a gadget bolt into each. Sneak Attack still applies only once per turn.</li>
+        <li><strong>The Dealer.</strong> As a Bonus Action, you mark up to three creatures within 60 feet of you. Your next crossbow attack this turn uses one bolt and one attack roll, compared against each marked creature's AC. Every creature you hit takes the damage, and a gadget bolt's effect applies to each one. Sneak Attack applies to one target of your choice. For each hit, you can also call a shot:
+          <ul>
+            <li><strong>Leg.</strong> The target's Speed is halved until the end of its next turn.</li>
+            <li><strong>Arm.</strong> The target drops one object it's holding.</li>
+            <li><strong>Head.</strong> The target has Disadvantage on its next saving throw against your gadgets.</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>Emily's Crossbow Masterwork</h3>
+      <ul>
+        <li><strong>Piercing Insult.</strong> When you use Steady Aim, your next crossbow attack this turn charges into a 60-foot line. Make a separate attack roll against each creature in the line. Each hit deals an extra 2d6 Piercing damage and ignores Resistance to Piercing damage. On a critical hit against a Construct, you sever a limb, and it loses one of its attacks.</li>
+        <li><strong>Long Distance Lover.</strong> Your crossbow's normal range equals its long range, and its attacks ignore Half Cover and Three-Quarters Cover. While you're hidden, crossbow attacks against targets more than 60 feet away don't reveal your position.</li>
+      </ul>
+
+      <h3>Corvo's Pistol Masterwork</h3>
+      <ul>
+        <li><strong>The Determined Traveler.</strong> Your pistol's range becomes 90/240, and it ignores the Loading property. Once per turn, when you take the Attack action and attack a target at least 30 feet away, you can make one extra pistol attack.</li>
+        <li><strong>The Crimson Painter.</strong> Your pistol becomes a scattergun with a range of 15/30. When you attack with it, you can instead target every creature in a 15-foot cone, making a separate attack roll against each one. Each hit deals an extra 1d10 damage. Sneak Attack applies to one target of your choice.</li>
+      </ul>
+
+      <h3>Emily's Pistol Masterwork</h3>
+      <ul>
+        <li><strong>The Red Siblings.</strong> Your pistol fires three-round bursts, and its range becomes 20/60. When you attack with it, you can split the burst among up to three creatures within 10 feet of each other, making an attack roll against each. Or you can put all three into one target, dealing an extra 2d10 damage on a hit. Burst hits ignore a Construct's Resistance to Piercing damage.</li>
+        <li><strong>The Insistent Gentleman.</strong> Your pistol is belt-fed and ignores the Loading property. When you take the Attack action with it, you make two extra pistol attacks. Until the start of your next turn, you can also take a Reaction to make a pistol attack against a creature that moves within 30 feet of you.</li>
+      </ul>
+
+      <h3>Counter-Blast Inversion (Grenades)</h3>
+      <ul>
+        <li><strong>The Expansive Lady.</strong> Your grenades' radius becomes 20 feet. When you throw one, you can choose a number of creatures in the area up to your Intelligence modifier; they're unaffected.</li>
+        <li><strong>Discreet Inquiry.</strong> Your grenades are nearly silent. Throwing one doesn't reveal your position if you're hidden, and the Howling Grenade can be heard only within 30 feet if you choose. Creatures that didn't see the throw make their saving throws with Disadvantage.</li>
+      </ul>
+
+      <h3>Whale-Leather Lining (Armor) <em>(original)</em></h3>
+      <ul>
+        <li><strong>The Silent Partner.</strong> You make no sound unless you choose to. Creatures that rely on hearing alone can't notice you, and you can take the Hide action while only Lightly Obscured.</li>
+        <li><strong>The Iron Gentleman.</strong> Damage you take from weapon attacks is reduced by your Proficiency Bonus. Once per Long Rest, when you drop to 0 Hit Points, you drop to 1 Hit Point instead.</li>
+      </ul>
+
+      <h3>Calibrated Trigger Spring (Mines) <em>(original)</em></h3>
+      <ul>
+        <li><strong>The Patient Hostess.</strong> Your mines and traps can't be found with Wisdom (Perception) checks and stay armed for 24 hours. When you place one, you can set it to trigger only on your command; you trigger it with a Reaction from up to 300 feet away.</li>
+        <li><strong>The Hungry Spider.</strong> Your mines and traps affect every creature within 10 feet of them instead of only the first. When one triggers, every other mine or trap of yours within 30 feet of it triggers too.</li>
+      </ul>
+    </section>
+
+    <aside class="playtest">
+      <span class="label sm gold">Playtest notes</span>
+      <p>The biggest risk is masterworks multiplying attacks on top of Sneak Attack.</p>
+      <ul>
+        <li><strong>Multi-attack masterworks.</strong> Coffin Nails, The Insistent Gentleman, and The Crimson Painter all add attacks. Sneak Attack stays once per turn, but watch total damage at levels 13 to 17.</li>
+        <li><strong>The Dealer and sleep darts.</strong> One shot that can sleep three guards is the intended nonlethal payoff. Watch whether it trivializes stealth encounters.</li>
+        <li><strong>Gadget count.</strong> Intelligence modifier plus Proficiency Bonus may be generous at high levels, especially with Deep Pockets. Trim it if gadgets never run out.</li>
+        <li><strong>Grenades and Sneak Attack.</strong> Grenades replace the Rogue's only attack, so a grenade turn gives up Sneak Attack. That's the intended trade.</li>
+        <li><strong>Sleep Dart timing.</strong> The two-save version keeps it from being an instant win at level 3. Combat Sleep Dart Formula removes that buffer, so treat it as a strong pick.</li>
+        <li><strong>Chaos Tracker.</strong> When the optional rule is out, lethal gadgets (Springrazor, Frag Grenade, Crimson Painter) are natural Chaos sources.</li>
+      </ul>
+      <span class="label sm">v0.1 Playtest: first public release</span>
+    </aside>
+  </article>
+
+  <nav class="toc" aria-label="On this page">
+    <span class="label sm">On this page</span>
+    <ol>
+      <li><a href="#tools">Gearwright's Tools</a></li>
+      <li><a href="#kit">Gadget Kit</a></li>
+      <li><a href="#blueprints">Blueprints</a></li>
+      <li><a href="#rewire">Rewire Tool</a></li>
+      <li><a href="#masterwork">Masterwork Blueprints</a></li>
+      <li><a href="#prepared">Prepared Ground</a></li>
+      <li><a href="#blueprint-list">Blueprint List</a></li>
+      <li><a href="#masterwork-list">Masterwork List</a></li>
+    </ol>
+  </nav>
+</div>
+</main>
+
+<footer>
+  <p class="first">Long Rest Press · a Clark Consolidated label · New releases every week</p>
+  <p>Inspired by <em>Dishonored</em> and <em>Dishonored 2</em> by Arkane Studios. This is unofficial fan work, not affiliated with or endorsed by Arkane Studios or Bethesda.</p>
+  <p>Long Rest Press content is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</p>
+</footer>
+</div>
+</body>
+</html>
