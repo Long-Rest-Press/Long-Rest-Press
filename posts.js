@@ -17,6 +17,8 @@ window.SITE = {
     { name: "Elden Ring",                  planned: 2,  blurb: "Knights and hunters of the Lands Between" },
     { name: "Dishonored",                  planned: 6,  blurb: "The Outsider's marked and the Empire's inventors" },
     { name: "Book & Anime",                planned: 2,  blurb: "Soulstamp forgers and sworn slayers" },
+    { name: "Pokémon",                     planned: 5,  blurb: "One evolution line per subclass, from humble start to final form" },
+    { name: "Spell-cialists",              planned: 4,  blurb: "One spell, built into a whole fighting style" },
     { name: "Standalones",                 planned: 3,  blurb: "Grid-runners, portal-throwers, and legendary arcanists" }
   ],
 
@@ -150,6 +152,19 @@ window.SITE = {
     // ---- Coming soon: Book & Anime ----
     { soon: true, type: "Subclass", fandom: "Book & Anime", class: "Artificer", inspired: "The Emperor's Soul Brandon Sanderson Cosmere novel", title: "Soulstamp Forger", summary: "Soulstamps rewrite an object's past, limited only by plausibility, and Essence Marks shift your role each day." },
     { soon: true, type: "Subclass", fandom: "Book & Anime", class: "Fighter",   inspired: "Goblin Slayer anime manga light novel",               title: "Sworn Slayer",     summary: "Choose a Sworn Foe, spend Preparation Points in flashback for the perfect tool, and unleash a battlefield-scale plan." },
+
+    // ---- Coming soon: Pokémon (one evolution line per subclass; titles are the publishable names) ----
+    { soon: true, type: "Subclass", fandom: "Pokémon", class: "Artificer", inspired: "Pokemon Tinkatink Tinkatuff Tinkaton Scarlet Violet hammer scrap", title: "Scrapsmith",            summary: "A tiny smith who scavenges scrap from every fight and bolts it onto an ever-growing war hammer, until the hammer is many times their own size." },
+    { soon: true, type: "Subclass", fandom: "Pokémon", class: "Barbarian", inspired: "Pokemon Magikarp Gyarados Mega late bloomer sea serpent",          title: "Path of the Leviathan", summary: "A warrior everyone underestimates soaks up every insult and injury, until it all comes out at once as a rampaging sea serpent." },
+    { soon: true, type: "Subclass", fandom: "Pokémon", class: "Druid",     inspired: "Pokemon Cottonee Whimsicott Black White Prankster Cotton Guard",  title: "Circle of Thistledown", summary: "A wind-borne trickster who acts before anyone can react, smothers foes in sticky cotton, and slips through keyholes to leave pranks behind." },
+    { soon: true, type: "Subclass", fandom: "Pokémon", class: "Fighter",   inspired: "Pokemon Scyther Scizor Kleavor dual wield",                       title: "Mantid Blade",          summary: "A blindingly fast dual wielder whose strikes build on each other, evolving into an armored steel duelist or a towering stone-axe brute." },
+    { soon: true, type: "Subclass", fandom: "Pokémon", class: "Sorcerer",  inspired: "Pokemon Eevee eeveelutions Espeon Umbreon Sylveon Vaporeon Jolteon Flareon Leafeon Glaceon", title: "Adaptive Sorcery", summary: "Unstable magic that can become almost anything. A stone, a place, a time of day, or a deep bond tips it, and you evolve into one of eight forms." },
+
+    // ---- Coming soon: Spell-cialists (each subclass is built around one spell) ----
+    { soon: true, type: "Subclass", fandom: "Spell-cialists", class: "Rogue",    inspired: "Mirror Image spell duplicates illusion reflections", title: "Mirrorblade",      summary: "A rogue who fights inside a crowd of their own reflections. Enemies swing at the wrong one, and at the height of the art, the reflections act on their own." },
+    { soon: true, type: "Subclass", fandom: "Spell-cialists", class: "Fighter",  inspired: "Haste spell speed lethargy tempo",                    title: "Quicksilver",      summary: "A warrior who runs on Haste. At first it's a rush they can barely control and a crash that leaves them reeling; in time, they never crash at all." },
+    { soon: true, type: "Subclass", fandom: "Spell-cialists", class: "Sorcerer", inspired: "Mage Armor spell force armor tank spectral knight",   title: "Aegis Sorcery",    summary: "Magic that hardens into armor and weapons of pure force. Hold the front line in spectral plate, then ride into battle as a full spectral knight." },
+    { soon: true, type: "Subclass", fandom: "Spell-cialists", class: "Cleric",   inspired: "Spiritual Weapon spell divine weapon arsenal",        title: "Armory Domain",    summary: "A god who answers prayer with steel. Your spectral weapon fights beside you, changes shape, guards allies, and grows into a floating divine arsenal." },
 
     // ---- Coming soon: Standalones ----
     { soon: true, type: "Subclass", fandom: "Standalones", class: "Artificer", inspired: "Tron",             title: "Gridrunner",        summary: "A disc-throwing engineer who fights with a bonded Identity Disc and conjures hard-light constructs, from racing cycles to towering walls." },
