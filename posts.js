@@ -36,7 +36,7 @@ window.SITE = {
     },
 
     // ---- Launch set (released together; same-day posts appear on the home page in this order) ----
-    { title: "Silk Hunter",          type: "Subclass", class: "Ranger",    fandom: "Hollow Knight & Silksong", inspired: "Hornet Silksong crests Bind needle", date: "2026-10-22", version: "v0.1 Playtest", url: "silk-hunter.html", image: "",
+    { title: "Silk Hunter",          type: "Subclass", class: "Ranger",    fandom: "Hollow Knight & Silksong", inspired: "Hornet Silksong crests Bind needle", date: "2026-10-22", version: "v0.1 Playtest", url: "silk-hunter.html", image: "images/silk-hunter.jpg",
       summary: "A swift hunter who fights with a thread-bound needle, weaves Silk from every strike, crafts deadly tools, and changes her whole fighting style by the crest she wears." },
     { title: "Voidwalker",           type: "Subclass", class: "Wizard",    fandom: "Destiny", guide: "destiny-overview.html", inspired: "Destiny 2 Warlock Void Nova Bomb Nova Warp Devour", date: "2026-10-22", version: "v0.1 Playtest", url: "voidwalker.html", image: "",
       summary: "A glass cannon who survives by consuming enemies: a lingering Vortex Grenade, a life-draining melee cantrip, and Nova Bomb or Nova Warp." },

@@ -155,4 +155,11 @@
 
   renderHome();
   renderBrowse();
+
+  // Images and the Kit form resize the page after the browser's first jump to a #hash,
+  // so links like index.html#newsletter would land in the wrong spot. Jump again once loaded.
+  window.addEventListener("load", function () {
+    var target = location.hash && document.getElementById(location.hash.slice(1));
+    if (target) target.scrollIntoView();
+  });
 })();
