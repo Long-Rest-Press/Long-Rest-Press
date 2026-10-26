@@ -60,12 +60,10 @@ h2{font-size:56px;line-height:1}
 /* Featured (latest) card */
 .section{padding:0 var(--pad)}
 .section-head{margin-bottom:36px}
-.release{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);text-decoration:none;color:var(--ink);border:1px solid var(--rule);background:var(--surface)}
-.art{min-height:300px;background:repeating-linear-gradient(135deg,#1e2233 0 10px,#22263a 10px 20px);display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:12px;color:#7d7f90;text-transform:lowercase}
-.art img{width:100%;height:100%;object-fit:cover;display:block}
+.release{display:block;text-decoration:none;color:var(--ink);border:1px solid var(--rule);background:var(--surface)}
 .release-body{padding:44px 48px;display:flex;flex-direction:column;gap:14px;justify-content:center}
 .release h3{font-size:52px;line-height:1}
-.release p{margin:0;color:var(--ink-2)}
+.release p{margin:0;color:var(--ink-2);max-width:62ch}
 .metarow{display:flex;flex-wrap:wrap;gap:6px 18px}
 
 /* Hairline grids (collections, recent, results) */
@@ -176,8 +174,6 @@ footer .first{color:#c9c6bc}
   .hero{padding:64px 24px 72px}
   h1,.hero.small h1{font-size:56px}
   h2{font-size:44px}
-  .release{grid-template-columns:1fr}
-  .art{min-height:200px}
   .release-body{padding:28px}
   .release h3{font-size:40px}
   .grid,.grid.four{grid-template-columns:1fr}

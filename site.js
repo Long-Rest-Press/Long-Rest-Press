@@ -49,10 +49,8 @@
     if (!featuredEl) return;
     var releases = released.filter(function (p) { return !p.reference; });
     var f = releases[0];
-    var art = f.image ? '<img src="' + esc(f.image) + '" alt="">' : "release art · " + esc(f.title);
     featuredEl.outerHTML =
       '<a class="release" href="' + esc(f.url || "#") + '">' +
-        '<div class="art">' + art + "</div>" +
         '<div class="release-body">' +
           '<div class="label sm metarow"><span class="gold">Latest release</span>' + (f.version ? "<span>" + esc(f.version) + "</span>" : "") + "</div>" +
           '<span class="label sm">' + esc(kind(f)) + " · " + esc(f.fandom) + "</span>" +
