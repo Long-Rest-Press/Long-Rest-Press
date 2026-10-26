@@ -59,6 +59,9 @@ window.SITE = {
     { title: "Energy Drain",         type: "Spell", kindLabel: "Evocation cantrip", class: "Wizard", fandom: "Destiny", inspired: "Voidwalker cantrip Void Force temporary hit points melee spell attack Destiny 2", date: "2026-10-22", version: "v0.1 Playtest", url: "energy-drain.html", image: "",
       summary: "The Voidwalker's life-draining melee cantrip. A touch of Void deals Force damage, and you gain Temporary Hit Points equal to the damage dealt." },
 
+    { title: "Blue Mage",            type: "Subclass", class: "Wizard",    fandom: "Final Fantasy", inspired: "Blue Mage Final Fantasy Tactics A2 FFTA2 monster abilities Blue Magic saber Libra", date: "2026-10-26", version: "v0.1 Playtest", url: "blue-mage.html", image: "",
+      summary: "A saber-wielding Wizard who learns spells from monsters, by surviving their attacks or studying what's left of them, with a Blue Magic table for every creature type." },
+
     {
       title: "Destiny Overview & Chassis",
       kindLabel: "Shared subclass rules",
@@ -114,7 +117,6 @@ window.SITE = {
     { soon: true, type: "Subclass", fandom: "Final Fantasy",class: "Ranger",    inspired: "Final Fantasy Tactics FFT",              title: "Geomancer",    summary: "Terrain-based Geomancy that turns the ground into a weapon, and a Lava Walker's stride." },
     { soon: true, type: "Subclass", fandom: "Final Fantasy",class: "Rogue",     inspired: "Final Fantasy Tactics A2 FFTA2",        title: "Sniper",       summary: "Doubleshot, Vanish, and a Death Sickle that strikes from afar." },
     { soon: true, type: "Subclass", fandom: "Final Fantasy",class: "Warlock",   inspired: "Final Fantasy FFIV FFXIV FFT Cecil",    title: "Dark Knight",  summary: "Fell Sword, The Blackest Night, and the Living Dead." },
-    { soon: true, type: "Subclass", fandom: "Final Fantasy",class: "Wizard",    inspired: "Final Fantasy Tactics A2 FFTA2",        title: "Blue Mage",    summary: "Learn monster abilities and grow your own Blue Magic table." },
     { soon: true, type: "Subclass", fandom: "Final Fantasy",class: "Wizard",    inspired: "Final Fantasy FFT FFXIV",               title: "Black Mage",   summary: "Charge Spell, Elemental Rhythm, and the ultimate spell: Ultima." },
     { soon: true, type: "Optional Rules", fandom: "Final Fantasy",inspired: "Final Fantasy Tactics Advance Judges", title: "Clans",    summary: "Rules for clans, rivals, and Judge-refereed engagements." },
 

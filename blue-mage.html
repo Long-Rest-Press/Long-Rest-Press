@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8M3NKL3QYM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8M3NKL3QYM');
+</script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Blue Mage · Wizard Subclass · Long Rest Press</title>
+<meta name="description" content="Blue Mage: a free D&amp;D 2024 Wizard subclass inspired by Final Fantasy. Learn spells from monsters by surviving their attacks or studying their remains, with a full Blue Magic table by creature type.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Spectral:ital,wght@0,300;0,400;1,300&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<header class="masthead">
+  <nav><a href="browse.html">Browse</a><a href="about.html">About</a><a href="index.html#newsletter">Newsletter</a></nav>
+  <a class="brand" href="index.html" aria-label="Long Rest Press home">
+    <svg class="moon" viewBox="0 0 40 40" width="30" height="30" aria-hidden="true"><path d="M24 9a11 11 0 1 0 6 18 9 9 0 0 1-6-18z" fill="#d8b25a"/></svg>
+    <span>LONG REST PRESS</span>
+  </a>
+  <div class="end"><a class="btn-ghost" href="index.html#support">Support</a></div>
+</header>
+
+<main>
+<section class="hero small">
+  <a class="label sm backlink" href="browse.html?fandom=Final%20Fantasy">← Final Fantasy</a>
+  <span class="label gold" style="letter-spacing:.24em">Wizard subclass · D&amp;D 2024</span>
+  <h1>Blue Mage</h1>
+  <p class="lede">Blue Mages learn magic from monsters: by surviving their attacks, or by studying what's left of them.</p>
+  <div class="label sm credits"><span>v0.1 Playtest</span><span>Arcane Tradition: Blue Magic</span><span>Inspired by Final Fantasy</span></div>
+</section>
+
+<div class="doc">
+  <article class="article">
+    <p>Inspired by the saber-wielding Blue Mage of <em>Final Fantasy Tactics Advance 2</em>, they fight on the front line because that's where the lessons are. Blue Magic uses existing spells from any class's list; the Blue Magic table maps monster abilities to those spells.</p>
+
+    <section class="feature" id="saber">
+      <span class="lvl">Level 3</span>
+      <h2>Saber Training</h2>
+      <p>You gain proficiency with Martial melee weapons that lack the Two-Handed and Heavy properties, and you can use such a weapon as a Spellcasting Focus for your Wizard spells.</p>
+    </section>
+
+    <section class="feature" id="blue-magic">
+      <span class="lvl">Level 3</span>
+      <h2>Blue Magic</h2>
+      <p>You can learn spells from any class's spell list, but only from creatures. Spells learned this way are your Blue Magic spells. They count as Wizard spells for you, and you record them in your spellbook at no gold cost. You learn Blue Magic in two ways:</p>
+      <ul>
+        <li><strong>Learn by Being Hit.</strong> When a creature hits you with an ability on the <a href="#table">Blue Magic table</a>, or forces you to make a saving throw against one, you can record the matching spell when the encounter ends, provided you don't have the Unconscious condition.</li>
+        <li><strong>Learn by Study.</strong> During a Short or Long Rest, you can spend 1 hour studying the remains of a creature and make an Intelligence (Arcana) check (DC 10 + the creature's CR). On a success, you record one spell that creature can teach. A creature's remains can teach only one spell, and only one attempt can be made on them; to learn more of a creature's Blue Magic, you must find another one. The remains must be largely intact.</li>
+      </ul>
+      <p>You can record Blue Magic of any level, but you can't cast a spell until you have spell slots of its level.</p>
+    </section>
+
+    <section class="feature" id="repertoire">
+      <span class="lvl">Level 3</span>
+      <h2>Azure Repertoire</h2>
+      <p>You can prepare a number of additional Blue Magic spells equal to your Proficiency Bonus. These don't count against the number of spells you can prepare.</p>
+    </section>
+
+    <section class="feature" id="extra">
+      <span class="lvl">Level 6</span>
+      <h2>Extra Attack</h2>
+      <p>You can attack twice instead of once whenever you take the Attack action on your turn. You can replace one of those attacks with a casting of one of your Wizard cantrips that has a casting time of an action.</p>
+    </section>
+
+    <section class="feature" id="libra">
+      <span class="lvl">Level 6</span>
+      <h2>Libra</h2>
+      <p>As a Bonus Action, choose a creature you can see within 60 feet of yourself. You learn its damage Vulnerabilities, Resistances, and Immunities, its Condition Immunities, and which Blue Magic spells it can teach you. You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
+    </section>
+
+    <section class="feature" id="felt">
+      <span class="lvl">Level 10</span>
+      <h2>I've Felt This Before</h2>
+      <p>When a creature uses an ability whose matching spell is recorded in your spellbook, you have Advantage on saving throws against that ability and Resistance to its damage.</p>
+    </section>
+
+    <section class="feature" id="retort">
+      <span class="lvl">Level 14</span>
+      <h2>Azure Retort</h2>
+      <p>When you're hit by a Blue Magic ability, or fail a saving throw against one, you can take a Reaction to cast the matching spell at that creature without expending a spell slot, provided the spell is recorded in your spellbook and you can cast spells of its level. Once you use this feature, you can't use it again until you finish a Long Rest unless you expend a level 5 spell slot to restore your use of it.</p>
+    </section>
+
+    <section class="feature" id="table">
+      <h2>Blue Magic Table</h2>
+      <p><em>The DM has final say on which abilities can teach which spells. The tables below are suggestions, not a complete list; DMs are encouraged to map other creatures and abilities the same way.</em></p>
+      <ul>
+        <li><strong>Spellcasters.</strong> A creature with the Spellcasting action can teach any spell it lists. Those spells don't need table entries.</li>
+        <li><strong>Innate abilities.</strong> Everything else uses the tables below, organized by creature type. The same ability can appear at several levels, depending on the creature's size and age.</li>
+        <li><strong>Study only.</strong> Abilities that don't hit you or force you to save, such as a will-o'-wisp turning invisible, can be learned only by study.</li>
+        <li><strong>CR cap.</strong> A creature can teach Blue Magic of a level no higher than half its CR, rounded up. A CR 0 or 1/2 creature teaches only cantrips.</li>
+        <li><strong>Beyond the cap.</strong> You can learn a spell up to the creature's signature level even when it exceeds the CR cap, but it takes an Intelligence (Arcana) check at DC 10 + the creature's CR, plus 5 for each level the spell exceeds the cap. When studying, this replaces the normal study DC. When learning by being hit, you make the check when the encounter ends; on a failure, you can still try again later by studying the creature. Once you have spell slots of the spell's level, the +5 penalty no longer applies, so a medusa can still teach <em>Flesh to Stone</em> to a Blue Mage who can already cast level 6 spells.</li>
+        <li><strong>Kindred Summons.</strong> A creature can teach the Summon spell matching its creature type (<em>Summon Beast</em>, <em>Summon Undead</em>, <em>Summon Fiend</em>, and so on), subject to the normal CR cap.</li>
+        <li><strong>Warrior Techniques.</strong> Martial humanoids teach fighting techniques, mapped to smite, strike, and other combat spells from the Paladin and Ranger lists. A DM can map any warrior NPC's signature move the same way.</li>
+      </ul>
+
+      <h3 id="dragons">Dragons</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Ability</th><th>Example creatures</th><th>Spell</th><th>Level</th></tr></thead>
+          <tbody>
+            <tr><td>Wing buffet</td><td>Wyrmlings, young dragons</td><td><em>Thunderwave</em></td><td>1</td></tr>
+            <tr><td>Small breath weapon</td><td>Wyrmlings</td><td><em>Dragon's Breath</em></td><td>2</td></tr>
+            <tr><td>Frightful Presence</td><td>Adult and older dragons</td><td><em>Fear</em></td><td>3</td></tr>
+            <tr><td>Line breath (lightning)</td><td>Blue and bronze dragons</td><td><em>Lightning Bolt</em></td><td>3</td></tr>
+            <tr><td>Cone breath (cold)</td><td>White and silver dragons</td><td><em>Cone of Cold</em></td><td>5</td></tr>
+            <tr><td>Massive breath (fire)</td><td>Ancient red dragon</td><td><em>Incendiary Cloud</em></td><td>8</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 id="beasts">Beasts</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Ability</th><th>Example creature (CR)</th><th>Spell</th><th>Level</th></tr></thead>
+          <tbody>
+            <tr><td>Mimicry</td><td>Raven (0)</td><td><em>Minor Illusion</em></td><td>0</td></tr>
+            <tr><td>Venomous bite</td><td>Poisonous snake (1/8)</td><td><em>Poison Spray</em></td><td>0</td></tr>
+            <tr><td>Ink cloud</td><td>Giant octopus (1)</td><td><em>Fog Cloud</em></td><td>1</td></tr>
+            <tr><td>Webbing</td><td>Giant spider (1)</td><td><em>Ensnaring Strike</em></td><td>1</td></tr>
+            <tr><td>Webbing</td><td>Giant spider (1)</td><td><em>Web</em> (beyond the cap)</td><td>2</td></tr>
+            <tr><td>Trampling charge</td><td>Elephant (4)</td><td><em>Thunderous Smite</em></td><td>1</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 id="undead">Undead</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Ability</th><th>Example creature (CR)</th><th>Spell</th><th>Level</th></tr></thead>
+          <tbody>
+            <tr><td>Chilling touch</td><td>Shadow (1/2)</td><td><em>Chill Touch</em></td><td>0</td></tr>
+            <tr><td>Wisp shock</td><td>Will-o'-wisp (2)</td><td><em>Shocking Grasp</em></td><td>0</td></tr>
+            <tr><td>Undead Fortitude</td><td>Zombie (1/4)</td><td><em>False Life</em> (beyond the cap)</td><td>1</td></tr>
+            <tr><td>Life Drain</td><td>Specter (1)</td><td><em>Inflict Wounds</em></td><td>1</td></tr>
+            <tr><td>Horrifying Visage</td><td>Ghost (4)</td><td><em>Cause Fear</em></td><td>1</td></tr>
+            <tr><td>Paralyzing claws</td><td>Ghoul (1)</td><td><em>Hold Person</em> (beyond the cap)</td><td>2</td></tr>
+            <tr><td>Dreadful Glare</td><td>Mummy (3)</td><td><em>Hold Person</em></td><td>2</td></tr>
+            <tr><td>Fading from sight</td><td>Will-o'-wisp (2)</td><td><em>Invisibility</em> (beyond the cap)</td><td>2</td></tr>
+            <tr><td>Life Drain</td><td>Wight (3)</td><td><em>Vampiric Touch</em> (beyond the cap)</td><td>3</td></tr>
+            <tr><td>Create Specter</td><td>Wraith (5)</td><td><em>Animate Dead</em></td><td>3</td></tr>
+            <tr><td>Mist form</td><td>Vampire (13)</td><td><em>Gaseous Form</em></td><td>3</td></tr>
+            <tr><td>Charm</td><td>Vampire (13)</td><td><em>Dominate Person</em></td><td>5</td></tr>
+            <tr><td>Mummy Rot</td><td>Mummy lord (15)</td><td><em>Contagion</em></td><td>5</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 id="monstrosities">Monstrosities</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Ability</th><th>Example creature (CR)</th><th>Spell</th><th>Level</th></tr></thead>
+          <tbody>
+            <tr><td>Luring Song</td><td>Harpy (1)</td><td><em>Charm Person</em></td><td>1</td></tr>
+            <tr><td>Shapechanger</td><td>Mimic (2)</td><td><em>Disguise Self</em></td><td>1</td></tr>
+            <tr><td>Darkness Aura</td><td>Darkmantle (1/2)</td><td><em>Darkness</em> (beyond the cap)</td><td>2</td></tr>
+            <tr><td>Acid Spray</td><td>Ankheg (2)</td><td><em>Melf's Acid Arrow</em> (beyond the cap)</td><td>2</td></tr>
+            <tr><td>Displacement</td><td>Displacer beast (3)</td><td><em>Blur</em></td><td>2</td></tr>
+            <tr><td>Ethereal Jaunt</td><td>Phase spider (3)</td><td><em>Misty Step</em></td><td>2</td></tr>
+            <tr><td>Webbing</td><td>Phase spider (3)</td><td><em>Web</em></td><td>2</td></tr>
+            <tr><td>Fire breath</td><td>Chimera (6)</td><td><em>Fireball</em></td><td>3</td></tr>
+            <tr><td>Lightning breath</td><td>Behir (11)</td><td><em>Lightning Bolt</em></td><td>3</td></tr>
+            <tr><td>Petrifying Gaze</td><td>Medusa (6)</td><td><em>Flesh to Stone</em> (beyond the cap)</td><td>6</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 id="fiends">Fiends</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Ability</th><th>Example creature (CR)</th><th>Spell</th><th>Level</th></tr></thead>
+          <tbody>
+            <tr><td>Fetid Cloud</td><td>Dretch (1/4)</td><td><em>Poison Spray</em></td><td>0</td></tr>
+            <tr><td>Poison sting</td><td>Imp (1)</td><td><em>Ray of Sickness</em></td><td>1</td></tr>
+            <tr><td>Scare</td><td>Quasit (1)</td><td><em>Cause Fear</em></td><td>1</td></tr>
+            <tr><td>Fire breath</td><td>Hell hound (3)</td><td><em>Burning Hands</em></td><td>1</td></tr>
+            <tr><td>Invisibility</td><td>Imp (1)</td><td><em>Invisibility</em> (beyond the cap, study only)</td><td>2</td></tr>
+            <tr><td>Charm</td><td>Succubus/Incubus (4)</td><td><em>Suggestion</em></td><td>2</td></tr>
+            <tr><td>Hurl Flame</td><td>Barbed devil (5)</td><td><em>Scorching Ray</em></td><td>2</td></tr>
+            <tr><td>Stench</td><td>Hezrou (8)</td><td><em>Stinking Cloud</em></td><td>3</td></tr>
+            <tr><td>Horror Nimbus</td><td>Nalfeshnee (13)</td><td><em>Fear</em></td><td>3</td></tr>
+            <tr><td>Fire Aura</td><td>Balor (19)</td><td><em>Fire Shield</em></td><td>4</td></tr>
+            <tr><td>Nightmare Haunting</td><td>Night hag (5)</td><td><em>Dream</em> (beyond the cap)</td><td>5</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 id="humanoids">Humanoids</h3>
+      <p>Humanoids with the Spellcasting action teach the spells they cast. The entries below cover martial humanoids; creature names are placeholders for whichever warrior stat blocks you use.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Ability</th><th>Example creature (CR)</th><th>Spell</th><th>Level</th></tr></thead>
+          <tbody>
+            <tr><td>Parry</td><td>Knight (3)</td><td><em>Shield</em></td><td>1</td></tr>
+            <tr><td>Leadership</td><td>Knight (3)</td><td><em>Heroism</em></td><td>1</td></tr>
+            <tr><td>Shield Bash</td><td>Gladiator (5)</td><td><em>Thunderous Smite</em></td><td>1</td></tr>
+            <tr><td>Poisoned blade</td><td>Assassin (8)</td><td><em>Ray of Sickness</em></td><td>1</td></tr>
+            <tr><td>Volley</td><td>Archer-type humanoids (3)</td><td><em>Hail of Thorns</em></td><td>1</td></tr>
+            <tr><td>Brute Strength</td><td>Duergar (1)</td><td><em>Enlarge/Reduce</em> (beyond the cap)</td><td>2</td></tr>
+            <tr><td>Precise Strike</td><td>Gladiator (5)</td><td><em>Branding Smite</em></td><td>2</td></tr>
+            <tr><td>Sneak strike</td><td>Assassin (8)</td><td><em>Invisibility</em> (study only)</td><td>2</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 id="aberrations">Aberrations</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Ability</th><th>Example creature (CR)</th><th>Spell</th><th>Level</th></tr></thead>
+          <tbody>
+            <tr><td>Devour Intellect</td><td>Intellect devourer (2)</td><td><em>Mind Sliver</em></td><td>0</td></tr>
+            <tr><td>Sleep Ray</td><td>Beholder (13)</td><td><em>Sleep</em></td><td>1</td></tr>
+            <tr><td>Paralyzing tentacles</td><td>Chuul (4)</td><td><em>Hold Person</em></td><td>2</td></tr>
+            <tr><td>Phantasms</td><td>Cloaker (8)</td><td><em>Mirror Image</em></td><td>2</td></tr>
+            <tr><td>Moan</td><td>Cloaker (8)</td><td><em>Fear</em></td><td>3</td></tr>
+            <tr><td>Slowing Ray</td><td>Beholder (13)</td><td><em>Slow</em></td><td>3</td></tr>
+            <tr><td>Charm Ray</td><td>Beholder (13)</td><td><em>Charm Monster</em></td><td>4</td></tr>
+            <tr><td>Gibbering</td><td>Gibbering mouther (2)</td><td><em>Confusion</em> (beyond the cap)</td><td>4</td></tr>
+            <tr><td>Telekinetic Ray</td><td>Beholder (13)</td><td><em>Telekinesis</em></td><td>5</td></tr>
+            <tr><td>Enslave</td><td>Aboleth (10)</td><td><em>Dominate Person</em></td><td>5</td></tr>
+            <tr><td>Mind Blast</td><td>Mind flayer (7)</td><td><em>Synaptic Static</em> (beyond the cap)</td><td>5</td></tr>
+            <tr><td>Disintegration Ray</td><td>Beholder (13)</td><td><em>Disintegrate</em></td><td>6</td></tr>
+            <tr><td>Death Ray</td><td>Beholder (13)</td><td><em>Finger of Death</em></td><td>7</td></tr>
+            <tr><td>Antimagic Cone</td><td>Beholder (13)</td><td><em>Antimagic Field</em> (beyond the cap)</td><td>8</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 id="constructs">Constructs</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Ability</th><th>Example creature (CR)</th><th>Spell</th><th>Level</th></tr></thead>
+          <tbody>
+            <tr><td>Sleep-inducing bite</td><td>Homunculus (0)</td><td><em>Sleep</em> (beyond the cap)</td><td>1</td></tr>
+            <tr><td>Shield</td><td>Shield guardian (7)</td><td><em>Warding Bond</em></td><td>2</td></tr>
+            <tr><td>Haste</td><td>Clay golem (9)</td><td><em>Haste</em></td><td>3</td></tr>
+            <tr><td>Slow</td><td>Stone golem (10)</td><td><em>Slow</em></td><td>3</td></tr>
+            <tr><td>Poison Breath</td><td>Iron golem (16)</td><td><em>Cloudkill</em></td><td>5</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 id="elementals">Elementals</h3>
+      <p>Genies (djinni, efreeti, and others) are spellcasters and teach the spells they cast.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Ability</th><th>Example creature (CR)</th><th>Spell</th><th>Level</th></tr></thead>
+          <tbody>
+            <tr><td>Frost breath</td><td>Ice mephit (1/2)</td><td><em>Ray of Frost</em></td><td>0</td></tr>
+            <tr><td>Fire breath</td><td>Magma mephit (1/2)</td><td><em>Fire Bolt</em></td><td>0</td></tr>
+            <tr><td>Blinding breath</td><td>Dust mephit (1/2)</td><td><em>Blindness/Deafness</em> (beyond the cap)</td><td>2</td></tr>
+            <tr><td>Whirlwind</td><td>Air elemental (5)</td><td><em>Gust of Wind</em></td><td>2</td></tr>
+            <tr><td>Heated Body</td><td>Salamander (5)</td><td><em>Heat Metal</em></td><td>2</td></tr>
+            <tr><td>Earth Glide</td><td>Earth elemental, Xorn (5)</td><td><em>Meld into Stone</em></td><td>3</td></tr>
+            <tr><td>Fire Form</td><td>Fire elemental (5)</td><td><em>Fire Shield</em> (beyond the cap)</td><td>4</td></tr>
+            <tr><td>Invisibility</td><td>Invisible stalker (6)</td><td><em>Greater Invisibility</em> (beyond the cap, study only)</td><td>4</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 id="celestials">Celestials</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Ability</th><th>Example creature (CR)</th><th>Spell</th><th>Level</th></tr></thead>
+          <tbody>
+            <tr><td>Healing Touch</td><td>Unicorn (5)</td><td><em>Cure Wounds</em></td><td>1</td></tr>
+            <tr><td>Shimmering Shield</td><td>Unicorn (5)</td><td><em>Shield of Faith</em></td><td>1</td></tr>
+            <tr><td>Angelic Weapons</td><td>Deva (10)</td><td><em>Divine Smite</em></td><td>1</td></tr>
+            <tr><td>Teleport</td><td>Unicorn (5)</td><td><em>Dimension Door</em> (beyond the cap)</td><td>4</td></tr>
+            <tr><td>Change Shape</td><td>Deva (10)</td><td><em>Polymorph</em> (study only)</td><td>4</td></tr>
+            <tr><td>Healing Touch</td><td>Planetar (16)</td><td><em>Heal</em></td><td>6</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 id="fey">Fey</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Ability</th><th>Example creature (CR)</th><th>Spell</th><th>Level</th></tr></thead>
+          <tbody>
+            <tr><td>Fey Charm</td><td>Dryad (1)</td><td><em>Charm Person</em></td><td>1</td></tr>
+            <tr><td>Illusory Appearance</td><td>Green hag (3)</td><td><em>Disguise Self</em></td><td>1</td></tr>
+            <tr><td>Sleep arrows</td><td>Sprite (1/4)</td><td><em>Sleep</em> (beyond the cap)</td><td>1</td></tr>
+            <tr><td>Teleport</td><td>Blink dog (1/4)</td><td><em>Misty Step</em> (beyond the cap)</td><td>2</td></tr>
+            <tr><td>Invisible Passage</td><td>Green hag (3)</td><td><em>Invisibility</em> (study only)</td><td>2</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 id="giants">Giants</h3>
+      <p><em>Catapult</em> is a legacy spell (<em>Xanathar's Guide to Everything</em>) with no 2024 reprint, so it remains usable alongside the 2024 rules.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Ability</th><th>Example creature (CR)</th><th>Spell</th><th>Level</th></tr></thead>
+          <tbody>
+            <tr><td>Thrown rock</td><td>Hill giant (5)</td><td><em>Catapult</em></td><td>1</td></tr>
+            <tr><td>Thrown boulder</td><td>Stone giant (7)</td><td><em>Shatter</em></td><td>2</td></tr>
+            <tr><td>Evil Eye</td><td>Fomorian (8)</td><td><em>Bestow Curse</em></td><td>3</td></tr>
+            <tr><td>Lightning Strike</td><td>Storm giant (13)</td><td><em>Call Lightning</em></td><td>3</td></tr>
+            <tr><td>Ice blasts</td><td>Frost giant (8)</td><td><em>Ice Storm</em></td><td>4</td></tr>
+            <tr><td>Flaming strikes</td><td>Fire giant (9)</td><td><em>Wall of Fire</em></td><td>4</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 id="oozes">Oozes</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Ability</th><th>Example creature (CR)</th><th>Spell</th><th>Level</th></tr></thead>
+          <tbody>
+            <tr><td>Corrosive pseudopod</td><td>Gray ooze (1/2)</td><td><em>Acid Splash</em></td><td>0</td></tr>
+            <tr><td>Split</td><td>Ochre jelly (2)</td><td><em>Mirror Image</em> (beyond the cap)</td><td>2</td></tr>
+            <tr><td>Acidic body</td><td>Black pudding (4)</td><td><em>Melf's Acid Arrow</em></td><td>2</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 id="plants">Plants</h3>
+      <p><em>Thunderclap</em> is a legacy spell (<em>Xanathar's Guide to Everything</em>) with no 2024 reprint.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Ability</th><th>Example creature (CR)</th><th>Spell</th><th>Level</th></tr></thead>
+          <tbody>
+            <tr><td>Shriek</td><td>Shrieker (0)</td><td><em>Thunderclap</em></td><td>0</td></tr>
+            <tr><td>Rotting Touch</td><td>Violet fungus (1/4)</td><td><em>Chill Touch</em></td><td>0</td></tr>
+            <tr><td>Entangling Plants</td><td>Vine blight (1/2)</td><td><em>Entangle</em> (beyond the cap)</td><td>1</td></tr>
+            <tr><td>Engulf</td><td>Shambling mound (5)</td><td><em>Entangle</em></td><td>1</td></tr>
+            <tr><td>Pacifying Spores</td><td>Myconid sovereign (2)</td><td><em>Calm Emotions</em> (beyond the cap)</td><td>2</td></tr>
+            <tr><td>Animate Trees</td><td>Treant (9)</td><td><em>Plant Growth</em></td><td>3</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <aside class="playtest">
+      <span class="label sm gold">Playtest notes</span>
+      <ul>
+        <li><strong>Learning pace:</strong> is the party meeting enough teachable creatures to make a new spell feel like a regular event?</li>
+        <li><strong>Study DC:</strong> check that DC 10 + CR feels reachable at low and mid levels.</li>
+        <li><strong>Off-list access:</strong> watch for any non-Wizard spell that becomes too strong in a Wizard's hands.</li>
+        <li><strong>Frontline survivability:</strong> with no defensive feature, see whether the Blue Mage survives melee at low levels.</li>
+        <li><strong>Azure Retort:</strong> confirm a free reflected spell at level 14 isn't too swingy with high-level Blue Magic.</li>
+        <li><strong>Stat block check:</strong> verify ability names and CRs in the tables against the 2024 Monster Manual.</li>
+        <li><strong>Divine Smite:</strong> a Blue Mage with Divine Smite and Extra Attack could hit hard; watch how often devas appear and whether it dominates.</li>
+      </ul>
+      <span class="label sm">v0.1 Playtest: first public release</span>
+    </aside>
+
+    <aside class="signup" aria-label="Newsletter">
+      <span class="label sm gold">Join the mailing list</span>
+      <h3>Take a long rest, we'll wake you for the loot.</h3>
+      <p>New subclasses, game tips, and table-tested ideas delivered to your inbox.</p>
+      <a class="btn-gold" href="index.html#newsletter">I Cast "Subscribe"</a>
+    </aside>
+  </article>
+
+  <nav class="toc" aria-label="On this page">
+    <span class="label sm">On this page</span>
+    <ol>
+      <li><a href="#saber">Saber Training</a></li>
+      <li><a href="#blue-magic">Blue Magic</a></li>
+      <li><a href="#repertoire">Azure Repertoire</a></li>
+      <li><a href="#extra">Extra Attack</a></li>
+      <li><a href="#libra">Libra</a></li>
+      <li><a href="#felt">I've Felt This Before</a></li>
+      <li><a href="#retort">Azure Retort</a></li>
+      <li><a href="#table">Blue Magic Table</a></li>
+    </ol>
+  </nav>
+</div>
+</main>
+
+<footer>
+  <p class="first">Long Rest Press · a Clark Consolidated label · New releases every week</p>
+  <p>Inspired by <em>Final Fantasy Tactics Advance 2</em> by Square Enix. This is unofficial fan work, not affiliated with or endorsed by Square Enix.</p>
+  <p>Long Rest Press content is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</p>
+</footer>
+</div>
+</body>
+</html>
