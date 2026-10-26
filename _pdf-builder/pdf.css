@@ -1,0 +1,114 @@
+/* Long Rest Press: printable PDF look (matches the "Subclass PDF" design canvas).
+   Used only by build.cjs, never by the live site. */
+
+@font-face{font-family:"Cormorant Garamond";font-weight:500;font-style:normal;src:url(/__fonts/cormorant-garamond/files/cormorant-garamond-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"Cormorant Garamond";font-weight:500;font-style:italic;src:url(/__fonts/cormorant-garamond/files/cormorant-garamond-latin-500-italic.woff2) format("woff2")}
+@font-face{font-family:"Cormorant Garamond";font-weight:600;font-style:normal;src:url(/__fonts/cormorant-garamond/files/cormorant-garamond-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:"Cormorant Garamond";font-weight:600;font-style:italic;src:url(/__fonts/cormorant-garamond/files/cormorant-garamond-latin-600-italic.woff2) format("woff2")}
+@font-face{font-family:"Spectral";font-weight:400;font-style:normal;src:url(/__fonts/spectral/files/spectral-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Spectral";font-weight:400;font-style:italic;src:url(/__fonts/spectral/files/spectral-latin-400-italic.woff2) format("woff2")}
+@font-face{font-family:"Spectral";font-weight:600;font-style:normal;src:url(/__fonts/spectral/files/spectral-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:"Spectral";font-weight:600;font-style:italic;src:url(/__fonts/spectral/files/spectral-latin-600-italic.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-weight:400;font-style:normal;src:url(/__fonts/ibm-plex-mono/files/ibm-plex-mono-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-weight:500;font-style:normal;src:url(/__fonts/ibm-plex-mono/files/ibm-plex-mono-latin-500-normal.woff2) format("woff2")}
+
+:root{
+  --paper:#FBF8F1; --ink:#1B1E2C; --ink-2:#33364A; --muted:#4A4B57;
+  --accent:#7A5C14; --gold:#D8B25A; --gold-2:#B8923A;
+  --box:#F6F0E2; --box-line:#D9CDB0; --th:#F2EBD9; --row:#E2D7BE;
+  --display:"Cormorant Garamond",Georgia,serif;
+  --body:"Spectral",Georgia,serif;
+  --mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+
+@page{
+  size:letter;
+  margin:.7in .75in .8in;
+  background:var(--paper);
+  @bottom-left{content:"Long Rest Press";font:400 8pt "IBM Plex Mono",monospace;letter-spacing:.14em;text-transform:uppercase;color:#4A4B57;vertical-align:middle}
+  @bottom-right{content:counter(page) " / " counter(pages);font:400 8pt "IBM Plex Mono",monospace;letter-spacing:.1em;color:#4A4B57;vertical-align:middle}
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--paper)}
+body{color:var(--ink);font:400 16px/1.6 var(--body);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+h1,h2,h3,h4{text-wrap:balance}
+p,li{text-wrap:pretty;orphans:3;widows:3}
+a{color:var(--accent);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:2px}
+em{font-style:italic}
+strong,b{font-weight:600}
+li::marker{color:var(--gold-2)}
+
+.mono{font-family:var(--mono);font-size:12px;letter-spacing:.2em;text-transform:uppercase}
+.accent{color:var(--accent);font-weight:500}
+
+/* Running head */
+.runhead{display:flex;justify-content:space-between;align-items:center;padding-bottom:14px;border-bottom:1px solid var(--gold);font-family:var(--mono);font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+.runhead .brand{display:flex;align-items:center;gap:10px;color:var(--ink);font-weight:500}
+.runhead a{color:inherit;text-decoration:none}
+
+/* Title block */
+.titleblock{text-align:center;padding:52px 24px 36px}
+.titleblock .kicker{color:var(--accent);font-weight:500;letter-spacing:.24em}
+.titleblock h1{margin:14px 0 0;font:500 84px/1 var(--display);letter-spacing:-.01em}
+.titleblock h1 em{color:var(--accent)}
+.titleblock .lede{margin:20px auto 0;max-width:520px;font-style:italic;font-size:19px;line-height:1.5;color:var(--ink-2)}
+.ornament{display:flex;justify-content:center;align-items:center;gap:14px;margin-top:30px}
+.ornament i{display:block;height:1px;width:90px;background:var(--gold)}
+.ornament.wide{margin:48px 0 8px;break-after:avoid}
+.ornament.wide i{flex:1;width:auto}
+.credits{display:flex;justify-content:center;flex-wrap:wrap;gap:8px 22px;margin-top:22px;font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+
+/* Features at a glance */
+.glance{float:right;width:236px;margin:4px 0 20px 36px;border:1px solid var(--box-line);background:var(--box);padding:16px 18px;break-inside:avoid}
+.glance .mono{display:block;margin-bottom:8px}
+.glance .row{display:flex;gap:12px;font-size:14px;line-height:1.5;padding:4px 0;border-top:1px solid #E6DCC4}
+.glance .row span:first-child{font-family:var(--mono);font-size:12px;color:var(--muted);width:28px;flex-shrink:0;padding-top:2px}
+
+/* Body copy */
+.body > p{margin:0 0 14px}
+.body > :not(p):not(.glance){clear:both}
+.body ul,.body ol{margin:0 0 12px;padding-left:22px}
+.body li{margin-bottom:7px}
+.body p{margin:0 0 12px}
+.body section.feature{margin-top:34px}
+.body section.feature > :last-child{margin-bottom:0}
+.body .lvl{display:block;font-family:var(--mono);font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);font-weight:500;break-after:avoid}
+.body h2{margin:4px 0 10px;font:600 31px/1.15 var(--display);break-after:avoid}
+.body section.feature:not(:has(> .lvl)) > h2{font-size:36px;margin-top:0}
+.body h3{margin:26px 0 8px;font:600 24px/1.2 var(--display);break-after:avoid}
+.body h4{margin:18px 0 6px;font:600 19px/1.25 var(--display);break-after:avoid}
+.body h2 em,.body h3 em{color:var(--accent)}
+.body h3 + p > em:only-child{color:var(--ink-2)}
+
+/* Callouts (e.g. shared Destiny rules) */
+.callout{display:block;margin:0 0 20px;border:1px solid var(--box-line);border-left:0;border-top:3px solid var(--gold);background:var(--box);padding:16px 20px;font-size:15px;line-height:1.55;color:var(--ink);text-decoration:none;break-inside:avoid}
+.callout .label{display:block;font-family:var(--mono);font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-weight:500;margin-bottom:6px}
+.callout .see{display:block;margin-top:6px;font-family:var(--mono);font-size:12px;letter-spacing:.06em;color:var(--muted)}
+
+/* Tables */
+.table-wrap{margin:10px 0 18px}
+table{width:100%;border-collapse:collapse;font-size:13.5px;line-height:1.4}
+thead{display:table-header-group}
+tr{break-inside:avoid}
+th{text-align:left;vertical-align:bottom;padding:7px 10px;background:var(--th);border-top:1px solid var(--gold-2);border-bottom:1px solid var(--gold-2);font:500 12px/1.3 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--ink)}
+td{vertical-align:top;padding:6px 10px;border-bottom:1px solid var(--row)}
+td.num{font-family:var(--mono);font-size:13px}
+th.num-r,td.num-r{text-align:right}
+
+/* Playtest notes */
+.notes{clear:both;margin-top:44px;border:1px solid var(--box-line);border-top:3px solid var(--gold);background:var(--box);padding:22px 26px}
+.notes > .mono{display:block;color:var(--accent);font-weight:500;margin-bottom:10px}
+.notes ul{margin:0;padding-left:20px;font-size:15px;line-height:1.55}
+.notes li{margin-bottom:6px}
+.notes p{margin:0 0 8px;font-size:15px}
+.notes .version{display:block;margin-top:14px;letter-spacing:.14em;color:var(--muted)}
+
+/* Closing + legal */
+.closing{clear:both;margin-top:52px;text-align:center;break-inside:avoid}
+.closing .line{margin:10px 0 0;font:italic 500 26px/1.25 var(--display)}
+.closing .cta{margin:10px auto 0;max-width:520px;font-size:15px;color:var(--ink-2)}
+.legal{margin-top:36px;padding-top:16px;border-top:1px solid var(--gold);font-size:12px;line-height:1.55;color:var(--muted);break-inside:avoid}
+.legal p{margin:0 0 6px}
+.legal p:first-child{font-family:var(--mono);letter-spacing:.12em;text-transform:uppercase}
+.legal a{color:inherit}
