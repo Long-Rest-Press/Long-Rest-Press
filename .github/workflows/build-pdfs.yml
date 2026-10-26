@@ -1,0 +1,55 @@
+# Rebuilds the downloadable PDF for any page that changed, then saves the
+# PDFs (and any new Download PDF buttons) back into the repository.
+name: Build PDFs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**.html"
+      - "_pdf-builder/**"
+      - ".github/workflows/build-pdfs.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: build-pdfs
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install the PDF tools
+        working-directory: _pdf-builder
+        run: |
+          npm ci --no-audit --no-fund
+          npx playwright install --with-deps chromium
+
+      - name: Build PDFs
+        run: node _pdf-builder/build.cjs
+
+      - name: Save the PDFs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add pdf ./*.html
+          if git diff --cached --quiet; then
+            echo "Nothing new to save."
+          else
+            git commit -m "Update downloadable PDFs"
+            git push
+            # Make sure the live site picks up the new PDFs right away.
+            gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
