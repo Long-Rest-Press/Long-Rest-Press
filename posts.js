@@ -54,7 +54,7 @@ window.SITE = {
       summary: "The Red Mage: rapier and spell together, fencing in close and leaping back out to cast. Twin spells early, stack Metamagic later, then cast two at once." },
     { title: "Gearwright",           type: "Subclass", class: "Rogue",     fandom: "Dishonored", inspired: "gadgets crossbow sleep dart mines grenades blueprints Daud Corvo Emily", date: "2026-10-22", version: "v0.1 Playtest", url: "gearwright.html", image: "",
       summary: "An underworld inventor with a pocket full of sleep darts, mines, and grenades, plus blueprints and masterwork weapons found in safes and vaults." },
-    { title: "Gunslinger",           type: "Subclass", class: "Rogue",     fandom: "Destiny", guide: "destiny-overview.html", inspired: "Destiny 2 Hunter Solar Golden Gun Blade Barrage", date: "2026-10-22", version: "v0.1 Playtest", url: "gunslinger.html", image: "",
+    { title: "Sunslinger",           type: "Subclass", class: "Rogue",     fandom: "Destiny", guide: "destiny-overview.html", inspired: "Destiny 2 Hunter Solar Golden Gun Blade Barrage", date: "2026-10-22", version: "v0.1 Playtest", url: "sunslinger.html", image: "",
       summary: "The Light's sharpshooter: tripmines, fans of Solar knives, and a Golden Bow of three devastating shots." },
     { title: "Energy Drain",         type: "Spell", kindLabel: "Evocation cantrip", class: "Wizard", fandom: "Destiny", inspired: "Voidwalker cantrip Void Force temporary hit points melee spell attack Destiny 2", date: "2026-10-22", version: "v0.1 Playtest", url: "energy-drain.html", image: "",
       summary: "The Voidwalker's life-draining melee cantrip. A touch of Void deals Force damage, and you gain Temporary Hit Points equal to the damage dealt." },
