@@ -81,7 +81,7 @@ window.SITE = {
       type: "Optional Rules",
       fandom: "Dishonored",
       reference: true, // a GM guide, not a release: kept out of the home page's "Latest" section
-      inspired: "GM guide stealth infiltration map guards patrols mission turns timeline alarm",
+      inspired: "GM guide stealth infiltration map guards patrols mission turns timeline takedown assassination alarm",
       date: "2026-10-22",
       version: "v0.1 Playtest",
       url: "dishonored-style-game.html",
