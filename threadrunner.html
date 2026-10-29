@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8M3NKL3QYM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8M3NKL3QYM');
+</script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Threadrunner · Ranger Subclass · Long Rest Press</title>
+<meta name="description" content="Threadrunner: a free D&amp;D 2024 Ranger subclass inspired by Destiny's Strand Hunter. Grapple, Threaded Spike, Widow's Silk, and the Silkstrike Super.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Spectral:ital,wght@0,300;0,400;1,300&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<header class="masthead">
+  <nav><a href="browse.html">Browse</a><a href="about.html">About</a><a href="index.html#newsletter">Newsletter</a></nav>
+  <a class="brand" href="index.html" aria-label="Long Rest Press home">
+    <svg class="moon" viewBox="0 0 40 40" width="30" height="30" aria-hidden="true"><path d="M24 9a11 11 0 1 0 6 18 9 9 0 0 1-6-18z" fill="#d8b25a"/></svg>
+    <span>LONG REST PRESS</span>
+  </a>
+  <div class="end"><a class="btn-ghost" href="index.html#support">Support</a></div>
+</header>
+
+<main>
+<section class="hero small">
+  <a class="label sm backlink" href="browse.html?fandom=Destiny">← Destiny</a>
+  <span class="label gold" style="letter-spacing:.24em">Ranger subclass · D&amp;D 2024</span>
+  <h1>Threadrunner</h1>
+  <p class="lede">Threadrunners weave the bonds between living things into rope, blade, and anchor. They never touch the ground for long.</p>
+  <div class="label sm credits"><span>v0.1 Playtest</span><span>Destiny Hunter · Strand</span><span>Inspired by Destiny 2</span></div>
+  <a class="btn-ghost pdf-download" href="pdf/threadrunner.pdf" download>Download PDF</a>
+</section>
+
+<div class="doc">
+  <article class="article">
+    <a class="callout" href="destiny-overview.html"><span class="label sm gold">Shared Destiny rules →</span>This subclass uses the Grenade, Charged Melee, Class Ability, Super, and element keyword rules from the Destiny Overview &amp; Chassis.</a>
+
+    <p>The Threadrunner is the Strand Hunter as a Ranger subclass. It uses the Shared Chassis from the <a href="destiny-overview.html#chassis">Destiny Overview &amp; Chassis</a>, with its Super at level 11 and the upgrade at level 15. Strand uses Psychic damage, reflecting its mind-over-matter nature. The key ability is Wisdom, so all saves and spell attacks use your spell save DC and spell attack modifier.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Ranger Level</th><th>Features</th></tr></thead>
+        <tbody>
+          <tr><td>3</td><td>Threadrunner Spells, Grapple, Threaded Spike</td></tr>
+          <tr><td>7</td><td>Widow's Silk, Dodge</td></tr>
+          <tr><td>11</td><td>Super: Silkstrike</td></tr>
+          <tr><td>15</td><td>Unravel</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <section class="feature" id="spells">
+      <span class="lvl">Level 3</span>
+      <h2>Threadrunner Spells</h2>
+      <p>You always have these spells prepared.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Ranger Level</th><th>Spell</th></tr></thead>
+          <tbody>
+            <tr><td>3</td><td><em>Feather Fall</em></td></tr>
+            <tr><td>5</td><td><em>Web</em></td></tr>
+            <tr><td>9</td><td><em>Fly</em></td></tr>
+            <tr><td>13</td><td><em>Evard's Black Tentacles</em></td></tr>
+            <tr><td>17</td><td><em>Hold Monster</em></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="feature" id="grapple">
+      <span class="lvl">Level 3</span>
+      <h2>Grapple</h2>
+      <p>This is your <a href="destiny-overview.html#grenade">Grenade</a>. As a Bonus Action, you fire a Strand line at one of the following within 60 feet that you can see:</p>
+      <ul>
+        <li><strong>A surface or object.</strong> You pull yourself in a straight line to a space next to it, such as a wall, ceiling, ledge, or large object.</li>
+        <li><strong>A creature.</strong> You pull yourself to an unoccupied space within 5 feet of it.</li>
+      </ul>
+      <p>This movement doesn't use your Speed and doesn't provoke Opportunity Attacks.</p>
+      <p><strong>Grapple Strike.</strong> If you grappled to a creature, the next time you hit it with a melee attack before the end of your turn, it takes extra Psychic damage equal to your grenade damage.</p>
+    </section>
+
+    <section class="feature" id="spike">
+      <span class="lvl">Level 3</span>
+      <h2>Threaded Spike</h2>
+      <p>This is your <a href="destiny-overview.html#melee">Charged Melee</a>. Once per turn, when you take the Attack action, you can replace one attack with a thrown Threaded Spike aimed at a creature within 30 feet. Make a ranged spell attack. On a hit, the target takes Psychic damage equal to your grenade damage.</p>
+      <p>The spike then ricochets to a second creature of your choice within 15 feet of the first. Make a new attack roll against it, dealing the same damage on a hit. The spike then returns to your hand.</p>
+    </section>
+
+    <section class="feature" id="widows-silk">
+      <span class="lvl">Level 7</span>
+      <h2>Widow's Silk</h2>
+      <p><strong>Endless Lines.</strong> Once on each of your turns, you can use Grapple without expending a use. You expend a use only when you want to add Grapple Strike damage.</p>
+      <p><strong>Woven Mail.</strong> When you hit with Grapple Strike or Threaded Spike, you gain Resistance to Bludgeoning, Piercing, and Slashing damage until the start of your next turn.</p>
+    </section>
+
+    <section class="feature" id="dodge">
+      <span class="lvl">Level 7</span>
+      <h2>Dodge</h2>
+      <p>You gain the <a href="destiny-overview.html#class-ability">Dodge Class Ability</a> from the Shared Chassis. Threadrunner twist: when you Dodge, you can use Grapple instead of moving up to half your Speed, without expending a use.</p>
+    </section>
+
+    <section class="feature" id="super">
+      <span class="lvl">Level 11</span>
+      <h2>Super: Silkstrike</h2>
+      <p>You can use Silkstrike once per Long Rest. You can regain its use by expending a level 3+ spell slot (no action required).</p>
+      <p>As a Bonus Action, you weave a rope dart staff that lasts for 3 rounds, ending at the start of your turn 3 rounds later. While it lasts, you gain these benefits:</p>
+      <ul>
+        <li><strong>Rope Dart.</strong> The rope dart is a melee weapon with 15-foot reach that you're proficient with. It deals 1d10 Psychic damage plus your choice of your Wisdom or Dexterity modifier.</li>
+        <li><strong>Lunge.</strong> Before each attack with the rope dart, you can move up to 20 feet toward the target. This movement doesn't use your Speed and doesn't provoke Opportunity Attacks.</li>
+        <li><strong>Whirl.</strong> Once per turn, when you hit with the rope dart, each other creature of your choice within 10 feet of you takes 2d8 Psychic damage.</li>
+        <li><strong>Free Lines.</strong> Using Grapple requires no action, though you can still use it only once per turn.</li>
+      </ul>
+    </section>
+
+    <section class="feature" id="unravel">
+      <span class="lvl">Level 15</span>
+      <h2>Unravel</h2>
+      <p><strong>Unraveled.</strong> When a creature takes damage from your Grapple Strike, Threaded Spike, or Silkstrike, it becomes Unraveled until the end of your next turn. The next time an Unraveled creature takes damage from you, threads lash out from it: up to two creatures of your choice within 10 feet of it each take 2d6 Psychic damage. The creature then stops being Unraveled.</p>
+      <p><strong>Whirling Maelstrom.</strong> Silkstrike's Whirl now reaches creatures within 15 feet of you, and Lunge's movement increases to 30 feet.</p>
+    </section>
+
+    <a class="callout" href="destiny-exotics-drop-01.html#cyrtarachne"><span class="label sm gold">Released with this subclass →</span>Exotics Drop 01 includes Cyrtarachne's Facade, a Strand helm that grants Woven Mail each time you use your Grapple.</a>
+
+    <aside class="playtest">
+      <span class="label sm gold">Playtest watch list</span>
+      <p>Three things to watch at the table, along with the lever to pull if one runs hot.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Watch item</th><th>Concern</th><th>Lever if too strong</th></tr></thead>
+          <tbody>
+            <tr><td>Free grappling from level 7</td><td>A 60-foot Bonus Action reposition every turn bypasses terrain, chasms, and frontlines, which may trivialize dungeons and chases</td><td>Shorten free grapples to 30 feet</td></tr>
+            <tr><td>Threaded Spike's two targets</td><td>It's two grenade-damage hits from one attack; not a current concern</td><td>Halve damage on the ricochet</td></tr>
+            <tr><td>Silkstrike's reach plus Lunge</td><td>It can hit nearly anything within 35 feet (45 at level 15) without provoking Opportunity Attacks</td><td>Drop Lunge to 10 feet</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><strong>Open for later:</strong> Grapple only moves you for now. Pulling smaller creatures or objects to you is a possible future addition.</p>
+      <span class="label sm">v0.1 Playtest: first public release</span>
+    </aside>
+
+    <aside class="signup" aria-label="Newsletter">
+      <span class="label sm gold">Join the mailing list</span>
+      <h3>Take a long rest, we'll wake you for the loot.</h3>
+      <p>New subclasses, game tips, and table-tested ideas delivered to your inbox.</p>
+      <a class="btn-gold" href="index.html#newsletter">I Cast "Subscribe"</a>
+    </aside>
+  </article>
+
+  <nav class="toc" aria-label="On this page">
+    <span class="label sm">On this page</span>
+    <ol>
+      <li><a href="#spells">Threadrunner Spells</a></li>
+      <li><a href="#grapple">Grapple</a></li>
+      <li><a href="#spike">Threaded Spike</a></li>
+      <li><a href="#widows-silk">Widow's Silk</a></li>
+      <li><a href="#dodge">Dodge</a></li>
+      <li><a href="#super">Super: Silkstrike</a></li>
+      <li><a href="#unravel">Unravel</a></li>
+      <li><a href="destiny-overview.html">Shared Destiny rules</a></li>
+    </ol>
+  </nav>
+</div>
+</main>
+
+<footer>
+  <p class="first">Long Rest Press · a Clark Consolidated label · New releases every week</p>
+  <p>Inspired by <em>Destiny</em> and <em>Destiny 2</em> by Bungie. This is unofficial fan work, not affiliated with or endorsed by Bungie.</p>
+  <p>Long Rest Press content is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</p>
+</footer>
+</div>
+</body>
+</html>

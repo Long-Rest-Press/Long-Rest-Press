@@ -62,6 +62,12 @@ window.SITE = {
     { title: "Blue Mage",            type: "Subclass", class: "Wizard",    fandom: "Final Fantasy", inspired: "Blue Mage Final Fantasy Tactics A2 FFTA2 monster abilities Blue Magic saber Libra", date: "2026-10-26", version: "v0.1 Playtest", url: "blue-mage.html", image: "",
       summary: "A saber-wielding Wizard who learns spells from monsters, by surviving their attacks or studying what's left of them, with a Blue Magic table for every creature type." },
 
+    // ---- Threadrunner drop (subclass first so it's the featured release; its Exotics drop follows) ----
+    { title: "Threadrunner",         type: "Subclass", class: "Ranger",    fandom: "Destiny", guide: "destiny-overview.html", inspired: "Destiny 2 Hunter Strand Grapple Threaded Spike Silkstrike Woven Mail Unraveled", date: "2026-10-29", version: "v0.1 Playtest", url: "threadrunner.html", image: "",
+      summary: "The Strand Hunter: grapple across the battlefield on a line of thread, hurl a ricocheting Threaded Spike, and unleash the Silkstrike rope dart." },
+    { title: "Exotics Drop 01: Threadrunner", type: "Magic Item", kindLabel: "Destiny Exotics", fandom: "Destiny", guide: "destiny-exotics.html", inspired: "Destiny 2 Exotic weapons armor Ghost Cyrtarachne's Facade Quicksilver Storm Wish-Keeper Final Warning Hawkmoon Raze-Lighter Bolt-Caster Dark-Drinker forged swords Strand", date: "2026-10-29", version: "v0.1 Playtest", url: "destiny-exotics-drop-01.html", image: "",
+      summary: "Nine items released with the Threadrunner: a Ghost companion, Cyrtarachne's Facade, Quicksilver Storm, Wish-Keeper, Final Warning, Hawkmoon, and three forged swords." },
+
     {
       title: "Destiny Overview & Chassis",
       kindLabel: "Shared subclass rules",
@@ -74,6 +80,20 @@ window.SITE = {
       url: "destiny-overview.html",
       image: "",
       summary: "The rules every Destiny subclass shares: grenades, charged melee, Rift, Barricade and Dodge, Supers, and the element keywords from Volatile to Woven Mail."
+    },
+
+    {
+      title: "Destiny Exotics Overview",
+      kindLabel: "Shared item rules",
+      reference: true, // a rules page, not a release: kept out of the home page's "Latest" section
+      type: "Magic Item",
+      fandom: "Destiny",
+      inspired: "Destiny 2 Exotic weapons armor rarity Heavy Draw Ahamkara Whispers Boon Debts",
+      date: "2026-10-29",
+      version: "v0.1 Playtest",
+      url: "destiny-exotics.html",
+      image: "",
+      summary: "The rules every Destiny Exotic shares: rarity tiers, the optional one-Exotic rule, the Heavy Draw weapon property, and the Ahamkara's Whispers, Boons, and Debts."
     },
 
     {
@@ -140,8 +160,6 @@ window.SITE = {
     { soon: true, type: "Subclass", fandom: "Destiny", class: "Monk",      guide: "destiny-overview.html", inspired: "Destiny 2 Hunter Arc",     title: "Arcstrider",   summary: "A Hunter of Arc, built on the Monk. Lightning grenades, Dodge, and an Arc Super." },
     { soon: true, type: "Subclass", fandom: "Destiny", class: "Ranger",    guide: "destiny-overview.html", inspired: "Destiny 2 Hunter Void",    title: "Nightstalker", summary: "A Hunter of Void, built on the Ranger. Force-damage grenades, Dodge, and a Void Super." },
     { soon: true, type: "Subclass", fandom: "Destiny", class: "Rogue",     guide: "destiny-overview.html", inspired: "Destiny 2 Hunter Stasis",  title: "Revenant",     summary: "A Hunter of Stasis, built on the Rogue. Cold grenades, Dodge, and a Stasis Super." },
-    { soon: true, type: "Subclass", fandom: "Destiny", class: "Ranger",    guide: "destiny-overview.html", inspired: "Destiny 2 Hunter Strand",  title: "Threadrunner", summary: "A Hunter of Strand, built on the Ranger. Psychic grenades, Dodge, and a Strand Super." },
-
     // ---- Coming soon: Dishonored ----
     { soon: true, type: "Subclass", fandom: "Dishonored", class: "Paladin",   inspired: "Overseer",                title: "Oath of the Broken Mask", summary: "A disgraced Overseer: an anti-magic zealot with a war hound." },
     { soon: true, type: "Subclass", fandom: "Dishonored", class: "Artificer", title: "Natural Philosopher",   summary: "An inventor who equips the party: elixirs, arc mines, Walls of Light, and a clockwork soldier." },
