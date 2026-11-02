@@ -68,6 +68,12 @@ window.SITE = {
     { title: "Exotics Drop 01: Threadrunner", type: "Magic Item", kindLabel: "Destiny Exotics", fandom: "Destiny", guide: "destiny-exotics.html", inspired: "Destiny 2 Exotic weapons armor Ghost Cyrtarachne's Facade Quicksilver Storm Wish-Keeper Final Warning Hawkmoon Raze-Lighter Bolt-Caster Dark-Drinker forged swords Strand", date: "2026-10-29", version: "v0.1 Playtest", url: "destiny-exotics-drop-01.html", image: "",
       summary: "Nine items released with the Threadrunner: a Ghost companion, Cyrtarachne's Facade, Quicksilver Storm, Wish-Keeper, Final Warning, Hawkmoon, and three forged swords." },
 
+    // ---- Nightmare Troupe drop (subclass first so it's the featured release; the Hallownest setting follows) ----
+    { title: "College of the Nightmare Troupe", type: "Subclass", class: "Bard", fandom: "Hollow Knight & Silksong", inspired: "Grimm Troupe Grimmchild Nightmare King Grimm Brumm Carefree Melody Nightmare Lantern Ritual", date: "2026-11-02", version: "v0.1 Playtest", url: "college-of-the-nightmare-troupe.html", image: "",
+      summary: "A troupe performer who dances through scarlet fire, vanishes when struck, and raises a hungry Grimmchild, until the Ritual demands a final choice: continue it or banish the Troupe." },
+    { title: "Hallownest",           type: "Setting", fandom: "Hollow Knight & Silksong", inspired: "Hollow Knight location Underdark Dirtmouth Infection Radiance Pale King benches Crossroads Greenpath City of Tears Deepnest Elderbug Cornifer Quirrel Seer Hornet", date: "2026-11-02", version: "v0.1 Playtest", url: "hallownest.html", image: "",
+      summary: "A fallen bug kingdom on the edge of the Underdark: Infection rules, safe benches, places and people, a d6 travel table, and three adventure hooks." },
+
     {
       title: "Destiny Overview & Chassis",
       kindLabel: "Shared subclass rules",
@@ -112,7 +118,6 @@ window.SITE = {
     // ---- Coming soon: Hollow Knight & Silksong ----
     // "inspired" isn't shown on cards, but search matches it (e.g. "hornet" finds Silk Hunter).
     { soon: true, type: "Subclass", fandom: "Hollow Knight & Silksong", class: "Ranger",    inspired: "Garmond Zaza Silksong",           title: "Wandering Rider",                 summary: "A clever bug-steed, trampling charges, and a booming battle cry." },
-    { soon: true, type: "Subclass", fandom: "Hollow Knight & Silksong", class: "Bard",      inspired: "Grimm Troupe Grimmchild",         title: "College of the Nightmare Troupe", summary: "A growing flame-child and a final choice: continue the Ritual or banish the Troupe." },
     { soon: true, type: "Subclass", fandom: "Hollow Knight & Silksong", class: "Fighter",   inspired: "Nailmasters Oro Mato Sheo",       title: "Nailmaster",                      summary: "Plant your feet and unleash charged Nail Arts taught by one of three brothers." },
     { soon: true, type: "Subclass", fandom: "Hollow Knight & Silksong", class: "Fighter",   inspired: "Mantis Lords",                    title: "Mantis Lord",                     summary: "Strike from the walls, fight as one with allies, and call the sisters back." },
     { soon: true, type: "Subclass", fandom: "Hollow Knight & Silksong", class: "Paladin",   inspired: "Pinstress Silksong",              title: "Oath of the Last Pin",            summary: "The last of a fallen order: thrown pins that carry your smites." },
