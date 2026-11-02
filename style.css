@@ -133,6 +133,19 @@ h2{font-size:56px;line-height:1}
 .playtest h3{margin-top:0}
 .playtest p,.playtest ul{font-size:16px}
 
+/* Blog: post list + prev/next links under a post */
+.post-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.post-list li{border-bottom:1px solid var(--rule);padding:36px 0;display:flex;flex-direction:column;gap:10px}
+.post-list h2{margin:0;font-size:40px;line-height:1.05}
+.post-list h2 a{text-decoration:none}
+.post-list p{margin:0}
+.post-list .cardlink{margin-top:4px}
+.article p a,.article li a{color:var(--gold)}
+.post-list h2 a{color:var(--ink)}
+.post-nav{display:flex;justify-content:space-between;gap:24px;border-top:1px solid var(--rule);margin-top:56px;padding-top:24px}
+.post-nav a{text-decoration:none;color:var(--gold)}
+.post-nav .next{margin-left:auto;text-align:right}
+
 /* Subclass document: reading column + table of contents */
 .doc{display:grid;grid-template-columns:minmax(0,66ch) 200px;gap:72px;justify-content:center;padding:0 var(--pad) 40px}
 .doc .article{max-width:none;margin:0;padding:0}

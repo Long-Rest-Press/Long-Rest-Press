@@ -38,6 +38,7 @@ function contentPages() {
   return fs.readdirSync(SITE)
     .filter((f) => f.endsWith(".html"))
     .filter((f) => !SKIP.includes(f))
+    .filter((f) => !f.startsWith("blog")) // blog.html and blog-*.html posts get no PDF
     .filter((f) => !ONLY || ONLY.includes(f))
     .filter((f) => {
       const html = fs.readFileSync(path.join(SITE, f), "utf8");
