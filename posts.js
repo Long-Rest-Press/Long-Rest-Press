@@ -74,6 +74,12 @@ window.SITE = {
     { title: "Hallownest",           type: "Setting", fandom: "Hollow Knight & Silksong", inspired: "Hollow Knight location Underdark Dirtmouth Infection Radiance Pale King benches Crossroads Greenpath City of Tears Deepnest Elderbug Cornifer Quirrel Seer Hornet", date: "2026-11-02", version: "v0.1 Playtest", url: "hallownest.html", image: "",
       summary: "A fallen bug kingdom on the edge of the Underdark: Infection rules, safe benches, places and people, a d6 travel table, and three adventure hooks." },
 
+    // ---- Nailmaster drop (subclass first so it's the featured release; the City of Tears location follows) ----
+    { title: "Nailmaster",           type: "Subclass", class: "Fighter",   fandom: "Hollow Knight & Silksong", inspired: "Nailmasters Oro Mato Sheo Great Nailsage Nail Arts Great Slash Dash Slash Cyclone Slash Nailsmith Pure Nail", date: "2026-11-05", version: "v0.1 Playtest", url: "nailmaster.html", image: "",
+      summary: "Plant your feet and unleash charged Nail Arts, the Great Slash, Dash Slash, and Cyclone Slash, taught by one of three brothers, while a Nailsmith reforges your nail into the Pure Nail." },
+    { title: "The City of Tears",    type: "Setting", fandom: "Hollow Knight & Silksong", inspired: "Hollow Knight location Hallownest capital rain Blue Lake Lurien Watcher Dreamer seal Soul Sanctum Soul Master Collector Tower of Love Lemm Marissa Pleasure House", date: "2026-11-05", version: "v0.1 Playtest", url: "city-of-tears.html", image: "",
+      summary: "Hallownest's rain-drowned capital: rules for the endless rain, the Dreamer's seal, six places and six NPCs, a d6 event table, and three adventure hooks." },
+
     {
       title: "Destiny Overview & Chassis",
       kindLabel: "Shared subclass rules",
@@ -118,7 +124,6 @@ window.SITE = {
     // ---- Coming soon: Hollow Knight & Silksong ----
     // "inspired" isn't shown on cards, but search matches it (e.g. "hornet" finds Silk Hunter).
     { soon: true, type: "Subclass", fandom: "Hollow Knight & Silksong", class: "Ranger",    inspired: "Garmond Zaza Silksong",           title: "Wandering Rider",                 summary: "A clever bug-steed, trampling charges, and a booming battle cry." },
-    { soon: true, type: "Subclass", fandom: "Hollow Knight & Silksong", class: "Fighter",   inspired: "Nailmasters Oro Mato Sheo",       title: "Nailmaster",                      summary: "Plant your feet and unleash charged Nail Arts taught by one of three brothers." },
     { soon: true, type: "Subclass", fandom: "Hollow Knight & Silksong", class: "Fighter",   inspired: "Mantis Lords",                    title: "Mantis Lord",                     summary: "Strike from the walls, fight as one with allies, and call the sisters back." },
     { soon: true, type: "Subclass", fandom: "Hollow Knight & Silksong", class: "Paladin",   inspired: "Pinstress Silksong",              title: "Oath of the Last Pin",            summary: "The last of a fallen order: thrown pins that carry your smites." },
     { soon: true, type: "Subclass", fandom: "Hollow Knight & Silksong", class: "Paladin",   inspired: "Pale King Five Great Knights",    title: "Oath of the Pale Throne",         summary: "The vows of five Great Knights, and a king's terrible creed." },

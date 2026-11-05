@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8M3NKL3QYM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8M3NKL3QYM');
+</script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nailmaster · Fighter Subclass · Long Rest Press</title>
+<meta name="description" content="Nailmaster: a free D&amp;D 2024 Fighter subclass inspired by the Nailmasters of Hollow Knight. Plant your feet and unleash Great Slash, Dash Slash, and Cyclone Slash, taught by Oro, Mato, or Sheo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Spectral:ital,wght@0,300;0,400;1,300&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<header class="masthead">
+  <nav><a href="browse.html">Browse</a><a href="blog.html">Blog</a><a href="about.html">About</a><a href="index.html#newsletter">Newsletter</a></nav>
+  <a class="brand" href="index.html" aria-label="Long Rest Press home">
+    <svg class="moon" viewBox="0 0 40 40" width="30" height="30" aria-hidden="true"><path d="M24 9a11 11 0 1 0 6 18 9 9 0 0 1-6-18z" fill="#d8b25a"/></svg>
+    <span>LONG REST PRESS</span>
+  </a>
+  <div class="end"><a class="btn-ghost" href="index.html#support">Support</a></div>
+</header>
+
+<main>
+<section class="hero small">
+  <a class="label sm backlink" href="browse.html?fandom=Hollow%20Knight%20%26%20Silksong">← Hollow Knight &amp; Silksong</a>
+  <span class="label gold" style="letter-spacing:.24em">Fighter subclass · D&amp;D 2024</span>
+  <h1>Nailmaster</h1>
+  <p class="lede">A warrior who plants their feet, gathers their strength, and unleashes devastating charged strikes taught by one of three legendary brothers.</p>
+  <div class="label sm credits"><span>v0.1 Playtest</span><span>Fighter levels 3–18</span><span>Inspired by Hollow Knight</span></div>
+  <a class="btn-ghost pdf-download" href="pdf/nailmaster.pdf" download>Download PDF</a>
+</section>
+
+<div class="doc">
+  <article class="article">
+    <blockquote>Long ago, the Great Nailsage trained three brothers, Oro, Mato, and Sheo, and each mastered one Nail Art: the lunging Dash Slash, the whirling Cyclone Slash, and the crushing Great Slash. The brothers went their separate ways; one became a hermit, one a cheerful teacher, and one put down his nail for a painter's brush. Their students still carry the Arts. A Nailmaster doesn't fight with speed or tricks. They stand their ground, draw in their strength, and strike with everything at once.</blockquote>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Fighter Level</th><th>Features</th></tr></thead>
+        <tbody>
+          <tr><td>3rd</td><td>Nail Arts, Teacher's Lesson, Nailsmith's Work (Sharpened Nail)</td></tr>
+          <tr><td>7th</td><td>Second Art, Channelled Nail</td></tr>
+          <tr><td>10th</td><td>Third Art, Coiled Nail, Unmoving Stance</td></tr>
+          <tr><td>15th</td><td>Nailmaster's Pride, Pure Nail</td></tr>
+          <tr><td>18th</td><td>Nailsage's Glory</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <section class="feature" id="arts">
+      <span class="lvl">Level 3</span>
+      <h2>Nail Arts</h2>
+      <p>If you haven't moved yet this turn, you can make your first attack with your nail a Nail Art you know. When you do, your Speed becomes 0 until the end of the turn. Speed 0 stops walking and the Dash action, but not teleportation or forced movement.</p>
+      <p>Nail Arts use Art Dice, which are d8s. Your number of Art Dice is set by Nailsmith's Work.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Nail Art</th><th>Effect</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Great Slash</strong></td><td>If the attack hits, it deals extra damage equal to all your Art Dice.</td></tr>
+            <tr><td><strong>Dash Slash</strong></td><td>Before the attack, move up to 20 feet in a straight line without provoking Opportunity Attacks. This movement is part of the Art. If the attack hits, it deals one extra Art Die of damage.</td></tr>
+            <tr><td><strong>Cyclone Slash</strong></td><td>Instead of one attack, make a separate attack against each creature of your choice within your reach.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="feature" id="lesson">
+      <span class="lvl">Level 3</span>
+      <h2>Teacher's Lesson</h2>
+      <p>Choose the brother who trained you. You learn his Nail Art and gain his lesson.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Teacher</th><th>Nail Art</th><th>Lesson</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Oro</strong></td><td>Dash Slash</td><td>Your Speed increases by 10 feet, and Dash Slash moves you up to 30 feet.</td></tr>
+            <tr><td><strong>Mato</strong></td><td>Cyclone Slash</td><td>When Cyclone Slash hits two or more creatures, you gain Temporary Hit Points equal to your Fighter level.</td></tr>
+            <tr><td><strong>Sheo</strong></td><td>Great Slash</td><td>Great Slash scores a Critical Hit on a roll of 19 or 20. You gain proficiency with Painter's Supplies, and if you spend at least 1 hour of a Long Rest painting, you gain Heroic Inspiration when it ends.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="feature" id="nailsmith">
+      <span class="lvl">Level 3</span>
+      <h2>Nailsmith's Work</h2>
+      <p>Choose one melee weapon as your nail; only your nail can perform Nail Arts. It counts as magical for overcoming Resistance. If you lose it, you can bond with a new weapon during a Long Rest. As you gain levels, your nail is reforged:</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Fighter Level</th><th>Nail</th><th>Art Dice</th></tr></thead>
+          <tbody>
+            <tr><td>3rd</td><td>Sharpened Nail</td><td class="td-num">1d8</td></tr>
+            <tr><td>7th</td><td>Channelled Nail</td><td class="td-num">2d8</td></tr>
+            <tr><td>10th</td><td>Coiled Nail</td><td class="td-num">3d8</td></tr>
+            <tr><td>15th</td><td>Pure Nail</td><td class="td-num">4d8</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="feature" id="second">
+      <span class="lvl">Level 7</span>
+      <h2>Second Art</h2>
+      <p>You learn a second Nail Art of your choice.</p>
+    </section>
+
+    <section class="feature" id="third">
+      <span class="lvl">Level 10</span>
+      <h2>Third Art</h2>
+      <p>You learn the remaining Nail Art.</p>
+    </section>
+
+    <section class="feature" id="stance">
+      <span class="lvl">Level 10</span>
+      <h2>Unmoving Stance</h2>
+      <p>While you haven't moved this turn, or while your Speed is 0 from a Nail Art, you have Advantage on saving throws against having the Prone condition or being moved against your will.</p>
+    </section>
+
+    <section class="feature" id="pride">
+      <span class="lvl">Level 15</span>
+      <h2>Nailmaster's Pride</h2>
+      <p>When you perform a Nail Art, you can make another attack that turn a different Nail Art. For example, you might Dash Slash into a crowd, then Cyclone Slash.</p>
+    </section>
+
+    <section class="feature" id="glory">
+      <span class="lvl">Level 18</span>
+      <h2>Nailsage's Glory</h2>
+      <p>You have learned what the Great Nailsage knew. Nail Arts no longer require you to be still and no longer reduce your Speed, and your Art Dice become d10s.</p>
+    </section>
+
+    <aside class="playtest">
+      <span class="label sm gold">Designer notes</span>
+      <ul>
+        <li><strong>Commit to the strike.</strong> Nail Arts are free and unlimited, but you can't move before one and you're rooted after it. Dash Slash is the exception: it moves as part of the Art, then you stop where you land.</li>
+        <li><strong>The teacher shapes the build.</strong> Oro is mobile, Mato fights crowds, and Sheo hits one target very hard. By level 10 every Nailmaster knows all three Arts.</li>
+        <li><strong>Damage check.</strong> Sneak Attack reaches 8d6 at level 15; a Great Slash at 4d8, once per turn and only while rooted, sits below it even with three Fighter attacks.</li>
+        <li><strong>Story hook.</strong> Each Nailsmith upgrade can be tied to a quest for pale ore instead of a level.</li>
+      </ul>
+      <span class="label sm gold">Playtest questions</span>
+      <ul>
+        <li>Is Cyclone Slash too strong against hordes, since it's unlimited?</li>
+        <li>Should Mato's Temporary Hit Points scale less steeply?</li>
+        <li>Is Nailmaster's Pride's second Art per turn too much with Pure Nail's 4d8?</li>
+      </ul>
+      <span class="label sm">v0.1 Playtest: first public release</span>
+    </aside>
+
+    <aside class="signup" aria-label="Newsletter">
+      <span class="label sm gold">Join the mailing list</span>
+      <h3>Take a long rest, we'll wake you for the loot.</h3>
+      <p>New subclasses, game tips, and table-tested ideas delivered to your inbox.</p>
+      <a class="btn-gold" href="index.html#newsletter">I Cast "Subscribe"</a>
+    </aside>
+  </article>
+
+  <nav class="toc" aria-label="On this page">
+    <span class="label sm">On this page</span>
+    <ol>
+      <li><a href="#arts">Nail Arts</a></li>
+      <li><a href="#lesson">Teacher's Lesson</a></li>
+      <li><a href="#nailsmith">Nailsmith's Work</a></li>
+      <li><a href="#second">Second Art</a></li>
+      <li><a href="#third">Third Art</a></li>
+      <li><a href="#stance">Unmoving Stance</a></li>
+      <li><a href="#pride">Nailmaster's Pride</a></li>
+      <li><a href="#glory">Nailsage's Glory</a></li>
+    </ol>
+  </nav>
+</div>
+</main>
+
+<footer>
+  <p class="first">Long Rest Press · a Clark Consolidated label · New releases every week</p>
+  <p>Inspired by <em>Hollow Knight</em> by Team Cherry. This is unofficial fan work, not affiliated with or endorsed by Team Cherry.</p>
+  <p>Long Rest Press content is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</p>
+</footer>
+</div>
+</body>
+</html>
