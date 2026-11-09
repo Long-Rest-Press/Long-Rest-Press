@@ -80,6 +80,9 @@ window.SITE = {
     { title: "The City of Tears",    type: "Setting", fandom: "Hollow Knight & Silksong", inspired: "Hollow Knight location Hallownest capital rain Blue Lake Lurien Watcher Dreamer seal Soul Sanctum Soul Master Collector Tower of Love Lemm Marissa Pleasure House", date: "2026-11-05", version: "v0.1 Playtest", url: "city-of-tears.html", image: "",
       summary: "Hallownest's rain-drowned capital: rules for the endless rain, the Dreamer's seal, six places and six NPCs, a d6 event table, and three adventure hooks." },
 
+    { title: "School of the Soul Sanctum", type: "Subclass", class: "Wizard", fandom: "Hollow Knight & Silksong", inspired: "Soul Sanctum Soul Master Soul Tyrant Soul Warrior Soul Eater City of Tears homing orbs teleport", date: "2026-11-09", version: "v0.1 Playtest", url: "school-of-the-soul-sanctum.html", image: "",
+      summary: "A scholar who harvests Soul from the dying, hurls it as homing orbs, blinks between spells, binds a Soul Warrior, and risks the same hubris that ruined the Sanctum's master." },
+
     {
       title: "Destiny Overview & Chassis",
       kindLabel: "Shared subclass rules",
@@ -131,7 +134,6 @@ window.SITE = {
     { soon: true, type: "Subclass", fandom: "Hollow Knight & Silksong", class: "Barbarian", inspired: "Hive Knight Hiveblood",           title: "Path of the Hive",                summary: "Rage inside a storm of bees and mend on royal Hiveblood." },
     { soon: true, type: "Subclass", fandom: "Hollow Knight & Silksong", class: "Rogue",     inspired: "Shakra Silksong",                 title: "Wayfinder",                       summary: "Returning throwing rings, blink steps, and a cartographer's eye." },
     { soon: true, type: "Subclass", fandom: "Hollow Knight & Silksong", class: "Warlock",   inspired: "Radiance Infection",              title: "The Radiance",                    summary: "Spread an orange Infection, dream of what's coming, and grow moth wings." },
-    { soon: true, type: "Subclass", fandom: "Hollow Knight & Silksong", class: "Wizard",    inspired: "Soul Sanctum Soul Master",        title: "School of the Soul Sanctum",      summary: "Harvest Soul for homing orbs, blink between spells, and pay for hubris." },
     { soon: true, type: "Subclass", fandom: "Hollow Knight & Silksong", class: "Druid",     inspired: "Unn Greenpath",                   title: "Circle of Unn",                   summary: "A healing moss-slug form, mosskin ambushes, and a goddess's dream." },
     { soon: true, type: "Subclass", fandom: "Hollow Knight & Silksong", class: "Sorcerer",  inspired: "Void Abyss Shade",                title: "Void Sorcery",                    summary: "Tendrils of the Abyss, a shade that cheats death, and a Lord of Shades." },
     { soon: true, type: "Subclass", fandom: "Hollow Knight & Silksong", class: "Artificer", inspired: "Architects Cogwork Silksong",     title: "Cogwork Architect",               summary: "Swarms of cogflies, a Cogwork Sentinel, and the Architect's Melody." },
