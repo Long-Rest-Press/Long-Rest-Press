@@ -21,12 +21,12 @@ That gives you a caster, a skirmisher, and two frontliners: one healer-hammer an
 
 ## Bring loot
 
-I'm also releasing the Destiny Exotics a few at a time with each subclass, so keep an eye on the bottom of every post. Not every one is a gun turned into a crossbow, though a few of them are.
+I'm also releasing the Destiny Exotics a few at a time with each subclass, so keep an eye on the bottom of every post. Not every one is a gun turned into a crossbow, I promise. Maybe a couple of them are, I just couldn't resist.
 
 ## A heads-up
 
 These subclasses shine brightest in games with lots of minions. If your table loves fighting hordes, Guardians will feel right at home.
 
-And yes, the "part 1" in this run's name means exactly what you think. There are more Guardians coming.
+And yes, there are more Guardians coming.  Stay tuned for those down the road.
 
 See you in the Tower.
