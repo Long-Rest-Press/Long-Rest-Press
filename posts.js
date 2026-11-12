@@ -83,6 +83,9 @@ window.SITE = {
     { title: "School of the Soul Sanctum", type: "Subclass", class: "Wizard", fandom: "Hollow Knight & Silksong", inspired: "Soul Sanctum Soul Master Soul Tyrant Soul Warrior Soul Eater City of Tears homing orbs teleport", date: "2026-11-09", version: "v0.1 Playtest", url: "school-of-the-soul-sanctum.html", image: "",
       summary: "A scholar who harvests Soul from the dying, hurls it as homing orbs, blinks between spells, binds a Soul Warrior, and risks the same hubris that ruined the Sanctum's master." },
 
+    { title: "Path of the Hive",     type: "Subclass", class: "Barbarian", fandom: "Hollow Knight & Silksong", inspired: "Hive Knight Hiveblood Vespa Hive Queen bees Kingdom's Edge honey stingers", date: "2026-11-12", version: "v0.1 Playtest", url: "path-of-the-hive.html", image: "",
+      summary: "A relentless guardian who rages inside a storm of bees, lunges at intruders, mends on the Hive's royal blood, and takes the blows meant for whoever they've sworn to protect." },
+
     {
       title: "Destiny Overview & Chassis",
       kindLabel: "Shared subclass rules",
@@ -131,7 +134,6 @@ window.SITE = {
     { soon: true, type: "Subclass", fandom: "Hollow Knight & Silksong", class: "Paladin",   inspired: "Pinstress Silksong",              title: "Oath of the Last Pin",            summary: "The last of a fallen order: thrown pins that carry your smites." },
     { soon: true, type: "Subclass", fandom: "Hollow Knight & Silksong", class: "Paladin",   inspired: "Pale King Five Great Knights",    title: "Oath of the Pale Throne",         summary: "The vows of five Great Knights, and a king's terrible creed." },
     { soon: true, type: "Subclass", fandom: "Hollow Knight & Silksong", class: "Cleric",    inspired: "Shrine Guardian Seth Silksong",   title: "Shrine Guardian Domain",          summary: "A cymbal shield, a fair warning, and a second phase when bloodied." },
-    { soon: true, type: "Subclass", fandom: "Hollow Knight & Silksong", class: "Barbarian", inspired: "Hive Knight Hiveblood",           title: "Path of the Hive",                summary: "Rage inside a storm of bees and mend on royal Hiveblood." },
     { soon: true, type: "Subclass", fandom: "Hollow Knight & Silksong", class: "Rogue",     inspired: "Shakra Silksong",                 title: "Wayfinder",                       summary: "Returning throwing rings, blink steps, and a cartographer's eye." },
     { soon: true, type: "Subclass", fandom: "Hollow Knight & Silksong", class: "Warlock",   inspired: "Radiance Infection",              title: "The Radiance",                    summary: "Spread an orange Infection, dream of what's coming, and grow moth wings." },
     { soon: true, type: "Subclass", fandom: "Hollow Knight & Silksong", class: "Druid",     inspired: "Unn Greenpath",                   title: "Circle of Unn",                   summary: "A healing moss-slug form, mosskin ambushes, and a goddess's dream." },
