@@ -86,6 +86,13 @@ window.SITE = {
     { title: "Path of the Hive",     type: "Subclass", class: "Barbarian", fandom: "Hollow Knight & Silksong", inspired: "Hive Knight Hiveblood Vespa Hive Queen bees Kingdom's Edge honey stingers", date: "2026-11-12", version: "v0.1 Playtest", url: "path-of-the-hive.html", image: "",
       summary: "A relentless guardian who rages inside a storm of bees, lunges at intruders, mends on the Hive's royal blood, and takes the blows meant for whoever they've sworn to protect." },
 
+    { title: "Dawnblade",            type: "Subclass", class: "Warlock",   fandom: "Destiny", guide: "destiny-overview.html", inspired: "Destiny 2 Warlock Solar Daybreak Well of Radiance Celestial Fire Icarus Dash Incendiary Grenade Pact of the Blade", date: "2026-11-16", version: "v0.1 Playtest", url: "dawnblade.html", image: "",
+      summary: "Wings of flame and a sword of the sun. Hang in the air raining fire on the battlefield, or plant a Well of Radiance and keep your whole party standing." },
+    { title: "Exotics Drop 02: Dawnblade", type: "Magic Item", kindLabel: "Destiny Exotics", fandom: "Destiny", guide: "destiny-exotics.html", inspired: "Destiny 2 Exotic weapons armor Phoenix Protocol Transversive Steps Dragon's Breath Edge of Concurrence Jotunn Jötunn Sturm Drang Ticcu's Divination One Thousand Voices Solar", date: "2026-11-16", version: "v0.1 Playtest", url: "destiny-exotics-drop-02.html", image: "",
+      summary: "Eight items released with the Dawnblade: Phoenix Protocol, Transversive Steps, Dragon's Breath, Edge of Concurrence, Jötunn, Sturm & Drang, Ticcu's Divination, and One Thousand Voices." },
+    { title: "Celestial Fire",       type: "Spell", kindLabel: "Evocation cantrip", class: "Warlock", fandom: "Destiny", inspired: "Dawnblade cantrip Solar Fire ranged spell attack three flames Pact of the Blade Destiny 2", date: "2026-11-16", version: "v0.1 Playtest", url: "celestial-fire.html", image: "",
+      summary: "The Dawnblade's ranged cantrip. A spiral of three small flames deals Fire damage, and Pact of the Blade warlocks can cast it in place of an attack." },
+
     {
       title: "Destiny Overview & Chassis",
       kindLabel: "Shared subclass rules",
@@ -164,7 +171,6 @@ window.SITE = {
     // ---- Coming soon: Destiny (playtest drafts) ----
     // guide = the shared rules page, linked from each card and (later) each subclass page.
     { soon: true, type: "Subclass", fandom: "Destiny", class: "Sorcerer",  guide: "destiny-overview.html", inspired: "Destiny 2 Warlock Arc",    title: "Stormcaller",  summary: "A Destiny Warlock of Arc, built on the Sorcerer. Lightning grenades, a Rift, and an Arc Super." },
-    { soon: true, type: "Subclass", fandom: "Destiny", class: "Warlock",   guide: "destiny-overview.html", inspired: "Destiny 2 Warlock Solar",  title: "Dawnblade",    summary: "A Destiny Warlock of Solar, built on the Warlock. Fire grenades, a Rift, and a Solar Super." },
     { soon: true, type: "Subclass", fandom: "Destiny", class: "Druid",     guide: "destiny-overview.html", inspired: "Destiny 2 Warlock Stasis", title: "Shadebinder",  summary: "A Destiny Warlock of Stasis, built on the Druid. Cold grenades, a Rift, and a Stasis Super." },
     { soon: true, type: "Subclass", fandom: "Destiny", class: "Bard",      guide: "destiny-overview.html", inspired: "Destiny 2 Warlock Strand", title: "Broodweaver",  summary: "A Destiny Warlock of Strand, built on the Bard. Psychic grenades, a Rift, and a Strand Super." },
     { soon: true, type: "Subclass", fandom: "Destiny", class: "Cleric",    guide: "destiny-overview.html", inspired: "Destiny 2 Titan Solar",    title: "Sunbreaker",   summary: "A Titan of Solar, built on the Cleric. Fire grenades, a Barricade, and a Solar Super." },
