@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8M3NKL3QYM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8M3NKL3QYM');
+</script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nightstalker · Ranger Subclass · Long Rest Press</title>
+<meta name="description" content="Nightstalker: a free D&amp;D 2024 Ranger subclass inspired by Destiny's Void Hunter. Shadow Tether, Suppressor Grenade, Snare Bomb, Vanish in Smoke, and the Shadowshot Super: Deadfall or Moebius Quiver.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Spectral:ital,wght@0,300;0,400;1,300&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<header class="masthead">
+  <nav><a href="browse.html">Browse</a><a href="blog.html">Blog</a><a href="about.html">About</a><a href="index.html#newsletter">Newsletter</a></nav>
+  <a class="brand" href="index.html" aria-label="Long Rest Press home">
+    <svg class="moon" viewBox="0 0 40 40" width="30" height="30" aria-hidden="true"><path d="M24 9a11 11 0 1 0 6 18 9 9 0 0 1-6-18z" fill="#d8b25a"/></svg>
+    <span>LONG REST PRESS</span>
+  </a>
+  <div class="end"><a class="btn-ghost" href="index.html#support">Support</a></div>
+</header>
+
+<main>
+<section class="hero small">
+  <a class="label sm backlink" href="browse.html?fandom=Destiny">← Destiny</a>
+  <span class="label gold" style="letter-spacing:.24em">Ranger subclass · D&amp;D 2024</span>
+  <h1>Nightstalker</h1>
+  <p class="lede">Nightstalkers hunt from the edge of the dark, pinning prey with threads of Void so their allies can finish the job.</p>
+  <div class="label sm credits"><span>v0.1 Playtest</span><span>Destiny Hunter · Void</span><span>Inspired by Destiny 2</span></div>
+  <a class="btn-ghost pdf-download" href="pdf/nightstalker.pdf" download>Download PDF</a>
+</section>
+
+<div class="doc">
+  <article class="article">
+    <a class="callout" href="destiny-overview.html"><span class="label sm gold">Shared Destiny rules →</span>This subclass uses the Grenade, Charged Melee, Class Ability, Super, and element keyword rules from the Destiny Overview &amp; Chassis.</a>
+
+    <p>The Nightstalker is the Void Hunter as a Ranger subclass, built as a support Hunter around tethering enemies so the whole party hits harder. It uses the Shared Chassis from the <a href="destiny-overview.html#chassis">Destiny Overview &amp; Chassis</a>, with its Super at level 11 and the upgrade at level 15. Void uses Force damage, and the key ability is Wisdom.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Ranger Level</th><th>Features</th></tr></thead>
+        <tbody>
+          <tr><td>3</td><td>Nightstalker Spells, Shadow Tether, Suppressor Grenade, Snare Bomb</td></tr>
+          <tr><td>7</td><td>Vanish in Smoke, Dodge</td></tr>
+          <tr><td>11</td><td>Super: Shadowshot (Deadfall or Moebius Quiver)</td></tr>
+          <tr><td>15</td><td>Heart of the Hunt</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <section class="feature" id="spells">
+      <span class="lvl">Level 3</span>
+      <h2>Nightstalker Spells</h2>
+      <p>You always have these spells prepared.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Ranger Level</th><th>Spell</th></tr></thead>
+          <tbody>
+            <tr><td>3</td><td><em>Fog Cloud</em></td></tr>
+            <tr><td>5</td><td><em>Invisibility</em></td></tr>
+            <tr><td>9</td><td><em>Hunger of Hadar</em></td></tr>
+            <tr><td>13</td><td><em>Greater Invisibility</em></td></tr>
+            <tr><td>17</td><td><em>Mislead</em></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="feature" id="shadow-tether">
+      <span class="lvl">Level 3</span>
+      <h2>Shadow Tether</h2>
+      <p>When you cast <em>Hunter's Mark</em>, you can make it a Shadow Tether instead of its normal effect. Choose the target and up to two other creatures within 15 feet of it. Each becomes Tethered for the spell's duration. A Tethered creature has these effects:</p>
+      <ul>
+        <li>Its Speed is reduced by 10 feet.</li>
+        <li>The first time each turn it's hit by an attack from you or an ally, it takes an extra 1d4 Force damage. This increases to 1d6 at Ranger level 11.</li>
+      </ul>
+      <p>Whenever you could move <em>Hunter's Mark</em> to a new creature, you can instead tether a new group in the same way.</p>
+    </section>
+
+    <section class="feature" id="grenade">
+      <span class="lvl">Level 3</span>
+      <h2>Suppressor Grenade</h2>
+      <p>This is your <a href="destiny-overview.html#grenade">Grenade</a>. As a Bonus Action, you throw a grenade at a point you can see within 60 feet. Each creature in a 10-foot-radius sphere centered on that point makes a Constitution saving throw.</p>
+      <ul>
+        <li><strong>Failed save:</strong> The creature takes your grenade damage as Force damage and is Suppressed until the start of your next turn. A Suppressed creature can't take Reactions and has Disadvantage on saving throws to maintain Concentration.</li>
+        <li><strong>Successful save:</strong> The creature takes half as much damage and isn't Suppressed.</li>
+      </ul>
+    </section>
+
+    <section class="feature" id="snare-bomb">
+      <span class="lvl">Level 3</span>
+      <h2>Snare Bomb</h2>
+      <p>This is your <a href="destiny-overview.html#melee">Charged Melee</a>. Once per turn, when you take the Attack action, you can replace one attack with a thrown Snare Bomb aimed at a point within 30 feet. Each creature of your choice within 10 feet of that point makes a Dexterity saving throw.</p>
+      <ul>
+        <li><strong>Failed save:</strong> The creature takes Force damage equal to your grenade damage, and its Speed is reduced by 10 feet until the start of your next turn.</li>
+        <li><strong>Successful save:</strong> The creature takes half as much damage, and its Speed isn't reduced.</li>
+      </ul>
+    </section>
+
+    <section class="feature" id="vanish">
+      <span class="lvl">Level 7</span>
+      <h2>Vanish in Smoke</h2>
+      <p>When you throw a Snare Bomb, you can make yourself and up to two allies within 10 feet of the point Invisible until the start of your next turn. The invisibility ends early for a creature if it makes an attack roll, deals damage, or casts a spell.</p>
+      <p>You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
+    </section>
+
+    <section class="feature" id="dodge">
+      <span class="lvl">Level 7</span>
+      <h2>Dodge</h2>
+      <p>You gain the <a href="destiny-overview.html#class-ability">Dodge Class Ability</a> from the Shared Chassis. Nightstalker twist (Vanishing Step): when you Dodge, you also have the Invisible condition until the start of your next turn. The invisibility ends early if you make an attack roll, deal damage, or cast a spell.</p>
+    </section>
+
+    <section class="feature" id="super">
+      <span class="lvl">Level 11</span>
+      <h2>Super: Shadowshot</h2>
+      <p>When you finish a Long Rest, choose Deadfall or Moebius Quiver as your Super. You can regain its use by expending a level 3+ spell slot (no action required).</p>
+      <h3>Deadfall</h3>
+      <p>As an action, you fire a Void arrow at a point you can see within 120 feet. It plants an anchor that lasts for 3 rounds, ending at the start of your turn 3 rounds later.</p>
+      <p>When the anchor lands, each creature of your choice within 20 feet of it makes a Dexterity saving throw. A creature also makes the save when it enters that area for the first time on a turn or starts its turn there. On a failed save, the creature becomes Deadfall-Tethered until the anchor fades. A Deadfall-Tethered creature has these effects:</p>
+      <ul>
+        <li>It's Tethered (see <a href="#shadow-tether">Shadow Tether</a>), its Speed is halved, and it can't take Reactions.</li>
+        <li><strong>Shared Fate.</strong> Once per turn, when a Deadfall-Tethered creature takes damage from an attack, each other Deadfall-Tethered creature takes Force damage equal to half that damage.</li>
+      </ul>
+      <h3>Moebius Quiver</h3>
+      <p>As an action, you fire three tether arrows, each at a creature you can see within 120 feet. You can target the same creature more than once. Make a ranged attack roll for each arrow. On a hit, the target takes 4d10 Force damage and becomes Tethered for 1 minute. An arrow that hits a creature that's already Tethered deals an extra 2d10 Force damage.</p>
+    </section>
+
+    <section class="feature" id="heart-of-the-hunt">
+      <span class="lvl">Level 15</span>
+      <h2>Heart of the Hunt</h2>
+      <p><strong>Both Supers.</strong> You no longer choose a Super when you finish a Long Rest. Each time you use Shadowshot, choose Deadfall or Moebius Quiver.</p>
+      <p><strong>Spreading Tether.</strong> When a Tethered creature drops to 0 Hit Points, you can Tether another creature within 15 feet of it (no action required). The new Tether lasts as long as the original would have.</p>
+    </section>
+
+    <a class="callout" href="destiny-exotics-drop-03.html#orpheus-rig"><span class="label sm gold">Released with this subclass →</span>Exotics Drop 03 includes the Orpheus Rig, Hunter boots that refill your Grenade for every pair of creatures your Deadfall tethers.</a>
+
+    <aside class="playtest">
+      <span class="label sm gold">Playtest watch list</span>
+      <p>Three things to watch at the table, along with the lever to pull if one runs hot.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Watch item</th><th>Concern</th><th>Lever if too strong</th></tr></thead>
+          <tbody>
+            <tr><td>Shared Fate damage</td><td>It scales with party size and the number of enemies caught; devastating against minion waves (the intent) and still strong against a few big monsters</td><td>Limit Shared Fate to once per round per attacker</td></tr>
+            <tr><td>Shadow Tether as Hunter's Mark</td><td>You trade your personal Hunter's Mark damage for party-wide damage, which may feel thin in a small party</td><td>Let Tethered creatures also take the Hunter's Mark 1d6 from your attacks</td></tr>
+            <tr><td>Vanish in Smoke</td><td>Party invisibility is strong, which is why it has limited uses</td><td>Limit it to one ally instead of two</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <span class="label sm">v0.1 Playtest: first public release</span>
+    </aside>
+
+    <aside class="signup" aria-label="Newsletter">
+      <span class="label sm gold">Join the mailing list</span>
+      <h3>Take a long rest, we'll wake you for the loot.</h3>
+      <p>New subclasses, game tips, and table-tested ideas delivered to your inbox.</p>
+      <a class="btn-gold" href="index.html#newsletter">I Cast "Subscribe"</a>
+    </aside>
+  </article>
+
+  <nav class="toc" aria-label="On this page">
+    <span class="label sm">On this page</span>
+    <ol>
+      <li><a href="#spells">Nightstalker Spells</a></li>
+      <li><a href="#shadow-tether">Shadow Tether</a></li>
+      <li><a href="#grenade">Suppressor Grenade</a></li>
+      <li><a href="#snare-bomb">Snare Bomb</a></li>
+      <li><a href="#vanish">Vanish in Smoke</a></li>
+      <li><a href="#dodge">Dodge</a></li>
+      <li><a href="#super">Super: Shadowshot</a></li>
+      <li><a href="#heart-of-the-hunt">Heart of the Hunt</a></li>
+      <li><a href="destiny-overview.html">Shared Destiny rules</a></li>
+    </ol>
+  </nav>
+</div>
+</main>
+
+<footer>
+  <p class="first">Long Rest Press · a Clark Consolidated label · New releases every week</p>
+  <p>Inspired by <em>Destiny</em> and <em>Destiny 2</em> by Bungie. This is unofficial fan work, not affiliated with or endorsed by Bungie.</p>
+  <p>Long Rest Press content is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</p>
+</footer>
+</div>
+</body>
+</html>

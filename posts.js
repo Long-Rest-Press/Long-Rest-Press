@@ -93,6 +93,12 @@ window.SITE = {
     { title: "Celestial Fire",       type: "Spell", kindLabel: "Evocation cantrip", class: "Warlock", fandom: "Destiny", inspired: "Dawnblade cantrip Solar Fire ranged spell attack three flames Pact of the Blade Destiny 2", date: "2026-11-16", version: "v0.1 Playtest", url: "celestial-fire.html", image: "",
       summary: "The Dawnblade's ranged cantrip. A spiral of three small flames deals Fire damage, and Pact of the Blade warlocks can cast it in place of an attack." },
 
+    // ---- Nightstalker drop (subclass first so it's the featured release; its Exotics drop follows) ----
+    { title: "Nightstalker",         type: "Subclass", class: "Ranger",    fandom: "Destiny", guide: "destiny-overview.html", inspired: "Destiny 2 Hunter Void Shadowshot Deadfall Moebius Quiver tether Vanish in Smoke Snare Bomb Suppressor Grenade support", date: "2026-11-19", version: "v0.1 Playtest", url: "nightstalker.html", image: "",
+      summary: "The support Hunter of Void: tether enemies together with Shadow Tether and Shadowshot so every hit your party lands spreads across the pack, then vanish in smoke." },
+    { title: "Exotics Drop 03: Nightstalker", type: "Magic Item", kindLabel: "Destiny Exotics", fandom: "Destiny", guide: "destiny-exotics.html", inspired: "Destiny 2 Exotic weapons armor Orpheus Rig Mask of Bakris Le Monarque Leviathan's Breath Graviton Lance Collective Obligation Telesto Black Talon Bad Juju Void", date: "2026-11-19", version: "v0.1 Playtest", url: "destiny-exotics-drop-03.html", image: "",
+      summary: "Nine items released with the Nightstalker: Orpheus Rig, Mask of Bakris, Le Monarque, Leviathan's Breath, Graviton Lance, Collective Obligation, Telesto, Black Talon, and Bad Juju." },
+
     {
       title: "Destiny Overview & Chassis",
       kindLabel: "Shared subclass rules",
@@ -178,7 +184,6 @@ window.SITE = {
     { soon: true, type: "Subclass", fandom: "Destiny", class: "Artificer", guide: "destiny-overview.html", inspired: "Destiny 2 Titan Stasis",   title: "Behemoth",     summary: "A Titan of Stasis, built on the Artificer. Cold grenades, Stasis Crystals, a Barricade, and a Stasis Super." },
     { soon: true, type: "Subclass", fandom: "Destiny", class: "Fighter",   guide: "destiny-overview.html", inspired: "Destiny 2 Titan Strand",   title: "Berserker",    summary: "A Titan of Strand, built on the Fighter. Psychic grenades, a Barricade, and a Strand Super." },
     { soon: true, type: "Subclass", fandom: "Destiny", class: "Monk",      guide: "destiny-overview.html", inspired: "Destiny 2 Hunter Arc",     title: "Arcstrider",   summary: "A Hunter of Arc, built on the Monk. Lightning grenades, Dodge, and an Arc Super." },
-    { soon: true, type: "Subclass", fandom: "Destiny", class: "Ranger",    guide: "destiny-overview.html", inspired: "Destiny 2 Hunter Void",    title: "Nightstalker", summary: "A Hunter of Void, built on the Ranger. Force-damage grenades, Dodge, and a Void Super." },
     { soon: true, type: "Subclass", fandom: "Destiny", class: "Rogue",     guide: "destiny-overview.html", inspired: "Destiny 2 Hunter Stasis",  title: "Revenant",     summary: "A Hunter of Stasis, built on the Rogue. Cold grenades, Dodge, and a Stasis Super." },
     // ---- Coming soon: Dishonored ----
     { soon: true, type: "Subclass", fandom: "Dishonored", class: "Paladin",   inspired: "Overseer",                title: "Oath of the Broken Mask", summary: "A disgraced Overseer: an anti-magic zealot with a war hound." },
