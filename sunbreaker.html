@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8M3NKL3QYM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8M3NKL3QYM');
+</script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sunbreaker · Cleric Subclass · Long Rest Press</title>
+<meta name="description" content="Sunbreaker: a free D&amp;D 2024 Cleric subclass inspired by Destiny's Solar Titan. Sunspots, Consecration, Thermite Grenade, Throwing Hammer, and Hammer of Sol or Burning Maul.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Spectral:ital,wght@0,300;0,400;1,300&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<header class="masthead">
+  <nav><a href="browse.html">Browse</a><a href="blog.html">Blog</a><a href="about.html">About</a><a href="index.html#newsletter">Newsletter</a></nav>
+  <a class="brand" href="index.html" aria-label="Long Rest Press home">
+    <svg class="moon" viewBox="0 0 40 40" width="30" height="30" aria-hidden="true"><path d="M24 9a11 11 0 1 0 6 18 9 9 0 0 1-6-18z" fill="#d8b25a"/></svg>
+    <span>LONG REST PRESS</span>
+  </a>
+  <div class="end"><a class="btn-ghost" href="index.html#support">Support</a></div>
+</header>
+
+<main>
+<section class="hero small">
+  <a class="label sm backlink" href="browse.html?fandom=Destiny">← Destiny</a>
+  <span class="label gold" style="letter-spacing:.24em">Cleric subclass · D&amp;D 2024</span>
+  <h1>Sunbreaker</h1>
+  <p class="lede">Sunbreakers are forge-priests of the Light. They hammer the battlefield into holy ground and fight from the middle of the fire.</p>
+  <div class="label sm credits"><span>v0.1 Playtest</span><span>Destiny Titan · Solar</span><span>Inspired by Destiny 2</span></div>
+  <a class="btn-ghost pdf-download" href="pdf/sunbreaker.pdf" download>Download PDF</a>
+</section>
+
+<div class="doc">
+  <article class="article">
+    <a class="callout" href="destiny-overview.html"><span class="label sm gold">Shared Destiny rules →</span>This subclass uses the Grenade, Charged Melee, Class Ability, Super, and element keyword rules from the Destiny Overview &amp; Chassis.</a>
+
+    <p>The Sunbreaker is the Solar Titan as a Cleric domain. Cleric subclasses normally gain features only at levels 3, 6, and 17, so the Sunbreaker adds a level 10 feature for its Super. Solar uses Fire damage, or Radiant for holy effects. The key ability is Wisdom, and the Protector Divine Order is the natural fit for its heavy armor and martial weapons.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Cleric Level</th><th>Features</th></tr></thead>
+        <tbody>
+          <tr><td>3</td><td>Domain Spells, Sunspots, Consecration, Thermite Grenade, Throwing Hammer</td></tr>
+          <tr><td>6</td><td>Barricade (Khepri's Horn or Sunforge)</td></tr>
+          <tr><td>10</td><td>Super: Hammer of Sol or Burning Maul</td></tr>
+          <tr><td>17</td><td>Sun Warrior</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <section class="feature" id="spells">
+      <span class="lvl">Level 3</span>
+      <h2>Sunbreaker Domain Spells</h2>
+      <p>You always have these spells prepared.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Cleric Level</th><th>Spells</th></tr></thead>
+          <tbody>
+            <tr><td>3</td><td><em>Burning Hands</em>, <em>Heat Metal</em>, <em>Magic Weapon</em>, <em>Searing Smite</em></td></tr>
+            <tr><td>5</td><td><em>Elemental Weapon</em>, <em>Fireball</em></td></tr>
+            <tr><td>7</td><td><em>Fire Shield</em>, <em>Wall of Fire</em></td></tr>
+            <tr><td>9</td><td><em>Destructive Wave</em>, <em>Flame Strike</em></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="feature" id="sunspots">
+      <span class="lvl">Level 3</span>
+      <h2>Sunspots (Sol Invictus)</h2>
+      <p>Several of your features create Sunspots. A Sunspot is a 5-foot-radius circle of sunfire on the ground that lasts until the end of your next turn. You can have up to three at once; if you create a fourth, your oldest one fades.</p>
+      <ul>
+        <li><strong>You and your allies:</strong> A creature of your choice that starts its turn in a Sunspot regains Hit Points equal to your Wisdom modifier (minimum of 1). A creature can regain Hit Points from your Sunspots only once per round.</li>
+        <li><strong>Enemies:</strong> A creature that enters a Sunspot or starts its turn there takes 1d6 Fire damage.</li>
+      </ul>
+      <p>Once per turn, when you reduce a creature to 0 Hit Points with Fire or Radiant damage, you can create a Sunspot in its space.</p>
+    </section>
+
+    <section class="feature" id="consecration">
+      <span class="lvl">Level 3</span>
+      <h2>Channel Divinity: Consecration</h2>
+      <p>As a Magic action, you expend one use of your Channel Divinity to slam the ground and send out a ring of solar fire. Each creature of your choice in a 15-foot Emanation originating from you makes a Dexterity saving throw.</p>
+      <ul>
+        <li><strong>Failed save:</strong> The creature takes Fire damage equal to 2d10 plus your Cleric level, and if it's Large or smaller, it has the Prone condition.</li>
+        <li><strong>Successful save:</strong> The creature takes half as much damage only.</li>
+      </ul>
+      <p>You then create a Sunspot in your space. It doesn't count against your limit of three.</p>
+    </section>
+
+    <section class="feature" id="grenade">
+      <span class="lvl">Level 3</span>
+      <h2>Thermite Grenade</h2>
+      <p>This is your <a href="destiny-overview.html#grenade">Grenade</a>. As a Bonus Action, you hurl a grenade that skids along the ground in a 30-foot-long, 5-foot-wide line. Each creature in the line makes a Dexterity saving throw, taking your grenade damage as Fire damage on a failed save or half as much on a successful one. You can create a Sunspot at the end of the line.</p>
+    </section>
+
+    <section class="feature" id="throwing-hammer">
+      <span class="lvl">Level 3</span>
+      <h2>Throwing Hammer</h2>
+      <p>This is your Charged Melee. You learn the Throwing Hammer cantrip, which doesn't count against the number of cantrips you know.</p>
+      <h3>Throwing Hammer</h3>
+      <p><em>Evocation Cantrip (Sunbreaker)</em></p>
+      <ul>
+        <li><strong>Casting Time:</strong> Action</li>
+        <li><strong>Range:</strong> 30 feet</li>
+        <li><strong>Components:</strong> V, S</li>
+        <li><strong>Duration:</strong> Instantaneous</li>
+      </ul>
+      <p>Make a ranged spell attack against a creature within range. On a hit, the target takes 1d10 Fire damage.</p>
+      <p>The hammer then lands in an unoccupied space next to the target and stays there until the end of your next turn. If you move into its space before then, you pick it up (no action required) and gain Temporary Hit Points equal to your Wisdom modifier plus your Proficiency Bonus. If the hammer reduces a creature to 0 Hit Points, it creates a Sunspot where it lands.</p>
+      <p><em>Cantrip Upgrade.</em> The damage increases by 1d10 when you reach levels 5 (2d10), 11 (3d10), and 17 (4d10).</p>
+    </section>
+
+    <section class="feature" id="barricade">
+      <span class="lvl">Level 6</span>
+      <h2>Barricade</h2>
+      <p>You gain the <a href="destiny-overview.html#class-ability">Barricade Class Ability</a> from the Shared Chassis. When you gain this feature, choose one of the following twists.</p>
+      <p><strong>Khepri's Horn.</strong> When you raise a Barricade, a wave of solar fire rolls out from it in a 30-foot-long, 10-foot-wide line. Each creature in the line makes a Dexterity saving throw, taking your grenade damage as Fire damage on a failed save or half as much on a successful one.</p>
+      <p><strong>Sunforge Barricade.</strong> Your Barricade creates a Sunspot at each end. These Sunspots last as long as the Barricade does and don't count against your limit of three.</p>
+    </section>
+
+    <section class="feature" id="super">
+      <span class="lvl">Level 10</span>
+      <h2>Super</h2>
+      <p>When you finish a Long Rest, choose Hammer of Sol or Burning Maul as your <a href="destiny-overview.html#super">Super</a>. You can regain its use by expending a level 5+ spell slot (no action required). Either Super lasts for 3 rounds, ending at the start of your turn 3 rounds later. While it lasts, you have Resistance to Bludgeoning, Piercing, and Slashing damage, and your Speed increases by 10 feet.</p>
+      <h3>Hammer of Sol</h3>
+      <p>As a Bonus Action, you forge a blazing hammer. While it lasts, you can take a Magic action to throw two hammers at creatures within 120 feet, making a ranged spell attack for each. On a hit, a hammer deals 3d10 Fire damage, and each creature of your choice within 5 feet of the target takes 2d6 Fire damage. Each hammer creates a Sunspot where it lands; these don't count against your limit of three.</p>
+      <h3>Burning Maul</h3>
+      <p>As a Bonus Action, you take up a burning maul. While it lasts, you can take a Magic action to make one of these strikes:</p>
+      <ul>
+        <li><strong>Spin.</strong> Each creature of your choice within 10 feet of you makes a Dexterity saving throw, taking 4d10 Fire damage on a failed save or half as much on a successful one.</li>
+        <li><strong>Slam.</strong> Each creature in a 30-foot-long, 5-foot-wide line makes a Dexterity saving throw, taking 5d10 Fire damage on a failed save or half as much on a successful one. You leave Sunspots at the line's midpoint and end.</li>
+      </ul>
+    </section>
+
+    <section class="feature" id="sun-warrior">
+      <span class="lvl">Level 17</span>
+      <h2>Sun Warrior</h2>
+      <p><strong>Both Supers.</strong> You no longer choose a Super when you finish a Long Rest. Each time you use your Super, choose Hammer of Sol or Burning Maul.</p>
+      <p><strong>Radiant.</strong> You and your allies deal an extra 1d6 Radiant damage the first time each turn you hit with an attack while standing in one of your Sunspots.</p>
+      <p><strong>Eternal Sun.</strong> Your Sunspots last for 1 minute, and you can have up to six at once.</p>
+    </section>
+
+    <a class="callout" href="destiny-exotics-drop-04.html"><span class="label sm gold">Released with this subclass →</span>Exotics Drop 04 brings the arms of the Iron Lords, the order of Risen knights detailed in The Iron Lords setting, plus The Young Wolf's Howl and Gjallarhorn.</a>
+
+    <aside class="playtest">
+      <span class="label sm gold">Playtest watch list</span>
+      <p>Four things to watch at the table, along with the lever to pull if one runs hot.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Watch item</th><th>Concern</th><th>Lever if too strong</th></tr></thead>
+          <tbody>
+            <tr><td>Sunspot healing</td><td>Each Sunspot heals only your Wisdom modifier per creature per round, but it keeps coming, especially with Sunforge Barricade</td><td>Limit healing to you only, or to Bloodied allies</td></tr>
+            <tr><td>The added level 10 feature</td><td>It breaks the official Cleric 3/6/17 pattern</td><td>Check that it doesn't crowd out multiclass and feat choices</td></tr>
+            <tr><td>Hammer of Sol vs. Daybreak</td><td>It mirrors Daybreak's numbers, so the two should feel about equal</td><td>Adjust both together</td></tr>
+            <tr><td>Consecration's knockdown</td><td>A 15-foot Prone ring on top of Radiance of the Dawn's damage</td><td>Drop the Prone rider or make it Medium or smaller only</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <span class="label sm">v0.1 Playtest: first public release</span>
+    </aside>
+
+    <aside class="signup" aria-label="Newsletter">
+      <span class="label sm gold">Join the mailing list</span>
+      <h3>Take a long rest, we'll wake you for the loot.</h3>
+      <p>New subclasses, game tips, and table-tested ideas delivered to your inbox.</p>
+      <a class="btn-gold" href="index.html#newsletter">I Cast "Subscribe"</a>
+    </aside>
+  </article>
+
+  <nav class="toc" aria-label="On this page">
+    <span class="label sm">On this page</span>
+    <ol>
+      <li><a href="#spells">Domain Spells</a></li>
+      <li><a href="#sunspots">Sunspots</a></li>
+      <li><a href="#consecration">Consecration</a></li>
+      <li><a href="#grenade">Thermite Grenade</a></li>
+      <li><a href="#throwing-hammer">Throwing Hammer</a></li>
+      <li><a href="#barricade">Barricade</a></li>
+      <li><a href="#super">Super</a></li>
+      <li><a href="#sun-warrior">Sun Warrior</a></li>
+      <li><a href="destiny-overview.html">Shared Destiny rules</a></li>
+    </ol>
+  </nav>
+</div>
+</main>
+
+<footer>
+  <p class="first">Long Rest Press · a Clark Consolidated label · New releases every week</p>
+  <p>Inspired by <em>Destiny</em> and <em>Destiny 2</em> by Bungie. This is unofficial fan work, not affiliated with or endorsed by Bungie.</p>
+  <p>Long Rest Press content is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</p>
+</footer>
+</div>
+</body>
+</html>

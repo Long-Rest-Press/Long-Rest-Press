@@ -99,6 +99,14 @@ window.SITE = {
     { title: "Exotics Drop 03: Nightstalker", type: "Magic Item", kindLabel: "Destiny Exotics", fandom: "Destiny", guide: "destiny-exotics.html", inspired: "Destiny 2 Exotic weapons armor Orpheus Rig Mask of Bakris Le Monarque Leviathan's Breath Graviton Lance Collective Obligation Telesto Black Talon Bad Juju Void", date: "2026-11-19", version: "v0.1 Playtest", url: "destiny-exotics-drop-03.html", image: "",
       summary: "Nine items released with the Nightstalker: Orpheus Rig, Mask of Bakris, Le Monarque, Leviathan's Breath, Graviton Lance, Collective Obligation, Telesto, Black Talon, and Bad Juju." },
 
+    // ---- Sunbreaker drop (subclass first so it's the featured release; its Exotics drop and the Iron Lords setting follow) ----
+    { title: "Sunbreaker",           type: "Subclass", class: "Cleric",    fandom: "Destiny", guide: "destiny-overview.html", inspired: "Destiny 2 Titan Solar Hammer of Sol Burning Maul Sunspots Sol Invictus Consecration Thermite Grenade Throwing Hammer Khepri's Horn Sunforge Barricade", date: "2026-11-23", version: "v0.1 Playtest", url: "sunbreaker.html", image: "",
+      summary: "Forge-priests of the Light. Hammer the battlefield into healing Sunspots, knock foes flat with Consecration, and rain down a Hammer of Sol or swing a Burning Maul." },
+    { title: "Exotics Drop 04: Sunbreaker", type: "Magic Item", kindLabel: "Destiny Exotics", fandom: "Destiny", guide: "destiny-exotics.html", inspired: "Destiny Rise of Iron Iron Lord Arms Jolder's Hammer Efrideet's Spear Timur's Lash Saladin's Iron Battle Axe Iron Lords' Memories Young Wolf's Howl Gjallarhorn Wolfpack Rounds", date: "2026-11-23", version: "v0.1 Playtest", url: "destiny-exotics-drop-04.html", image: "",
+      summary: "Seven items released with the Sunbreaker: the four Iron Lord Arms, Iron Lords' Memories, The Young Wolf's Howl, and Gjallarhorn." },
+    { title: "The Iron Lords",       type: "Setting", fandom: "Destiny", inspired: "Destiny Rise of Iron Dark Age faction Risen knights Radegast Saladin Jolder Perun Efrideet Skorri Timur Silimar Gheleon Felwinter Warlords SIVA Iron Banner Iron Wolves Renown", date: "2026-11-23", version: "v0.1 Playtest", url: "iron-lords.html", image: "",
+      summary: "Risen knights of a Dark Age who protect the powerless instead of ruling them: a reskin key for any fantasy world, the Code of Iron, ten Lords, Renown ranks, the Iron Banner, and five adventure hooks." },
+
     {
       title: "Destiny Overview & Chassis",
       kindLabel: "Shared subclass rules",
@@ -179,7 +187,6 @@ window.SITE = {
     { soon: true, type: "Subclass", fandom: "Destiny", class: "Sorcerer",  guide: "destiny-overview.html", inspired: "Destiny 2 Warlock Arc",    title: "Stormcaller",  summary: "A Destiny Warlock of Arc, built on the Sorcerer. Lightning grenades, a Rift, and an Arc Super." },
     { soon: true, type: "Subclass", fandom: "Destiny", class: "Druid",     guide: "destiny-overview.html", inspired: "Destiny 2 Warlock Stasis", title: "Shadebinder",  summary: "A Destiny Warlock of Stasis, built on the Druid. Cold grenades, a Rift, and a Stasis Super." },
     { soon: true, type: "Subclass", fandom: "Destiny", class: "Bard",      guide: "destiny-overview.html", inspired: "Destiny 2 Warlock Strand", title: "Broodweaver",  summary: "A Destiny Warlock of Strand, built on the Bard. Psychic grenades, a Rift, and a Strand Super." },
-    { soon: true, type: "Subclass", fandom: "Destiny", class: "Cleric",    guide: "destiny-overview.html", inspired: "Destiny 2 Titan Solar",    title: "Sunbreaker",   summary: "A Titan of Solar, built on the Cleric. Fire grenades, a Barricade, and a Solar Super." },
     { soon: true, type: "Subclass", fandom: "Destiny", class: "Paladin",   guide: "destiny-overview.html", inspired: "Destiny 2 Titan Void",     title: "Sentinel",     summary: "A Titan of Void, built on the Paladin. Force-damage grenades, a Barricade, and a Void Super." },
     { soon: true, type: "Subclass", fandom: "Destiny", class: "Artificer", guide: "destiny-overview.html", inspired: "Destiny 2 Titan Stasis",   title: "Behemoth",     summary: "A Titan of Stasis, built on the Artificer. Cold grenades, Stasis Crystals, a Barricade, and a Stasis Super." },
     { soon: true, type: "Subclass", fandom: "Destiny", class: "Fighter",   guide: "destiny-overview.html", inspired: "Destiny 2 Titan Strand",   title: "Berserker",    summary: "A Titan of Strand, built on the Fighter. Psychic grenades, a Barricade, and a Strand Super." },
